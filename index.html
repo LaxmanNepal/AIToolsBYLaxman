@@ -1,21 +1,167 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>AI Tools Directory - ai.laxmannepal.com.np</title>
-  <link rel="stylesheet" href="assets/css/style.css" />
-  <script defer src="scripts/fetchTools.js"></script>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 1rem;
+      background: #f9f9f9;
+      color: #333;
+    }
+    #search {
+      width: 100%;
+      max-width: 400px;
+      padding: 0.5rem 1rem;
+      font-size: 1rem;
+      margin-bottom: 1rem;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    #tools-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fill,minmax(280px,1fr));
+      gap: 1rem;
+    }
+    .tool-card {
+      background: white;
+      border-radius: 6px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      padding: 1rem;
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+      transition: box-shadow 0.3s ease;
+    }
+    .tool-card:hover {
+      box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    }
+    .tool-logo {
+      width: 48px;
+      height: 48px;
+      object-fit: contain;
+      margin-bottom: 0.5rem;
+    }
+    .tool-title {
+      font-size: 1.1rem;
+      font-weight: bold;
+      margin: 0;
+    }
+    .tool-description {
+      flex-grow: 1;
+      font-size: 0.9rem;
+      color: #555;
+    }
+    .tool-button {
+      background-color: #007bff;
+      border: none;
+      color: white;
+      padding: 0.5rem 1rem;
+      font-size: 0.9rem;
+      border-radius: 4px;
+      cursor: pointer;
+      text-align: center;
+      text-decoration: none;
+      user-select: none;
+      transition: background-color 0.3s ease;
+    }
+    .tool-button:hover {
+      background-color: #0056b3;
+    }
+  </style>
 </head>
 <body>
-  <header>
-    <h1>AI Tools Directory</h1>
-    <input id="search" type="search" placeholder="Search AI tools..." />
-  </header>
-  <main>
-    <div id="category-filters"></div>
-    <div id="tools-grid" class="grid-container"></div>
-  </main>
+
+  <input type="search" id="search" placeholder="Search AI tools..." />
+
+  <div id="tools-container">
+    <!-- Tools will be loaded here dynamically -->
+  </div>
+
+  <script>
+    let toolsData = [];
+
+    // Load tools JSON
+    async function loadTools() {
+      try {
+        const res = await fetch('/data/tools.json');
+        toolsData = await res.json();
+        displayTools(toolsData);
+      } catch (error) {
+        console.error('Failed to load tools:', error);
+        document.getElementById('tools-container').textContent = 'Failed to load tools data.';
+      }
+    }
+
+    // Display tools in grid
+    function displayTools(tools) {
+      const container = document.getElementById('tools-container');
+      container.innerHTML = '';
+
+      if (tools.length === 0) {
+        container.textContent = 'No tools found.';
+        return;
+      }
+
+      tools.forEach(tool => {
+        const card = document.createElement('div');
+        card.className = 'tool-card';
+
+        // Logo (if exists)
+        const logo = document.createElement('img');
+        logo.className = 'tool-logo';
+        logo.src = tool.logo || 'https://via.placeholder.com/48?text=AI'; // fallback logo
+        logo.alt = `${tool.title} logo`;
+        card.appendChild(logo);
+
+        // Title
+        const title = document.createElement('h3');
+        title.className = 'tool-title';
+        title.textContent = tool.title;
+        card.appendChild(title);
+
+        // Description
+        const desc = document.createElement('p');
+        desc.className = 'tool-description';
+        desc.textContent = tool.description || 'No description available.';
+        card.appendChild(desc);
+
+        // Free or Paid label
+        if (tool.price) {
+          const priceTag = document.createElement('small');
+          priceTag.textContent = tool.price.toLowerCase() === 'free' ? 'Free' : 'Paid';
+          priceTag.style.fontWeight = 'bold';
+          priceTag.style.color = tool.price.toLowerCase() === 'free' ? 'green' : 'red';
+          card.appendChild(priceTag);
+        }
+
+        // Open tool button
+        const button = document.createElement('a');
+        button.href = tool.url;
+        button.target = '_blank';
+        button.rel = 'noopener noreferrer';
+        button.className = 'tool-button';
+        button.textContent = 'Open Tool';
+        card.appendChild(button);
+
+        container.appendChild(card);
+      });
+    }
+
+    // Search filter
+    document.getElementById('search').addEventListener('input', (e) => {
+      const query = e.target.value.toLowerCase();
+      const filtered = toolsData.filter(tool =>
+        tool.title.toLowerCase().includes(query) ||
+        (tool.description && tool.description.toLowerCase().includes(query))
+      );
+      displayTools(filtered);
+    });
+
+    window.onload = loadTools;
+  </script>
+
 </body>
 </html>
