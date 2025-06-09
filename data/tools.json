@@ -1,6 +1,26 @@
-fetch('/data/tools.json')
-  .then(res => res.json())
-  .then(tools => {
-    // Render your tools grid UI here using tools array
-  })
-  .catch(console.error);
+[
+  {
+    "title": "ChatGPT",
+    "description": "An AI language model by OpenAI that generates human-like text based on prompts.",
+    "url": "https://chat.openai.com/",
+    "logo": "https://chat.openai.com/favicon.ico",
+    "pricing": "Freemium",
+    "category": "Chatbot"
+  },
+  {
+    "title": "DALL·E",
+    "description": "AI system that creates realistic images and art from a description in natural language.",
+    "url": "https://openai.com/dall-e/",
+    "logo": "https://openai.com/favicon.ico",
+    "pricing": "Paid",
+    "category": "Image Generation"
+  },
+  {
+    "title": "Hugging Face",
+    "description": "A platform for sharing and deploying machine learning models and datasets.",
+    "url": "https://huggingface.co/",
+    "logo": "https://huggingface.co/favicon.ico",
+    "pricing": "Free",
+    "category": "ML Platform"
+  }
+]
