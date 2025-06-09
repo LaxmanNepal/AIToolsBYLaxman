@@ -1,6 +1,5 @@
-
 async function loadTools() {
-  const response = await fetch('/data/tools.json');
+  const response = await fetch('data/tools.json');
   const tools = await response.json();
 
   const container = document.getElementById('tools-container');
