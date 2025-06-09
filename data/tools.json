@@ -1,16 +1,26 @@
 [
   {
     "title": "ChatGPT",
-    "description": "AI language model by OpenAI",
-    "logo": "https://example.com/logo.png",
+    "description": "An AI chatbot developed by OpenAI for natural language conversations.",
     "url": "https://chat.openai.com/",
-    "price": "Free"
+    "logo": "https://chat.openai.com/favicon.ico",
+    "pricing": "Freemium",
+    "category": "Chatbot"
   },
   {
-    "title": "DALL·E 2",
-    "description": "AI image generation",
-    "logo": "https://example.com/dalle-logo.png",
-    "url": "https://openai.com/dall-e-2",
-    "price": "Paid"
+    "title": "Remove.bg",
+    "description": "AI tool to remove image backgrounds automatically.",
+    "url": "https://www.remove.bg/",
+    "logo": "https://www.remove.bg/favicon.ico",
+    "pricing": "Free",
+    "category": "Image Editing"
+  },
+  {
+    "title": "Copy.ai",
+    "description": "Generate marketing copy, ads, and emails using AI.",
+    "url": "https://www.copy.ai/",
+    "logo": "https://www.copy.ai/favicon.ico",
+    "pricing": "Paid",
+    "category": "Writing"
   }
 ]
