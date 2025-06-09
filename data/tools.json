@@ -22,5 +22,211 @@
     "logo": "https://huggingface.co/favicon.ico",
     "pricing": "Free",
     "category": "ML Platform"
-  }
-]
+  },
+  {
+    "title": "Runway ML",
+    "description": "Creative toolkit offering AI-powered video and image editing tools.",
+    "url": "https://runwayml.com/",
+    "logo": "https://runwayml.com/favicon.ico",
+    "pricing": "Freemium",
+    "category": "Creative Tools"
+  },
+  {
+    "title": "Copy.ai",
+    "description": "AI-powered copywriting assistant for marketing, blogs, and social media content.",
+    "url": "https://www.copy.ai/",
+    "logo": "https://www.copy.ai/favicon.ico",
+    "pricing": "Paid",
+    "category": "Content Creation"
+  },
+  {
+    "title": "Jasper",
+    "description": "AI content platform for creating marketing copy, blogs, and social media posts.",
+    "url": "https://www.jasper.ai/",
+    "logo": "https://www.jasper.ai/favicon.ico",
+    "pricing": "Paid",
+    "category": "Content Creation"
+  },
+  {
+    "title": "Synthesia",
+    "description": "AI video generation platform creating realistic talking head videos from text.",
+    "url": "https://www.synthesia.io/",
+    "logo": "https://www.synthesia.io/favicon.ico",
+    "pricing": "Paid",
+    "category": "Video Creation"
+  },
+  {
+    "title": "Lumen5",
+    "description": "AI-powered video creation platform turning blog posts into videos.",
+    "url": "https://lumen5.com/",
+    "logo": "https://lumen5.com/favicon.ico",
+    "pricing": "Freemium",
+    "category": "Video Creation"
+  },
+  {
+    "title": "DeepL",
+    "description": "AI-powered translation tool known for high accuracy.",
+    "url": "https://www.deepl.com/",
+    "logo": "https://www.deepl.com/favicon.ico",
+    "pricing": "Freemium",
+    "category": "Translation"
+  },
+  {
+    "title": "Grammarly",
+    "description": "AI writing assistant that checks grammar, spelling, and tone.",
+    "url": "https://www.grammarly.com/",
+    "logo": "https://www.grammarly.com/favicon.ico",
+    "pricing": "Freemium",
+    "category": "Writing Assistant"
+  },
+  {
+    "title": "Notion AI",
+    "description": "AI-powered assistant integrated into Notion for writing, summarizing, and brainstorming.",
+    "url": "https://www.notion.so/product/ai",
+    "logo": "https://www.notion.so/favicon.ico",
+    "pricing": "Paid",
+    "category": "Productivity"
+  },
+  {
+    "title": "AI Dungeon",
+    "description": "AI-driven text adventure game with infinite story generation.",
+    "url": "https://play.aidungeon.io/",
+    "logo": "https://play.aidungeon.io/favicon.ico",
+    "pricing": "Freemium",
+    "category": "Entertainment"
+  },
+  {
+    "title": "Replika",
+    "description": "AI chatbot companion that learns from your conversations.",
+    "url": "https://replika.ai/",
+    "logo": "https://replika.ai/favicon.ico",
+    "pricing": "Freemium",
+    "category": "Chatbot"
+  },
+  {
+    "title": "OpenAI Codex",
+    "description": "AI that translates natural language to code and powers GitHub Copilot.",
+    "url": "https://openai.com/blog/openai-codex",
+    "logo": "https://openai.com/favicon.ico",
+    "pricing": "Paid",
+    "category": "Code Assistant"
+  },
+  {
+    "title": "GitHub Copilot",
+    "description": "AI pair programmer that suggests code completions inside your editor.",
+    "url": "https://copilot.github.com/",
+    "logo": "https://github.githubassets.com/favicons/favicon.svg",
+    "pricing": "Paid",
+    "category": "Code Assistant"
+  },
+  {
+    "title": "Runway Gen-2",
+    "description": "AI video generation from text with realistic video output.",
+    "url": "https://runwayml.com/gen2/",
+    "logo": "https://runwayml.com/favicon.ico",
+    "pricing": "Paid",
+    "category": "Video Generation"
+  },
+  {
+    "title": "Designify",
+    "description": "AI-powered image enhancement and background removal tool.",
+    "url": "https://designify.com/",
+    "logo": "https://designify.com/favicon.ico",
+    "pricing": "Freemium",
+    "category": "Image Editing"
+  },
+  {
+    "title": "Remove.bg",
+    "description": "AI tool that removes image backgrounds automatically.",
+    "url": "https://www.remove.bg/",
+    "logo": "https://www.remove.bg/favicon.ico",
+    "pricing": "Freemium",
+    "category": "Image Editing"
+  },
+  {
+    "title": "Synthesys",
+    "description": "AI voiceover and video creation platform with human-like voices.",
+    "url": "https://synthesys.io/",
+    "logo": "https://synthesys.io/favicon.ico",
+    "pricing": "Paid",
+    "category": "Voice & Video"
+  },
+  {
+    "title": "CopySmith",
+    "description": "AI content generator for ecommerce, ads, and blogs.",
+    "url": "https://copysmith.ai/",
+    "logo": "https://copysmith.ai/favicon.ico",
+    "pricing": "Paid",
+    "category": "Content Creation"
+  },
+  {
+    "title": "Writesonic",
+    "description": "AI writing assistant for marketing copy, blogs, and product descriptions.",
+    "url": "https://writesonic.com/",
+    "logo": "https://writesonic.com/favicon.ico",
+    "pricing": "Freemium",
+    "category": "Content Creation"
+  },
+  {
+    "title": "Talk to Transformer",
+    "description": "AI text generation playground using GPT-2.",
+    "url": "https://app.inferkit.com/demo",
+    "logo": "https://app.inferkit.com/favicon.ico",
+    "pricing": "Free",
+    "category": "Text Generation"
+  },
+  {
+    "title": "AI Writer",
+    "description": "AI-powered article generator and writing assistant.",
+    "url": "https://ai-writer.com/",
+    "logo": "https://ai-writer.com/favicon.ico",
+    "pricing": "Paid",
+    "category": "Content Creation"
+  },
+  {
+    "title": "Deep Nostalgia",
+    "description": "AI animation tool that brings old photos to life.",
+    "url": "https://www.myheritage.com/deep-nostalgia",
+    "logo": "https://www.myheritage.com/favicon.ico",
+    "pricing": "Freemium",
+    "category": "Image Animation"
+  },
+  {
+    "title": "Pictory",
+    "description": "AI-powered video creation from scripts and articles.",
+    "url": "https://pictory.ai/",
+    "logo": "https://pictory.ai/favicon.ico",
+    "pricing": "Paid",
+    "category": "Video Creation"
+  },
+  {
+    "title": "Descript",
+    "description": "AI-powered audio/video editing with transcription and overdub.",
+    "url": "https://www.descript.com/",
+    "logo": "https://www.descript.com/favicon.ico",
+    "pricing": "Freemium",
+    "category": "Audio/Video Editing"
+  },
+  {
+    "title": "QuillBot",
+    "description": "AI paraphrasing and summarizing tool.",
+    "url": "https://quillbot.com/",
+    "logo": "https://quillbot.com/favicon.ico",
+    "pricing": "Freemium",
+    "category": "Writing Assistant"
+  },
+  {
+    "title": "Otter.ai",
+    "description": "AI meeting transcription and note-taking tool.",
+    "url": "https://otter.ai/",
+    "logo": "https://otter.ai/favicon.ico",
+    "pricing": "Freemium",
+    "category": "Transcription"
+  },
+  {
+    "title": "VoiceMod",
+    "description": "AI voice changer and soundboard.",
+    "url": "https://www.voicemod.net/",
+    "logo": "https://www.voicemod.net/favicon.ico",
+    "pricing": "Freemium",
+   
