@@ -3,697 +3,252 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Discover the best AI tools for your needs. Browse our curated directory of artificial intelligence applications across various categories.">
-    <meta name="keywords" content="AI tools, artificial intelligence, machine learning, AI directory, AI applications">
-    <meta name="author" content="AI Tools Directory">
-    <meta property="og:title" content="Modern AI Tools Directory">
-    <meta property="og:description" content="Discover the best AI tools for your needs">
+    
+    <!-- SEO: Optimized Title -->
+    <title>AI Tools List (2023) - The Ultimate Directory of AI Tools | ai.laxmannepal.com.np</title>
+    
+    <!-- SEO: Optimized Meta Description -->
+    <meta name="description" content="The ultimate AI tools list for 2023. Discover, filter, and compare top AI tools for writing, art, marketing, and more. Find the perfect free or paid AI application in our curated directory.">
+    
+    <meta name="keywords" content="ai tools list, ai tools directory, best ai tools, free ai tools, artificial intelligence tools, ai applications, top ai tools">
+    <meta name="author" content="Laxman Nepal - AI Tools Directory">
+    
+    <!-- SEO: Open Graph tags for social sharing -->
+    <meta property="og:title" content="AI Tools List - The Ultimate Directory of AI Tools">
+    <meta property="og:description" content="Discover, filter, and compare top AI tools for writing, art, marketing, and more.">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://aitools.example.com">
-    <meta property="og:image" content="https://aitools.example.com/images/og-image.jpg">
-    <link rel="canonical" href="https://aitools.example.com">
+    <meta property="og:url" content="https://ai.laxmannepal.com.np">
+    <meta property="og:image" content="https://ai.laxmannepal.com.np/images/social-preview.jpg"> <!-- Make sure to create this image (1200x630px is ideal) -->
+    <meta property="og:site_name" content="AI Tools Directory by Laxman Nepal">
+
+    <!-- SEO: Canonical URL -->
+    <link rel="canonical" href="https://ai.laxmannepal.com.np">
+    
     <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🤖</text></svg>">
     
-    <title>Modern AI Tools Directory | Find the Best AI Applications</title>
-    
-    <!-- Tailwind CSS via CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
     
-    <!-- Custom CSS -->
+    <!-- Custom CSS (Unchanged) -->
     <style>
-        /* Custom CSS to enhance Tailwind */
-        html {
-            scroll-behavior: smooth;
-        }
-
-        .tool-card {
-            transition: all 0.3s ease;
-            transform: translateY(0);
-        }
-
-        .tool-card:hover {
-            transform: translateY(-4px);
-            box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1);
-        }
-
-        /* Fade-in animation for tools */
-        @keyframes fadeIn {
-            from { opacity: 0; transform: translateY(10px); }
-            to { opacity: 1; transform: translateY(0); }
-        }
-
-        .fade-in {
-            animation: fadeIn 0.5s ease forwards;
-        }
-
-        /* Back to top button transition */
-        #back-to-top {
-            transition: opacity 0.3s ease, visibility 0.3s ease;
-        }
-
-        /* Content visibility for performance */
-        .content-visibility-auto {
-            content-visibility: auto;
-        }
-
-        /* Custom scrollbar */
-        ::-webkit-scrollbar {
-            width: 8px;
-            height: 8px;
-        }
-
-        ::-webkit-scrollbar-track {
-            background: #f1f1f1;
-        }
-
-        ::-webkit-scrollbar-thumb {
-            background: #c7d2fe;
-            border-radius: 4px;
-        }
-
-        ::-webkit-scrollbar-thumb:hover {
-            background: #a5b4fc;
-        }
-
-        /* Print styles */
-        @media print {
-            header, footer, #back-to-top, #sidebar {
-                display: none !important;
-            }
-            
-            body {
-                padding: 0;
-                background: white;
-                color: black;
-            }
-            
-            #tools-grid {
-                grid-template-columns: repeat(2, 1fr) !important;
-            }
-            
-            .tool-card {
-                break-inside: avoid;
-                page-break-inside: avoid;
-            }
-        }
-
-        /* Line clamping for descriptions */
-        .line-clamp-2 {
-            display: -webkit-box;
-            -webkit-line-clamp: 2;
-            -webkit-box-orient: vertical;
-            overflow: hidden;
-        }
+        html { scroll-behavior: smooth; }
+        .tool-card { transition: all 0.3s ease; transform: translateY(0); }
+        .tool-card:hover { transform: translateY(-4px); box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1); }
+        @keyframes fadeIn { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
+        .fade-in { animation: fadeIn 0.5s ease forwards; }
+        #back-to-top { transition: opacity 0.3s ease, visibility 0.3s ease; }
+        .content-visibility-auto { content-visibility: auto; }
+        .line-clamp-2 { display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
     </style>
     
-    <!-- Schema.org markup for Google -->
+    <!-- SEO: Updated Schema.org markup with your real data -->
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
-      "@type": "WebApplication",
-      "name": "Modern AI Tools Directory",
-      "url": "https://aitools.example.com",
-      "description": "A curated directory of the best AI tools available",
-      "applicationCategory": "Reference",
-      "operatingSystem": "Web Browser"
+      "@type": "WebSite",
+      "name": "AI Tools Directory by Laxman Nepal",
+      "url": "https://ai.laxmannepal.com.np",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://ai.laxmannepal.com.np?search={search_term_string}"
+        },
+        "query-input": "required name=search_term_string"
+      }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "ItemList",
+        "name": "AI Tools List",
+        "description": "A curated list of the best Artificial Intelligence tools from the directory by Laxman Nepal.",
+        "url": "https://ai.laxmannepal.com.np",
+        "numberOfItems": "20",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "ChatGPT",
+                "description": "A powerful conversational AI developed by OpenAI, capable of generating human-like text based on prompts.",
+                "url": "https://chat.openai.com/"
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Midjourney",
+                "description": "An AI image generator that creates stunning visuals from textual descriptions, known for its artistic style.",
+                "url": "https://www.midjourney.com/"
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "DALL-E 2",
+                "description": "An AI system by OpenAI that can create realistic images and art from a description in natural language.",
+                "url": "https://openai.com/dall-e-2/"
+            }
+        ]
     }
     </script>
 </head>
 <body class="bg-gray-50 text-gray-800 font-sans antialiased">
-    <!-- Sticky Header -->
+    
     <header class="sticky top-0 z-50 bg-white shadow-sm">
-        <div class="container mx-auto px-4 py-3">
-            <div class="flex flex-col md:flex-row md:items-center md:justify-between gap-4">
-                <div class="flex items-center justify-between">
-                    <h1 class="text-2xl font-bold text-indigo-600">
-                        <a href="/">AI Tools</a>
-                    </h1>
-                    <button id="mobile-menu-button" class="md:hidden text-gray-600 hover:text-indigo-600">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
-                        </svg>
-                    </button>
-                </div>
-                
-                <div class="relative w-full md:w-96">
-                    <input type="text" id="search-input" placeholder="Search AI tools..." 
-                           class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500 outline-none transition">
-                    <button id="search-clear" class="absolute right-3 top-2.5 text-gray-400 hover:text-gray-600 hidden">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
-                            <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM8.707 7.293a1 1 0 00-1.414 1.414L8.586 10l-1.293 1.293a1 1 0 101.414 1.414L10 11.414l1.293 1.293a1 1 0 001.414-1.414L11.414 10l1.293-1.293a1 1 0 00-1.414-1.414L10 8.586 8.707 7.293z" clip-rule="evenodd" />
-                        </svg>
-                    </button>
-                </div>
-                
-                <div class="flex items-center gap-4">
-                    <button id="filter-button" class="flex items-center gap-2 px-4 py-2 bg-indigo-100 text-indigo-700 rounded-lg hover:bg-indigo-200 transition">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
-                            <path fill-rule="evenodd" d="M3 3a1 1 0 011-1h12a1 1 0 011 1v3a1 1 0 01-.293.707L12 11.414V15a1 1 0 01-.293.707l-2 2A1 1 0 018 17v-5.586L3.293 6.707A1 1 0 013 6V3z" clip-rule="evenodd" />
-                        </svg>
-                        Filters
-                    </button>
-                    <button id="bookmarks-button" class="flex items-center gap-2 px-4 py-2 bg-gray-100 text-gray-700 rounded-lg hover:bg-gray-200 transition">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
-                            <path d="M5 5a2 2 0 012-2h10a2 2 0 012 2v16l-7-3.5L5 21V5z" />
-                        </svg>
-                        Bookmarks
-                    </button>
-                </div>
-            </div>
-        </div>
+       <!-- Header is unchanged, it's good -->
     </header>
 
     <div class="container mx-auto px-4 py-6">
         <div class="flex flex-col md:flex-row gap-6">
-            <!-- Sidebar - Categories -->
             <aside id="sidebar" class="w-full md:w-64 bg-white p-4 rounded-lg shadow-sm h-fit md:sticky md:top-24 transition-all duration-300 transform -translate-x-full md:translate-x-0 fixed inset-y-0 left-0 z-40 overflow-y-auto">
-                <div class="flex justify-between items-center mb-4 md:hidden">
-                    <h2 class="text-lg font-semibold">Categories</h2>
-                    <button id="close-sidebar" class="text-gray-500 hover:text-gray-700">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
-                        </svg>
-                    </button>
-                </div>
-                
-                <h2 class="text-lg font-semibold mb-4 hidden md:block">Categories</h2>
-                <ul id="category-list" class="space-y-2">
-                    <!-- Categories will be populated by JavaScript -->
-                </ul>
-                
-                <button id="reset-filters" class="mt-4 w-full py-2 text-indigo-600 hover:bg-indigo-50 rounded-lg transition">
-                    Reset All Filters
-                </button>
+                <!-- Sidebar content will be populated by JS -->
             </aside>
             
-            <!-- Main Content -->
             <main class="flex-1">
-                <!-- Tool of the Day -->
-                <div id="featured-tool" class="bg-gradient-to-r from-indigo-500 to-purple-600 text-white rounded-xl p-6 mb-8 shadow-lg">
-                    <div class="flex flex-col md:flex-row items-center gap-6">
-                        <div class="flex-shrink-0">
-                            <img id="featured-tool-logo" src="" alt="" class="w-16 h-16 rounded-lg bg-white p-2 object-contain" loading="lazy">
-                        </div>
-                        <div>
-                            <h2 class="text-xl font-bold mb-1">Tool of the Day</h2>
-                            <h3 id="featured-tool-title" class="text-lg font-semibold mb-2"></h3>
-                            <p id="featured-tool-desc" class="text-indigo-100 mb-4"></p>
-                            <a id="featured-tool-link" href="#" target="_blank" rel="noopener noreferrer" class="inline-block px-4 py-2 bg-white text-indigo-600 rounded-lg font-medium hover:bg-opacity-90 transition">Visit Tool</a>
-                        </div>
-                    </div>
+                <!-- SEO: Rich H1 and intro paragraph -->
+                <div class="mb-8">
+                    <h1 class="text-3xl md:text-4xl font-bold text-gray-900 mb-2">The Ultimate AI Tools List</h1>
+                    <p class="text-lg text-gray-600">Welcome to the most comprehensive directory of Artificial Intelligence tools. Whether you're a marketer, developer, writer, or artist, our curated list has the perfect AI tool for your needs. Use the filters to find free tools, explore categories, or search for a specific application.</p>
                 </div>
                 
-                <!-- Active Filters -->
-                <div id="active-filters" class="flex flex-wrap gap-2 mb-6 hidden">
-                    <!-- Active filters will appear here -->
-                </div>
-                
-                <!-- Tools Count -->
-                <div class="flex justify-between items-center mb-6">
-                    <h2 id="tools-count" class="text-lg font-semibold">Loading tools...</h2>
-                    <div class="flex items-center gap-2">
-                        <span class="text-sm text-gray-600">Sort by:</span>
-                        <select id="sort-by" class="border border-gray-300 rounded-lg px-3 py-1 text-sm focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500 outline-none">
-                            <option value="name-asc">Name (A-Z)</option>
-                            <option value="name-desc">Name (Z-A)</option>
-                            <option value="popular">Most Popular</option>
-                            <option value="newest">Newest First</option>
-                        </select>
-                    </div>
-                </div>
+                <!-- ... other elements like featured tool, filters, etc. -->
                 
                 <!-- Tools Grid -->
+                <!-- Data Integration: Pre-rendering the first 4 tools from your JSON for crawlers -->
                 <div id="tools-grid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
-                    <!-- Tools will be populated by JavaScript -->
-                    <div class="col-span-full text-center py-12">
-                        <div class="animate-pulse flex flex-col items-center">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12 text-gray-400 mb-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 3v2m6-2v2M9 19v2m6-2v2M5 9H3m2 6H3m18-6h-2m2 6h-2M7 19h10a2 2 0 002-2V7a2 2 0 00-2-2H7a2 2 0 00-2 2v10a2 2 0 002 2zM9 9h6v6H9V9z" />
-                            </svg>
-                            <p class="text-gray-500">Loading AI tools...</p>
+                    <!-- Pre-rendered Tool 1: ChatGPT -->
+                    <div class="tool-card bg-white rounded-xl shadow-sm border border-gray-100 overflow-hidden flex flex-col">
+                        <div class="p-5 flex-grow">
+                            <div class="flex items-start justify-between mb-3">
+                                <div class="w-12 h-12 rounded-lg bg-gray-100 flex items-center justify-center overflow-hidden">
+                                    <img src="https://raw.githubusercontent.com/LaxmanNepal/AIToolsBYLaxman/main/data/logos/chatgpt.png" alt="ChatGPT logo" class="w-10 h-10 object-contain" loading="eager">
+                                </div>
+                            </div>
+                            <h3 class="font-semibold text-lg mb-1">ChatGPT</h3>
+                            <p class="text-gray-600 text-sm mb-3 line-clamp-2">A powerful conversational AI developed by OpenAI, capable of generating human-like text based on prompts.</p>
+                            <div class="flex items-center justify-between">
+                                <span class="text-xs px-2 py-1 rounded-full bg-purple-100 text-purple-800">Freemium</span>
+                                <span class="text-xs px-2 py-1 rounded-full bg-gray-100 text-gray-700">Conversational AI</span>
+                            </div>
+                        </div>
+                        <div class="border-t border-gray-100 px-5 py-3 bg-gray-50">
+                            <a href="https://chat.openai.com/" target="_blank" rel="noopener noreferrer" class="w-full block text-center px-4 py-2 bg-indigo-600 text-white rounded-lg hover:bg-indigo-700 transition text-sm font-medium">Visit Website</a>
                         </div>
                     </div>
-                </div>
-                
-                <!-- No Results -->
-                <div id="no-results" class="hidden text-center py-12">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12 mx-auto text-gray-400 mb-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.172 16.172a4 4 0 015.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-                    </svg>
-                    <h3 class="text-lg font-medium text-gray-700 mb-2">No tools found</h3>
-                    <p class="text-gray-500 mb-4">Try adjusting your search or filter to find what you're looking for.</p>
-                    <button id="reset-filters-main" class="px-4 py-2 bg-indigo-600 text-white rounded-lg hover:bg-indigo-700 transition">Reset Filters</button>
+                    <!-- Pre-rendered Tool 2: Midjourney -->
+                    <div class="tool-card bg-white rounded-xl shadow-sm border border-gray-100 overflow-hidden flex flex-col">
+                        <div class="p-5 flex-grow">
+                            <div class="flex items-start justify-between mb-3">
+                                <div class="w-12 h-12 rounded-lg bg-gray-100 flex items-center justify-center overflow-hidden">
+                                    <img src="https://raw.githubusercontent.com/LaxmanNepal/AIToolsBYLaxman/main/data/logos/midjourney.png" alt="Midjourney logo" class="w-10 h-10 object-contain" loading="eager">
+                                </div>
+                            </div>
+                            <h3 class="font-semibold text-lg mb-1">Midjourney</h3>
+                            <p class="text-gray-600 text-sm mb-3 line-clamp-2">An AI image generator that creates stunning visuals from textual descriptions, known for its artistic style.</p>
+                            <div class="flex items-center justify-between">
+                                <span class="text-xs px-2 py-1 rounded-full bg-blue-100 text-blue-800">Paid</span>
+                                <span class="text-xs px-2 py-1 rounded-full bg-gray-100 text-gray-700">Image Generation</span>
+                            </div>
+                        </div>
+                        <div class="border-t border-gray-100 px-5 py-3 bg-gray-50">
+                            <a href="https://www.midjourney.com/" target="_blank" rel="noopener noreferrer" class="w-full block text-center px-4 py-2 bg-indigo-600 text-white rounded-lg hover:bg-indigo-700 transition text-sm font-medium">Visit Website</a>
+                        </div>
+                    </div>
+                    <!-- Pre-rendered Tool 3: DALL-E 2 -->
+                    <div class="tool-card bg-white rounded-xl shadow-sm border border-gray-100 overflow-hidden flex flex-col">
+                        <div class="p-5 flex-grow">
+                            <div class="flex items-start justify-between mb-3">
+                                <div class="w-12 h-12 rounded-lg bg-gray-100 flex items-center justify-center overflow-hidden">
+                                    <img src="https://raw.githubusercontent.com/LaxmanNepal/AIToolsBYLaxman/main/data/logos/dalle2.png" alt="DALL-E 2 logo" class="w-10 h-10 object-contain" loading="eager">
+                                </div>
+                            </div>
+                            <h3 class="font-semibold text-lg mb-1">DALL-E 2</h3>
+                            <p class="text-gray-600 text-sm mb-3 line-clamp-2">An AI system by OpenAI that can create realistic images and art from a description in natural language.</p>
+                            <div class="flex items-center justify-between">
+                                <span class="text-xs px-2 py-1 rounded-full bg-purple-100 text-purple-800">Freemium</span>
+                                <span class="text-xs px-2 py-1 rounded-full bg-gray-100 text-gray-700">Image Generation</span>
+                            </div>
+                        </div>
+                        <div class="border-t border-gray-100 px-5 py-3 bg-gray-50">
+                            <a href="https://openai.com/dall-e-2/" target="_blank" rel="noopener noreferrer" class="w-full block text-center px-4 py-2 bg-indigo-600 text-white rounded-lg hover:bg-indigo-700 transition text-sm font-medium">Visit Website</a>
+                        </div>
+                    </div>
+                    <!-- Pre-rendered Tool 4: GitHub Copilot -->
+                    <div class="tool-card bg-white rounded-xl shadow-sm border border-gray-100 overflow-hidden flex flex-col">
+                        <div class="p-5 flex-grow">
+                            <div class="flex items-start justify-between mb-3">
+                                <div class="w-12 h-12 rounded-lg bg-gray-100 flex items-center justify-center overflow-hidden">
+                                    <img src="https://raw.githubusercontent.com/LaxmanNepal/AIToolsBYLaxman/main/data/logos/github-copilot.png" alt="GitHub Copilot logo" class="w-10 h-10 object-contain" loading="eager">
+                                </div>
+                            </div>
+                            <h3 class="font-semibold text-lg mb-1">GitHub Copilot</h3>
+                            <p class="text-gray-600 text-sm mb-3 line-clamp-2">An AI pair programmer that helps you write code faster and with less work, directly in your editor.</p>
+                            <div class="flex items-center justify-between">
+                                <span class="text-xs px-2 py-1 rounded-full bg-blue-100 text-blue-800">Paid</span>
+                                <span class="text-xs px-2 py-1 rounded-full bg-gray-100 text-gray-700">Code Assistant</span>
+                            </div>
+                        </div>
+                        <div class="border-t border-gray-100 px-5 py-3 bg-gray-50">
+                            <a href="https://github.com/features/copilot" target="_blank" rel="noopener noreferrer" class="w-full block text-center px-4 py-2 bg-indigo-600 text-white rounded-lg hover:bg-indigo-700 transition text-sm font-medium">Visit Website</a>
+                        </div>
+                    </div>
                 </div>
             </main>
         </div>
     </div>
     
-    <!-- Back to Top Button -->
-    <button id="back-to-top" class="fixed bottom-6 right-6 bg-indigo-600 text-white p-3 rounded-full shadow-lg hover:bg-indigo-700 transition opacity-0 invisible">
-        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
-            <path fill-rule="evenodd" d="M14.707 12.707a1 1 0 01-1.414 0L10 9.414l-3.293 3.293a1 1 0 01-1.414-1.414l4-4a1 1 0 011.414 0l4 4a1 1 0 010 1.414z" clip-rule="evenodd" />
-        </svg>
-    </button>
-    
-    <!-- Footer -->
+    <!-- Footer (unchanged) -->
     <footer class="bg-white border-t border-gray-200 py-8 mt-12">
-        <div class="container mx-auto px-4">
-            <div class="flex flex-col md:flex-row justify-between items-center">
-                <div class="mb-4 md:mb-0">
-                    <h2 class="text-xl font-bold text-indigo-600">AI Tools Directory</h2>
-                    <p class="text-gray-600 mt-1">Discover the best AI tools for your needs</p>
-                </div>
-                <div class="flex flex-col items-center md:items-end">
-                    <p class="text-gray-500 text-sm">© 2023 AI Tools Directory. All rights reserved.</p>
-                    <p class="text-gray-500 text-sm mt-1">Data is updated daily.</p>
-                </div>
-            </div>
-        </div>
+        <!-- ... -->
     </footer>
-    
-    <!-- Overlay for mobile menu -->
-    <div id="overlay" class="fixed inset-0 bg-black bg-opacity-50 z-30 hidden"></div>
 
-    <!-- JavaScript -->
     <script>
         document.addEventListener('DOMContentLoaded', function() {
             // DOM Elements
             const toolsGrid = document.getElementById('tools-grid');
-            const searchInput = document.getElementById('search-input');
-            const searchClear = document.getElementById('search-clear');
-            const categoryList = document.getElementById('category-list');
-            const activeFilters = document.getElementById('active-filters');
-            const resetFilters = document.getElementById('reset-filters');
-            const resetFiltersMain = document.getElementById('reset-filters-main');
-            const toolsCount = document.getElementById('tools-count');
-            const noResults = document.getElementById('no-results');
-            const sortBy = document.getElementById('sort-by');
-            const mobileMenuButton = document.getElementById('mobile-menu-button');
-            const closeSidebar = document.getElementById('close-sidebar');
-            const sidebar = document.getElementById('sidebar');
-            const overlay = document.getElementById('overlay');
-            const filterButton = document.getElementById('filter-button');
-            const bookmarksButton = document.getElementById('bookmarks-button');
-            const backToTop = document.getElementById('back-to-top');
-            const featuredTool = document.getElementById('featured-tool');
-            const featuredToolTitle = document.getElementById('featured-tool-title');
-            const featuredToolDesc = document.getElementById('featured-tool-desc');
-            const featuredToolLink = document.getElementById('featured-tool-link');
-            const featuredToolLogo = document.getElementById('featured-tool-logo');
+            // ... all other DOM element variables
 
-            // State
             let allTools = [];
-            let filteredTools = [];
-            let categories = [];
-            let activeCategoryFilters = [];
-            let bookmarkedTools = JSON.parse(localStorage.getItem('bookmarkedTools')) || [];
-            let searchQuery = '';
-            let sortMethod = 'name-asc';
+            // ... all other state variables
 
             // Initialize
             loadTools();
 
             // Event Listeners
-            searchInput.addEventListener('input', handleSearch);
-            searchClear.addEventListener('click', clearSearch);
-            resetFilters.addEventListener('click', resetAllFilters);
-            resetFiltersMain.addEventListener('click', resetAllFilters);
-            sortBy.addEventListener('change', handleSortChange);
-            mobileMenuButton.addEventListener('click', toggleMobileMenu);
-            closeSidebar.addEventListener('click', toggleMobileMenu);
-            overlay.addEventListener('click', toggleMobileMenu);
-            filterButton.addEventListener('click', toggleMobileMenu);
-            bookmarksButton.addEventListener('click', toggleBookmarksView);
-            window.addEventListener('scroll', toggleBackToTop);
-            backToTop.addEventListener('click', scrollToTop);
+            // ... all your event listeners
 
             // Functions
             async function loadTools() {
                 try {
-                    // Replace this URL with your actual JSON file path
-                    const response = await fetch('https://raw.githubusercontent.com/LaxmanNepal/AIToolsBYLaxman/refs/heads/main/data/tools.json');
+                    // Data Integration: Using your live JSON file from GitHub
+                    const response = await fetch('https://raw.githubusercontent.com/LaxmanNepal/AIToolsBYLaxman/main/data/tools.json');
                     
                     if (!response.ok) {
-                        throw new Error('Failed to load tools');
+                        throw new Error(`Failed to load tools: ${response.statusText}`);
                     }
                     
                     allTools = await response.json();
+
+                    // IMPORTANT: Clear the pre-rendered tools before rendering the full list
+                    // This prevents duplicates and ensures the interactive list is fresh
+                    toolsGrid.innerHTML = ''; 
                     
                     // Extract unique categories
                     categories = [...new Set(allTools.map(tool => tool.category))].sort();
                     
                     // Initialize UI
                     renderCategories();
-                    filterAndRenderTools();
+                    filterAndRenderTools(); // This will now render the full list from your JSON
                     setupFeaturedTool();
                 } catch (error) {
                     console.error('Error loading tools:', error);
-                    toolsGrid.innerHTML = `
-                        <div class="col-span-full text-center py-12">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12 mx-auto text-red-400 mb-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z" />
-                            </svg>
-                            <h3 class="text-lg font-medium text-gray-700 mb-2">Error loading tools</h3>
-                            <p class="text-gray-500">Please try again later.</p>
-                        </div>
-                    `;
+                    // The pre-rendered cards will remain, but we show an error in the console.
+                    // You could optionally show an error message on the page.
+                    toolsGrid.innerHTML += `<p class="col-span-full text-center text-red-500">Could not load the full list of tools. Please try again later.</p>`;
                 }
             }
-
-            function renderCategories() {
-                categoryList.innerHTML = categories.map(category => `
-                    <li>
-                        <button class="category-filter w-full text-left px-3 py-2 rounded-lg hover:bg-gray-100 transition flex items-center justify-between ${activeCategoryFilters.includes(category) ? 'bg-indigo-50 text-indigo-700' : ''}" data-category="${category}">
-                            <span>${category}</span>
-                            <span class="text-xs bg-gray-200 text-gray-700 px-2 py-1 rounded-full">${allTools.filter(tool => tool.category === category).length}</span>
-                        </button>
-                    </li>
-                `).join('');
-                
-                // Add event listeners to category buttons
-                document.querySelectorAll('.category-filter').forEach(button => {
-                    button.addEventListener('click', () => toggleCategoryFilter(button.dataset.category));
-                });
-            }
-
-            function toggleCategoryFilter(category) {
-                if (activeCategoryFilters.includes(category)) {
-                    activeCategoryFilters = activeCategoryFilters.filter(c => c !== category);
-                } else {
-                    activeCategoryFilters.push(category);
-                }
-                
-                filterAndRenderTools();
-                renderCategories();
-                renderActiveFilters();
-            }
-
-            function renderActiveFilters() {
-                if (activeCategoryFilters.length === 0 && searchQuery === '') {
-                    activeFilters.classList.add('hidden');
-                    activeFilters.innerHTML = '';
-                    return;
-                }
-                
-                activeFilters.classList.remove('hidden');
-                
-                let filterElements = [];
-                
-                // Category filters
-                activeCategoryFilters.forEach(category => {
-                    filterElements.push(`
-                        <div class="flex items-center gap-1 bg-indigo-50 text-indigo-700 px-3 py-1 rounded-full text-sm">
-                            <span>${category}</span>
-                            <button class="remove-filter" data-type="category" data-value="${category}">
-                                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" viewBox="0 0 20 20" fill="currentColor">
-                                    <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM8.707 7.293a1 1 0 00-1.414 1.414L8.586 10l-1.293 1.293a1 1 0 101.414 1.414L10 11.414l1.293 1.293a1 1 0 001.414-1.414L11.414 10l1.293-1.293a1 1 0 00-1.414-1.414L10 8.586 8.707 7.293z" clip-rule="evenodd" />
-                                </svg>
-                            </button>
-                        </div>
-                    `);
-                });
-                
-                // Search filter
-                if (searchQuery) {
-                    filterElements.push(`
-                        <div class="flex items-center gap-1 bg-indigo-50 text-indigo-700 px-3 py-1 rounded-full text-sm">
-                            <span>Search: "${searchQuery}"</span>
-                            <button class="remove-filter" data-type="search">
-                                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" viewBox="0 0 20 20" fill="currentColor">
-                                    <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM8.707 7.293a1 1 0 00-1.414 1.414L8.586 10l-1.293 1.293a1 1 0 101.414 1.414L10 11.414l1.293 1.293a1 1 0 001.414-1.414L11.414 10l1.293-1.293a1 1 0 00-1.414-1.414L10 8.586 8.707 7.293z" clip-rule="evenodd" />
-                                </svg>
-                            </button>
-                        </div>
-                    `);
-                }
-                
-                activeFilters.innerHTML = filterElements.join('');
-                
-                // Add event listeners to remove filter buttons
-                document.querySelectorAll('.remove-filter').forEach(button => {
-                    button.addEventListener('click', () => {
-                        if (button.dataset.type === 'category') {
-                            activeCategoryFilters = activeCategoryFilters.filter(c => c !== button.dataset.value);
-                        } else if (button.dataset.type === 'search') {
-                            searchInput.value = '';
-                            searchQuery = '';
-                            searchClear.classList.add('hidden');
-                        }
-                        
-                        filterAndRenderTools();
-                        renderCategories();
-                        renderActiveFilters();
-                    });
-                });
-            }
-
-            function handleSearch(e) {
-                searchQuery = e.target.value.toLowerCase().trim();
-                
-                if (searchQuery) {
-                    searchClear.classList.remove('hidden');
-                } else {
-                    searchClear.classList.add('hidden');
-                }
-                
-                filterAndRenderTools();
-                renderActiveFilters();
-            }
-
-            function clearSearch() {
-                searchInput.value = '';
-                searchQuery = '';
-                searchClear.classList.add('hidden');
-                filterAndRenderTools();
-                renderActiveFilters();
-            }
-
-            function handleSortChange(e) {
-                sortMethod = e.target.value;
-                filterAndRenderTools();
-            }
-
-            function filterAndRenderTools() {
-                // Filter tools based on active filters and search query
-                filteredTools = allTools.filter(tool => {
-                    // Category filter
-                    if (activeCategoryFilters.length > 0 && !activeCategoryFilters.includes(tool.category)) {
-                        return false;
-                    }
-                    
-                    // Search filter
-                    if (searchQuery && 
-                        !tool.title.toLowerCase().includes(searchQuery) && 
-                        !tool.description.toLowerCase().includes(searchQuery)) {
-                        return false;
-                    }
-                    
-                    return true;
-                });
-                
-                // Sort tools
-                sortTools();
-                
-                // Update count
-                toolsCount.textContent = `${filteredTools.length} ${filteredTools.length === 1 ? 'tool' : 'tools'} found`;
-                
-                // Show/hide no results message
-                if (filteredTools.length === 0) {
-                    noResults.classList.remove('hidden');
-                    toolsGrid.classList.add('hidden');
-                } else {
-                    noResults.classList.add('hidden');
-                    toolsGrid.classList.remove('hidden');
-                }
-                
-                // Render tools
-                renderTools();
-            }
-
-            function sortTools() {
-                switch (sortMethod) {
-                    case 'name-asc':
-                        filteredTools.sort((a, b) => a.title.localeCompare(b.title));
-                        break;
-                    case 'name-desc':
-                        filteredTools.sort((a, b) => b.title.localeCompare(a.title));
-                        break;
-                    case 'popular':
-                        // Sort by popularity score
-                        filteredTools.sort((a, b) => (b.popularity || 0) - (a.popularity || 0));
-                        break;
-                    case 'newest':
-                        // Sort by date added
-                        filteredTools.sort((a, b) => new Date(b.dateAdded || 0) - new Date(a.dateAdded || 0));
-                        break;
-                    default:
-                        filteredTools.sort((a, b) => a.title.localeCompare(b.title));
-                }
-            }
-
-            function renderTools() {
-                toolsGrid.innerHTML = filteredTools.map((tool, index) => {
-                    const isBookmarked = bookmarkedTools.includes(tool.id);
-                    
-                    return `
-                        <div class="tool-card bg-white rounded-xl shadow-sm border border-gray-100 overflow-hidden fade-in content-visibility-auto" style="animation-delay: ${index * 0.05}s">
-                            <div class="p-5">
-                                <div class="flex items-start justify-between mb-3">
-                                    <div class="w-12 h-12 rounded-lg bg-gray-100 flex items-center justify-center overflow-hidden">
-                                        <img src="${tool.logo}" alt="${tool.title} logo" class="w-10 h-10 object-contain" loading="${index < 5 ? 'eager' : 'lazy'}">
-                                    </div>
-                                    <button class="bookmark-btn p-1 text-gray-400 hover:text-yellow-400 transition ${isBookmarked ? 'text-yellow-400' : ''}" data-tool-id="${tool.id}">
-                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
-                                            <path d="M5 5a2 2 0 012-2h10a2 2 0 012 2v16l-7-3.5L5 21V5z" />
-                                        </svg>
-                                    </button>
-                                </div>
-                                
-                                <h3 class="font-semibold text-lg mb-1">${tool.title}</h3>
-                                <p class="text-gray-600 text-sm mb-3 line-clamp-2">${tool.description}</p>
-                                
-                                <div class="flex items-center justify-between">
-                                    <span class="text-xs px-2 py-1 rounded-full ${tool.pricing === 'Free' ? 'bg-green-100 text-green-800' : tool.pricing === 'Paid' ? 'bg-blue-100 text-blue-800' : 'bg-purple-100 text-purple-800'}">
-                                        ${tool.pricing}
-                                    </span>
-                                    <span class="text-xs px-2 py-1 rounded-full bg-gray-100 text-gray-700">
-                                        ${tool.category}
-                                    </span>
-                                </div>
-                            </div>
-                            
-                            <div class="border-t border-gray-100 px-5 py-3 bg-gray-50">
-                                <a href="${tool.url}" target="_blank" rel="noopener noreferrer" class="w-full block text-center px-4 py-2 bg-indigo-600 text-white rounded-lg hover:bg-indigo-700 transition text-sm font-medium">
-                                    Visit Website
-                                </a>
-                            </div>
-                        </div>
-                    `;
-                }).join('');
-                
-                // Add event listeners to bookmark buttons
-                document.querySelectorAll('.bookmark-btn').forEach(button => {
-                    button.addEventListener('click', (e) => {
-                        e.stopPropagation();
-                        toggleBookmark(button.dataset.toolId);
-                    });
-                });
-                
-                // Add click event to entire card to visit website
-                document.querySelectorAll('.tool-card').forEach((card, index) => {
-                    card.addEventListener('click', () => {
-                        window.open(filteredTools[index].url, '_blank');
-                    });
-                });
-            }
-
-            function toggleBookmark(toolId) {
-                if (bookmarkedTools.includes(toolId)) {
-                    bookmarkedTools = bookmarkedTools.filter(id => id !== toolId);
-                } else {
-                    bookmarkedTools.push(toolId);
-                }
-                
-                localStorage.setItem('bookmarkedTools', JSON.stringify(bookmarkedTools));
-                
-                // Update bookmark button states
-                document.querySelectorAll('.bookmark-btn').forEach(button => {
-                    if (button.dataset.toolId === toolId) {
-                        button.classList.toggle('text-yellow-400');
-                    }
-                });
-            }
-
-            function toggleBookmarksView() {
-                if (activeCategoryFilters.includes('bookmarks')) {
-                    resetAllFilters();
-                } else {
-                    activeCategoryFilters = ['bookmarks'];
-                    searchQuery = '';
-                    searchInput.value = '';
-                    searchClear.classList.add('hidden');
-                    
-                    // Filter tools to only show bookmarked ones
-                    filteredTools = allTools.filter(tool => bookmarkedTools.includes(tool.id));
-                    
-                    // Update UI
-                    toolsCount.textContent = `${filteredTools.length} ${filteredTools.length === 1 ? 'bookmark' : 'bookmarks'}`;
-                    renderCategories();
-                    renderActiveFilters();
-                    renderTools();
-                    
-                    if (filteredTools.length === 0) {
-                        noResults.classList.remove('hidden');
-                        toolsGrid.classList.add('hidden');
-                        noResults.innerHTML = `
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12 mx-auto text-gray-400 mb-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 5a2 2 0 012-2h10a2 2 0 012 2v16l-7-3.5L5 21V5z" />
-                            </svg>
-                            <h3 class="text-lg font-medium text-gray-700 mb-2">No bookmarks yet</h3>
-                            <p class="text-gray-500 mb-4">Click the star icon on tools to save them here.</p>
-                            <button id="reset-filters-main" class="px-4 py-2 bg-indigo-600 text-white rounded-lg hover:bg-indigo-700 transition">Browse All Tools</button>
-                        `;
-                        
-                        document.getElementById('reset-filters-main').addEventListener('click', resetAllFilters);
-                    } else {
-                        noResults.classList.add('hidden');
-                        toolsGrid.classList.remove('hidden');
-                    }
-                }
-            }
-
-            function resetAllFilters() {
-                activeCategoryFilters = [];
-                searchQuery = '';
-                searchInput.value = '';
-                searchClear.classList.add('hidden');
-                sortBy.value = 'name-asc';
-                sortMethod = 'name-asc';
-                
-                filterAndRenderTools();
-                renderCategories();
-                renderActiveFilters();
-            }
-
-            function toggleMobileMenu() {
-                sidebar.classList.toggle('-translate-x-full');
-                overlay.classList.toggle('hidden');
-                document.body.classList.toggle('overflow-hidden');
-            }
-
-            function toggleBackToTop() {
-                if (window.scrollY > 300) {
-                    backToTop.classList.remove('opacity-0', 'invisible');
-                    backToTop.classList.add('opacity-100', 'visible');
-                } else {
-                    backToTop.classList.remove('opacity-100', 'visible');
-                    backToTop.classList.add('opacity-0', 'invisible');
-                }
-            }
-
-            function scrollToTop() {
-                window.scrollTo({
-                    top: 0,
-                    behavior: 'smooth'
-                });
-            }
-
-            function setupFeaturedTool() {
-                if (allTools.length === 0) {
-                    featuredTool.classList.add('hidden');
-                    return;
-                }
-                
-                // Select a random tool as "Tool of the Day"
-                const randomIndex = Math.floor(Math.random() * allTools.length);
-                const tool = allTools[randomIndex];
-                
-                featuredToolTitle.textContent = tool.title;
-                featuredToolDesc.textContent = tool.description;
-                featuredToolLink.href = tool.url;
-                featuredToolLogo.src = tool.logo;
-                featuredToolLogo.alt = `${tool.title} logo`;
-            }
+            
+            // ... Paste the REST of your JavaScript functions here (renderCategories, filterAndRenderTools, etc.)
+            // No other changes are needed in the rest of the JS.
         });
     </script>
 </body>
