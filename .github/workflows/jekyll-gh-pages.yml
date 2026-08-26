@@ -22,6 +22,9 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
+      - name: Expand catalog to 1000+ tools
+        run: python3 Scripts/sync_catalog.py
+
       - name: Generate individual AI tool pages and SEO files
         run: python3 Scripts/generate_tool_pages.py
 
@@ -43,11 +46,14 @@ jobs:
           test -s robots.txt
           test -s icon-192.png
           test -s icon-512.png
-          test -f tools/chatgpt/index.html
           python3 - <<'PY'
           import json
           from pathlib import Path
           tools = json.loads(Path('data/tools.json').read_text(encoding='utf-8'))
+          if len(tools) < 1000:
+              raise SystemExit(f'Expected 1000+ tools, found {len(tools)}')
+          if not any(t.get('category') == 'Unlimited Free AI Tools' for t in tools):
+              raise SystemExit('Unlimited Free AI Tools category is empty')
           missing = []
           for tool in tools:
               title = tool.get('title') or tool.get('name') or 'ai-tool'
@@ -57,7 +63,7 @@ jobs:
               if not (Path('tools') / slug / 'index.html').is_file():
                   missing.append(title)
           if missing:
-              raise SystemExit('Missing generated pages: ' + ', '.join(missing))
+              raise SystemExit('Missing generated pages: ' + ', '.join(missing[:20]))
           print(f'Validated {len(tools)} AI tool pages.')
           PY
 
