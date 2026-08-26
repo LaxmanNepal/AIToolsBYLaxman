@@ -8,6 +8,7 @@ ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / 'data' / 'tools.json'
 GO = ROOT / 'go'
 TOOLS = ROOT / 'tools'
+INDEX = ROOT / 'index.html'
 BASE = 'https://ai.laxmannepal.com.np'
 SOURCE = 'ai.laxmannepal.com.np'
 
@@ -35,12 +36,14 @@ def page(t):
 def main():
     tools = json.loads(DATA.read_text(encoding='utf-8'))
     GO.mkdir(exist_ok=True)
+
     for t in tools:
         s = slug(t.get('title') or t.get('name') or 'ai-tool')
         d = GO / s
         d.mkdir(parents=True, exist_ok=True)
         (d / 'index.html').write_text(page(t), encoding='utf-8')
 
+    # Detail-page CTA uses the tracked redirect endpoint.
     for t in tools:
         s = slug(t.get('title') or t.get('name') or 'ai-tool')
         f = TOOLS / s / 'index.html'
@@ -51,6 +54,13 @@ def main():
         pattern = r'(<a class="primary" href=")[^"]*("[^>]*>Visit )'
         text, _ = re.subn(pattern, rf'\g<1>{replacement}\g<2>', text, count=1)
         f.write_text(text, encoding='utf-8')
+
+    # Homepage cards should jump directly through /go/<slug>/ rather than first
+    # exposing the provider URL. Detail pages remain available from their own URLs.
+    if INDEX.exists():
+        text = INDEX.read_text(encoding='utf-8')
+        text = re.sub(r'href="tools/([^"/]+)/"', r'href="go/\1/"', text)
+        INDEX.write_text(text, encoding='utf-8')
 
     print(f'Generated {len(tools)} tracked redirect links under /go/.')
 
