@@ -22,11 +22,14 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Expand catalog to 1000+ tools
+      - name: Expand and classify AI catalog
         run: python3 Scripts/sync_catalog.py
 
       - name: Generate individual AI tool pages and SEO files
         run: python3 Scripts/generate_tool_pages.py
+
+      - name: Generate tracked short redirects with UTM
+        run: python3 Scripts/generate_redirects.py
 
       - name: Install ImageMagick
         run: |
@@ -49,22 +52,20 @@ jobs:
           python3 - <<'PY'
           import json
           from pathlib import Path
-          tools = json.loads(Path('data/tools.json').read_text(encoding='utf-8'))
-          if len(tools) < 1000:
-              raise SystemExit(f'Expected 1000+ tools, found {len(tools)}')
-          if not any(t.get('category') == 'Unlimited Free AI Tools' for t in tools):
-              raise SystemExit('Unlimited Free AI Tools category is empty')
-          missing = []
-          for tool in tools:
-              title = tool.get('title') or tool.get('name') or 'ai-tool'
-              slug = ''.join(c.lower() if c.isalnum() else '-' for c in title).strip('-')
-              while '--' in slug:
-                  slug = slug.replace('--', '-')
-              if not (Path('tools') / slug / 'index.html').is_file():
-                  missing.append(title)
-          if missing:
-              raise SystemExit('Missing generated pages: ' + ', '.join(missing[:20]))
-          print(f'Validated {len(tools)} AI tool pages.')
+          tools=json.loads(Path('data/tools.json').read_text(encoding='utf-8'))
+          if len(tools)<5000: raise SystemExit(f'Expected 5000+ tools, found {len(tools)}')
+          unlimited=sum(t.get('category')=='Unlimited Free AI Tools' for t in tools)
+          if unlimited<100: raise SystemExit(f'Expected 100+ unlimited-free tools, found {unlimited}')
+          missing=[]; redirects=[]
+          for t in tools:
+              title=t.get('title') or t.get('name') or 'ai-tool'
+              slug=''.join(c.lower() if c.isalnum() else '-' for c in title).strip('-')
+              while '--' in slug: slug=slug.replace('--','-')
+              if not (Path('tools')/slug/'index.html').is_file(): missing.append(title)
+              if not (Path('go')/slug/'index.html').is_file(): redirects.append(title)
+          if missing: raise SystemExit('Missing generated pages: '+', '.join(missing[:20]))
+          if redirects: raise SystemExit('Missing redirects: '+', '.join(redirects[:20]))
+          print(f'Validated {len(tools)} AI tools and {unlimited} unlimited-free tools.')
           PY
 
       - name: Setup Pages
