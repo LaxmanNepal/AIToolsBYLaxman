@@ -1,48 +1,38 @@
 # Build and deploy the AI Tools directory to GitHub Pages
 name: Deploy AI Tools
-
 on:
   push:
     branches: ["main"]
   workflow_dispatch:
-
 permissions:
   contents: read
   pages: write
   id-token: write
-
 concurrency:
   group: "pages"
   cancel-in-progress: false
-
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-
       - name: Expand and classify AI catalog
         run: python3 Scripts/sync_catalog.py
-
       - name: Generate individual AI tool pages and SEO files
         run: python3 Scripts/generate_tool_pages.py
-
       - name: Generate tracked short redirects with UTM
         run: python3 Scripts/generate_redirects.py
-
       - name: Install ImageMagick
         run: |
           sudo apt-get update
           sudo apt-get install -y imagemagick
-
       - name: Generate PWA PNG icons
         run: |
           convert -background none icon.svg -resize 192x192 icon-192.png
           convert -background none icon.svg -resize 512x512 icon-512.png
           test -s icon-192.png
           test -s icon-512.png
-
       - name: Validate generated site
         run: |
           test -s sitemap.xml
@@ -67,15 +57,12 @@ jobs:
           if redirects: raise SystemExit('Missing redirects: '+', '.join(redirects[:20]))
           print(f'Validated {len(tools)} AI tools and {unlimited} unlimited-free tools.')
           PY
-
       - name: Setup Pages
         uses: actions/configure-pages@v5
-
       - name: Upload static site artifact
         uses: actions/upload-pages-artifact@v3
         with:
           path: .
-
   deploy:
     environment:
       name: github-pages
