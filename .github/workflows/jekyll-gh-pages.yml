@@ -1,37 +1,74 @@
 # Build and deploy the AI Tools directory to GitHub Pages
 name: Deploy AI Tools
+
 on:
   push:
     branches: ["main"]
   workflow_dispatch:
+
 permissions:
   contents: read
   pages: write
   id-token: write
+
 concurrency:
   group: "pages"
   cancel-in-progress: false
+
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+
       - name: Generate individual AI tool pages and SEO files
         run: python3 Scripts/generate_tool_pages.py
+
+      - name: Install ImageMagick
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y imagemagick
+
       - name: Generate PWA PNG icons
         run: |
           convert -background none icon.svg -resize 192x192 icon-192.png
           convert -background none icon.svg -resize 512x512 icon-512.png
+          test -s icon-192.png
+          test -s icon-512.png
+
+      - name: Validate generated site
+        run: |
+          test -s sitemap.xml
+          test -s robots.txt
+          test -s icon-192.png
+          test -s icon-512.png
+          test -f tools/chatgpt/index.html
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+          tools = json.loads(Path('data/tools.json').read_text(encoding='utf-8'))
+          missing = []
+          for tool in tools:
+              title = tool.get('title') or tool.get('name') or 'ai-tool'
+              slug = ''.join(c.lower() if c.isalnum() else '-' for c in title).strip('-')
+              while '--' in slug:
+                  slug = slug.replace('--', '-')
+              if not (Path('tools') / slug / 'index.html').is_file():
+                  missing.append(title)
+          if missing:
+              raise SystemExit('Missing generated pages: ' + ', '.join(missing))
+          print(f'Validated {len(tools)} AI tool pages.')
+          PY
+
       - name: Setup Pages
         uses: actions/configure-pages@v5
-      - name: Build with Jekyll
-        uses: actions/jekyll-build-pages@v1
-        with:
-          source: ./
-          destination: ./_site
-      - name: Upload artifact
+
+      - name: Upload static site artifact
         uses: actions/upload-pages-artifact@v3
+        with:
+          path: .
+
   deploy:
     environment:
       name: github-pages
