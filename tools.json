@@ -1,0 +1,4510 @@
+{
+  "metadata": {
+    "title": "500 Popular AI Tools",
+    "total_tools": 500,
+    "generated": "2026-08-30",
+    "note": "Curated popular AI tools. official_logo points to the official domain via a favicon endpoint; main_link is the product/company website. This is not a strict traffic ranking."
+  },
+  "tools": [
+    {
+      "name": "ChatGPT",
+      "categories": [
+        "AI Chat & Assistants"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=chat.openai.com&sz=128",
+      "uses": "General AI chat, writing, coding, analysis and brainstorming",
+      "main_link": "https://chat.openai.com"
+    },
+    {
+      "name": "Claude",
+      "categories": [
+        "AI Chat & Assistants"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=claude.ai&sz=128",
+      "uses": "Reasoning, writing, coding, analysis and document work",
+      "main_link": "https://claude.ai"
+    },
+    {
+      "name": "Gemini",
+      "categories": [
+        "AI Chat & Assistants"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=gemini.google.com&sz=128",
+      "uses": "Multimodal chat, research, writing and coding",
+      "main_link": "https://gemini.google.com"
+    },
+    {
+      "name": "Microsoft Copilot",
+      "categories": [
+        "AI Chat & Assistants"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=copilot.microsoft.com&sz=128",
+      "uses": "Web answers, productivity, writing and coding",
+      "main_link": "https://copilot.microsoft.com"
+    },
+    {
+      "name": "Grok",
+      "categories": [
+        "AI Chat & Assistants"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=grok.com&sz=128",
+      "uses": "Conversational AI, research and current-event exploration",
+      "main_link": "https://grok.com"
+    },
+    {
+      "name": "DeepSeek",
+      "categories": [
+        "AI Chat & Assistants"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=chat.deepseek.com&sz=128",
+      "uses": "Reasoning, coding, mathematics and research",
+      "main_link": "https://chat.deepseek.com"
+    },
+    {
+      "name": "Perplexity",
+      "categories": [
+        "AI Search & Research"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=perplexity.ai&sz=128",
+      "uses": "AI search, research and cited answers",
+      "main_link": "https://perplexity.ai"
+    },
+    {
+      "name": "Poe",
+      "categories": [
+        "AI Chat & Assistants"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=poe.com&sz=128",
+      "uses": "Access and compare multiple AI models",
+      "main_link": "https://poe.com"
+    },
+    {
+      "name": "Mistral Le Chat",
+      "categories": [
+        "AI Chat & Assistants"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=chat.mistral.ai&sz=128",
+      "uses": "Chat, reasoning, coding and document work",
+      "main_link": "https://chat.mistral.ai"
+    },
+    {
+      "name": "Meta AI",
+      "categories": [
+        "AI Chat & Assistants"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=meta.ai&sz=128",
+      "uses": "Conversational AI, image generation and everyday assistance",
+      "main_link": "https://meta.ai"
+    },
+    {
+      "name": "Qwen",
+      "categories": [
+        "AI Chat & Assistants"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=qwen.ai&sz=128",
+      "uses": "Chat, coding, reasoning and multimodal tasks",
+      "main_link": "https://qwen.ai"
+    },
+    {
+      "name": "Kimi",
+      "categories": [
+        "AI Chat & Assistants"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=kimi.com&sz=128",
+      "uses": "Long-context research, documents and reasoning",
+      "main_link": "https://kimi.com"
+    },
+    {
+      "name": "Pi",
+      "categories": [
+        "AI Chat & Assistants"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=pi.ai&sz=128",
+      "uses": "Personal conversation, brainstorming and assistance",
+      "main_link": "https://pi.ai"
+    },
+    {
+      "name": "Character AI",
+      "categories": [
+        "AI Chat & Assistants"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=character.ai&sz=128",
+      "uses": "AI characters and conversational entertainment",
+      "main_link": "https://character.ai"
+    },
+    {
+      "name": "You.com",
+      "categories": [
+        "AI Search & Research"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=you.com&sz=128",
+      "uses": "AI search, research, writing and agents",
+      "main_link": "https://you.com"
+    },
+    {
+      "name": "Phind",
+      "categories": [
+        "AI Search & Research"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=phind.com&sz=128",
+      "uses": "Developer search and technical answers",
+      "main_link": "https://phind.com"
+    },
+    {
+      "name": "HuggingChat",
+      "categories": [
+        "AI Chat & Assistants"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=huggingface.co&sz=128",
+      "uses": "Open-model chat and experimentation",
+      "main_link": "https://huggingface.co"
+    },
+    {
+      "name": "DeepAI",
+      "categories": [
+        "AI Image & Creative"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=deepai.org&sz=128",
+      "uses": "AI chat, image generation and text tools",
+      "main_link": "https://deepai.org"
+    },
+    {
+      "name": "Duck.ai",
+      "categories": [
+        "AI Chat & Assistants"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=duck.ai&sz=128",
+      "uses": "Private AI chat with multiple models",
+      "main_link": "https://duck.ai"
+    },
+    {
+      "name": "Brave Leo",
+      "categories": [
+        "AI Chat & Assistants"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=brave.com&sz=128",
+      "uses": "Private browser-based AI assistance",
+      "main_link": "https://brave.com"
+    },
+    {
+      "name": "Andi",
+      "categories": [
+        "AI Search & Research"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=andisearch.com&sz=128",
+      "uses": "Conversational search and research",
+      "main_link": "https://andisearch.com"
+    },
+    {
+      "name": "Chatsonic",
+      "categories": [
+        "AI Writing"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=writesonic.com&sz=128",
+      "uses": "AI chat, research and content creation",
+      "main_link": "https://writesonic.com"
+    },
+    {
+      "name": "HIX Chat",
+      "categories": [
+        "AI Chat & Assistants"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=hix.ai&sz=128",
+      "uses": "AI chat, writing, research and productivity",
+      "main_link": "https://hix.ai"
+    },
+    {
+      "name": "Grammarly",
+      "categories": [
+        "AI Writing"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=grammarly.com&sz=128",
+      "uses": "Grammar, rewriting, tone and AI writing",
+      "main_link": "https://grammarly.com"
+    },
+    {
+      "name": "Jasper",
+      "categories": [
+        "AI Writing"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=jasper.ai&sz=128",
+      "uses": "Marketing copy, campaigns and brand content",
+      "main_link": "https://jasper.ai"
+    },
+    {
+      "name": "Copy.ai",
+      "categories": [
+        "AI Writing"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=copy.ai&sz=128",
+      "uses": "Marketing copy, sales content and workflows",
+      "main_link": "https://copy.ai"
+    },
+    {
+      "name": "Writesonic",
+      "categories": [
+        "AI Writing"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=writesonic.com&sz=128",
+      "uses": "Articles, marketing content and SEO writing",
+      "main_link": "https://writesonic.com"
+    },
+    {
+      "name": "Rytr",
+      "categories": [
+        "AI Writing"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=rytr.me&sz=128",
+      "uses": "Short-form copy, emails and social content",
+      "main_link": "https://rytr.me"
+    },
+    {
+      "name": "QuillBot",
+      "categories": [
+        "AI Writing"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=quillbot.com&sz=128",
+      "uses": "Paraphrasing, summarizing and grammar",
+      "main_link": "https://quillbot.com"
+    },
+    {
+      "name": "Wordtune",
+      "categories": [
+        "AI Writing"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=wordtune.com&sz=128",
+      "uses": "Rewriting, tone and clarity improvement",
+      "main_link": "https://wordtune.com"
+    },
+    {
+      "name": "Anyword",
+      "categories": [
+        "AI Marketing"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=anyword.com&sz=128",
+      "uses": "Performance-focused marketing copy",
+      "main_link": "https://anyword.com"
+    },
+    {
+      "name": "Simplified",
+      "categories": [
+        "AI Writing"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=simplified.com&sz=128",
+      "uses": "AI writing, design and social content",
+      "main_link": "https://simplified.com"
+    },
+    {
+      "name": "Hypotenuse AI",
+      "categories": [
+        "AI Writing"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=hypotenuse.ai&sz=128",
+      "uses": "Product descriptions, articles and marketing copy",
+      "main_link": "https://hypotenuse.ai"
+    },
+    {
+      "name": "Scalenut",
+      "categories": [
+        "AI SEO"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=scalenut.com&sz=128",
+      "uses": "SEO content planning and writing",
+      "main_link": "https://scalenut.com"
+    },
+    {
+      "name": "Frase",
+      "categories": [
+        "AI SEO"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=frase.io&sz=128",
+      "uses": "SEO research, briefs and content optimization",
+      "main_link": "https://frase.io"
+    },
+    {
+      "name": "Surfer",
+      "categories": [
+        "AI SEO"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=surferseo.com&sz=128",
+      "uses": "SEO content optimization",
+      "main_link": "https://surferseo.com"
+    },
+    {
+      "name": "NeuronWriter",
+      "categories": [
+        "AI SEO"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=neuronwriter.com&sz=128",
+      "uses": "SEO content planning and optimization",
+      "main_link": "https://neuronwriter.com"
+    },
+    {
+      "name": "Koala AI",
+      "categories": [
+        "AI Writing"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=koala.sh&sz=128",
+      "uses": "AI articles and affiliate content",
+      "main_link": "https://koala.sh"
+    },
+    {
+      "name": "Sudowrite",
+      "categories": [
+        "AI Writing"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=sudowrite.com&sz=128",
+      "uses": "Creative writing and fiction assistance",
+      "main_link": "https://sudowrite.com"
+    },
+    {
+      "name": "NovelAI",
+      "categories": [
+        "AI Writing"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=novelai.net&sz=128",
+      "uses": "Story writing and creative generation",
+      "main_link": "https://novelai.net"
+    },
+    {
+      "name": "Lex",
+      "categories": [
+        "AI Writing"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=lex.page&sz=128",
+      "uses": "AI-assisted documents and writing",
+      "main_link": "https://lex.page"
+    },
+    {
+      "name": "Typefully",
+      "categories": [
+        "AI Social Media"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=typefully.com&sz=128",
+      "uses": "Social posts and thread writing",
+      "main_link": "https://typefully.com"
+    },
+    {
+      "name": "HyperWrite",
+      "categories": [
+        "AI Writing"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=hyperwriteai.com&sz=128",
+      "uses": "AI writing and research assistance",
+      "main_link": "https://hyperwriteai.com"
+    },
+    {
+      "name": "Lavender",
+      "categories": [
+        "AI Sales"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=lavender.ai&sz=128",
+      "uses": "AI sales-email coaching",
+      "main_link": "https://lavender.ai"
+    },
+    {
+      "name": "Regie.ai",
+      "categories": [
+        "AI Sales"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=regie.ai&sz=128",
+      "uses": "Sales and marketing content generation",
+      "main_link": "https://regie.ai"
+    },
+    {
+      "name": "Smartwriter",
+      "categories": [
+        "AI Sales"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=smartwriter.ai&sz=128",
+      "uses": "Personalized outreach and copy",
+      "main_link": "https://smartwriter.ai"
+    },
+    {
+      "name": "Peppertype",
+      "categories": [
+        "AI Writing"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=peppertype.ai&sz=128",
+      "uses": "Marketing and content writing",
+      "main_link": "https://peppertype.ai"
+    },
+    {
+      "name": "Narrato",
+      "categories": [
+        "AI Writing"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=narrato.io&sz=128",
+      "uses": "Content workflows and AI writing",
+      "main_link": "https://narrato.io"
+    },
+    {
+      "name": "TextCortex",
+      "categories": [
+        "AI Writing"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=textcortex.com&sz=128",
+      "uses": "Writing, rewriting and productivity",
+      "main_link": "https://textcortex.com"
+    },
+    {
+      "name": "Jenni AI",
+      "categories": [
+        "AI Writing"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=jenni.ai&sz=128",
+      "uses": "Academic and professional writing",
+      "main_link": "https://jenni.ai"
+    },
+    {
+      "name": "Paperpal",
+      "categories": [
+        "AI Education"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=paperpal.com&sz=128",
+      "uses": "Academic writing and language improvement",
+      "main_link": "https://paperpal.com"
+    },
+    {
+      "name": "Trinka AI",
+      "categories": [
+        "AI Writing"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=trinka.ai&sz=128",
+      "uses": "Academic and technical grammar checking",
+      "main_link": "https://trinka.ai"
+    },
+    {
+      "name": "LanguageTool",
+      "categories": [
+        "AI Writing"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=languagetool.org&sz=128",
+      "uses": "Grammar, spelling and style correction",
+      "main_link": "https://languagetool.org"
+    },
+    {
+      "name": "ProWritingAid",
+      "categories": [
+        "AI Writing"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=prowritingaid.com&sz=128",
+      "uses": "Long-form writing analysis and editing",
+      "main_link": "https://prowritingaid.com"
+    },
+    {
+      "name": "Hemingway Editor",
+      "categories": [
+        "AI Writing"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=hemingwayapp.com&sz=128",
+      "uses": "Readability and concise writing",
+      "main_link": "https://hemingwayapp.com"
+    },
+    {
+      "name": "DeepL Write",
+      "categories": [
+        "AI Writing"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=deepl.com&sz=128",
+      "uses": "Writing, rewriting and language improvement",
+      "main_link": "https://deepl.com"
+    },
+    {
+      "name": "Smodin",
+      "categories": [
+        "AI Education"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=smodin.io&sz=128",
+      "uses": "Writing, rewriting and study assistance",
+      "main_link": "https://smodin.io"
+    },
+    {
+      "name": "Originality AI",
+      "categories": [
+        "AI Writing"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=originality.ai&sz=128",
+      "uses": "AI detection and content quality checking",
+      "main_link": "https://originality.ai"
+    },
+    {
+      "name": "Undetectable AI",
+      "categories": [
+        "AI Writing"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=undetectable.ai&sz=128",
+      "uses": "AI-text rewriting and transformation",
+      "main_link": "https://undetectable.ai"
+    },
+    {
+      "name": "Gamma",
+      "categories": [
+        "AI Presentations"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=gamma.app&sz=128",
+      "uses": "AI documents, presentations and web pages",
+      "main_link": "https://gamma.app"
+    },
+    {
+      "name": "Beautiful.ai",
+      "categories": [
+        "AI Presentations"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=beautiful.ai&sz=128",
+      "uses": "AI-assisted presentation creation",
+      "main_link": "https://beautiful.ai"
+    },
+    {
+      "name": "Tome",
+      "categories": [
+        "AI Presentations"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=tome.app&sz=128",
+      "uses": "AI presentations and storytelling",
+      "main_link": "https://tome.app"
+    },
+    {
+      "name": "Midjourney",
+      "categories": [
+        "AI Image Generation"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=midjourney.com&sz=128",
+      "uses": "Text-to-image generation and creative art",
+      "main_link": "https://midjourney.com"
+    },
+    {
+      "name": "Adobe Firefly",
+      "categories": [
+        "AI Image Generation"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=firefly.adobe.com&sz=128",
+      "uses": "Image generation, editing and creative effects",
+      "main_link": "https://firefly.adobe.com"
+    },
+    {
+      "name": "DALL-E",
+      "categories": [
+        "AI Image Generation"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=openai.com&sz=128",
+      "uses": "Text-to-image generation",
+      "main_link": "https://openai.com"
+    },
+    {
+      "name": "Stable Diffusion",
+      "categories": [
+        "AI Image Generation"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=stability.ai&sz=128",
+      "uses": "Open image generation and customization",
+      "main_link": "https://stability.ai"
+    },
+    {
+      "name": "Ideogram",
+      "categories": [
+        "AI Image Generation"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=ideogram.ai&sz=128",
+      "uses": "Image generation with strong text rendering",
+      "main_link": "https://ideogram.ai"
+    },
+    {
+      "name": "Leonardo AI",
+      "categories": [
+        "AI Image Generation"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=leonardo.ai&sz=128",
+      "uses": "Image generation and creative assets",
+      "main_link": "https://leonardo.ai"
+    },
+    {
+      "name": "FLUX",
+      "categories": [
+        "AI Image Generation"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=blackforestlabs.ai&sz=128",
+      "uses": "High-quality image generation",
+      "main_link": "https://blackforestlabs.ai"
+    },
+    {
+      "name": "Canva AI",
+      "categories": [
+        "AI Design"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=canva.com&sz=128",
+      "uses": "AI image generation and design",
+      "main_link": "https://canva.com"
+    },
+    {
+      "name": "Microsoft Designer",
+      "categories": [
+        "AI Design"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=designer.microsoft.com&sz=128",
+      "uses": "AI graphics, layouts and social designs",
+      "main_link": "https://designer.microsoft.com"
+    },
+    {
+      "name": "Playground AI",
+      "categories": [
+        "AI Image Generation"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=playground.com&sz=128",
+      "uses": "Image generation and editing",
+      "main_link": "https://playground.com"
+    },
+    {
+      "name": "Krea",
+      "categories": [
+        "AI Image Generation"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=krea.ai&sz=128",
+      "uses": "Real-time image generation and enhancement",
+      "main_link": "https://krea.ai"
+    },
+    {
+      "name": "Recraft",
+      "categories": [
+        "AI Design"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=recraft.ai&sz=128",
+      "uses": "Vector, illustration and brand asset generation",
+      "main_link": "https://recraft.ai"
+    },
+    {
+      "name": "Freepik AI",
+      "categories": [
+        "AI Design"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=freepik.com&sz=128",
+      "uses": "AI images, design assets and editing",
+      "main_link": "https://freepik.com"
+    },
+    {
+      "name": "Picsart AI",
+      "categories": [
+        "AI Image Editing"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=picsart.com&sz=128",
+      "uses": "AI photo editing and creative design",
+      "main_link": "https://picsart.com"
+    },
+    {
+      "name": "Photoroom",
+      "categories": [
+        "AI Image Editing"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=photoroom.com&sz=128",
+      "uses": "Product-photo editing and background removal",
+      "main_link": "https://photoroom.com"
+    },
+    {
+      "name": "Clipdrop",
+      "categories": [
+        "AI Image Editing"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=clipdrop.co&sz=128",
+      "uses": "Image cleanup, relighting and generation",
+      "main_link": "https://clipdrop.co"
+    },
+    {
+      "name": "Magnific AI",
+      "categories": [
+        "AI Image Editing"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=magnific.ai&sz=128",
+      "uses": "AI image upscaling and enhancement",
+      "main_link": "https://magnific.ai"
+    },
+    {
+      "name": "Topaz Photo AI",
+      "categories": [
+        "AI Image Editing"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=topazlabs.com&sz=128",
+      "uses": "Photo sharpening, denoise and upscaling",
+      "main_link": "https://topazlabs.com"
+    },
+    {
+      "name": "Remini",
+      "categories": [
+        "AI Image Editing"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=remini.ai&sz=128",
+      "uses": "Photo enhancement and restoration",
+      "main_link": "https://remini.ai"
+    },
+    {
+      "name": "Lets Enhance",
+      "categories": [
+        "AI Image Editing"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=letsenhance.io&sz=128",
+      "uses": "Image upscaling and enhancement",
+      "main_link": "https://letsenhance.io"
+    },
+    {
+      "name": "Upscayl",
+      "categories": [
+        "AI Image Editing"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=upscayl.org&sz=128",
+      "uses": "Open-source image upscaling",
+      "main_link": "https://upscayl.org"
+    },
+    {
+      "name": "Cleanup Pictures",
+      "categories": [
+        "AI Image Editing"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=cleanup.pictures&sz=128",
+      "uses": "Object removal and image cleanup",
+      "main_link": "https://cleanup.pictures"
+    },
+    {
+      "name": "Remove.bg",
+      "categories": [
+        "AI Image Editing"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=remove.bg&sz=128",
+      "uses": "Automatic background removal",
+      "main_link": "https://remove.bg"
+    },
+    {
+      "name": "Cutout Pro",
+      "categories": [
+        "AI Image Editing"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=cutout.pro&sz=128",
+      "uses": "Background removal, enhancement and creative tools",
+      "main_link": "https://cutout.pro"
+    },
+    {
+      "name": "Fotor",
+      "categories": [
+        "AI Image Editing"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=fotor.com&sz=128",
+      "uses": "AI photo editing and generation",
+      "main_link": "https://fotor.com"
+    },
+    {
+      "name": "Pixlr",
+      "categories": [
+        "AI Image Editing"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=pixlr.com&sz=128",
+      "uses": "Browser photo editing and AI generation",
+      "main_link": "https://pixlr.com"
+    },
+    {
+      "name": "Lensa",
+      "categories": [
+        "AI Image Editing"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=prisma-ai.com&sz=128",
+      "uses": "AI portraits and photo editing",
+      "main_link": "https://prisma-ai.com"
+    },
+    {
+      "name": "Prisma",
+      "categories": [
+        "AI Image Editing"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=prisma-ai.com&sz=128",
+      "uses": "Artistic photo effects",
+      "main_link": "https://prisma-ai.com"
+    },
+    {
+      "name": "Artbreeder",
+      "categories": [
+        "AI Image Generation"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=artbreeder.com&sz=128",
+      "uses": "Generative portraits and visual exploration",
+      "main_link": "https://artbreeder.com"
+    },
+    {
+      "name": "NightCafe",
+      "categories": [
+        "AI Image Generation"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=nightcafe.studio&sz=128",
+      "uses": "AI art generation",
+      "main_link": "https://nightcafe.studio"
+    },
+    {
+      "name": "DreamStudio",
+      "categories": [
+        "AI Image Generation"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=dreamstudio.ai&sz=128",
+      "uses": "Stable Diffusion image generation",
+      "main_link": "https://dreamstudio.ai"
+    },
+    {
+      "name": "Mage",
+      "categories": [
+        "AI Image Generation"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=mage.space&sz=128",
+      "uses": "AI image and video generation",
+      "main_link": "https://mage.space"
+    },
+    {
+      "name": "Tensor.Art",
+      "categories": [
+        "AI Image Generation"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=tensor.art&sz=128",
+      "uses": "Community AI image generation",
+      "main_link": "https://tensor.art"
+    },
+    {
+      "name": "Civitai",
+      "categories": [
+        "AI Image Generation"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=civitai.com&sz=128",
+      "uses": "Generative-model discovery and image creation",
+      "main_link": "https://civitai.com"
+    },
+    {
+      "name": "SeaArt AI",
+      "categories": [
+        "AI Image Generation"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=seaart.ai&sz=128",
+      "uses": "AI art and image generation",
+      "main_link": "https://seaart.ai"
+    },
+    {
+      "name": "getimg.ai",
+      "categories": [
+        "AI Image Generation"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=getimg.ai&sz=128",
+      "uses": "Image generation and editing",
+      "main_link": "https://getimg.ai"
+    },
+    {
+      "name": "OpenArt",
+      "categories": [
+        "AI Image Generation"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=openart.ai&sz=128",
+      "uses": "AI art generation and workflows",
+      "main_link": "https://openart.ai"
+    },
+    {
+      "name": "Dzine",
+      "categories": [
+        "AI Design"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=dzine.ai&sz=128",
+      "uses": "AI design and image editing",
+      "main_link": "https://dzine.ai"
+    },
+    {
+      "name": "Scenario",
+      "categories": [
+        "AI Game Development"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=scenario.com&sz=128",
+      "uses": "Game asset generation",
+      "main_link": "https://scenario.com"
+    },
+    {
+      "name": "StarryAI",
+      "categories": [
+        "AI Image Generation"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=starryai.com&sz=128",
+      "uses": "AI art and image generation",
+      "main_link": "https://starryai.com"
+    },
+    {
+      "name": "Hotpot AI",
+      "categories": [
+        "AI Design"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=hotpot.ai&sz=128",
+      "uses": "AI graphics, editing and copy",
+      "main_link": "https://hotpot.ai"
+    },
+    {
+      "name": "VanceAI",
+      "categories": [
+        "AI Image Editing"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=vanceai.com&sz=128",
+      "uses": "AI image enhancement",
+      "main_link": "https://vanceai.com"
+    },
+    {
+      "name": "ImgUpscaler",
+      "categories": [
+        "AI Image Editing"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=imgupscaler.com&sz=128",
+      "uses": "AI image enlargement",
+      "main_link": "https://imgupscaler.com"
+    },
+    {
+      "name": "Bigjpg",
+      "categories": [
+        "AI Image Editing"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=bigjpg.com&sz=128",
+      "uses": "AI image enlargement",
+      "main_link": "https://bigjpg.com"
+    },
+    {
+      "name": "Icons8 AI",
+      "categories": [
+        "AI Design"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=icons8.com&sz=128",
+      "uses": "AI icons, images and design assets",
+      "main_link": "https://icons8.com"
+    },
+    {
+      "name": "Vectorizer AI",
+      "categories": [
+        "AI Design"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=vectorizer.ai&sz=128",
+      "uses": "Raster-to-vector conversion",
+      "main_link": "https://vectorizer.ai"
+    },
+    {
+      "name": "Uizard",
+      "categories": [
+        "AI UI Design"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=uizard.io&sz=128",
+      "uses": "AI UI and prototype generation",
+      "main_link": "https://uizard.io"
+    },
+    {
+      "name": "Runway",
+      "categories": [
+        "AI Video"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=runwayml.com&sz=128",
+      "uses": "Generative video, editing and visual effects",
+      "main_link": "https://runwayml.com"
+    },
+    {
+      "name": "Sora",
+      "categories": [
+        "AI Video"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=sora.com&sz=128",
+      "uses": "Text-to-video and creative video generation",
+      "main_link": "https://sora.com"
+    },
+    {
+      "name": "Google Veo",
+      "categories": [
+        "AI Video"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=deepmind.google&sz=128",
+      "uses": "High-quality generative video",
+      "main_link": "https://deepmind.google"
+    },
+    {
+      "name": "Pika",
+      "categories": [
+        "AI Video"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=pika.art&sz=128",
+      "uses": "Text/image-to-video and video effects",
+      "main_link": "https://pika.art"
+    },
+    {
+      "name": "Kling AI",
+      "categories": [
+        "AI Video"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=klingai.com&sz=128",
+      "uses": "Generative video and animation",
+      "main_link": "https://klingai.com"
+    },
+    {
+      "name": "Luma Dream Machine",
+      "categories": [
+        "AI Video"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=lumalabs.ai&sz=128",
+      "uses": "Text/image-to-video generation",
+      "main_link": "https://lumalabs.ai"
+    },
+    {
+      "name": "Hailuo AI",
+      "categories": [
+        "AI Video"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=hailuoai.video&sz=128",
+      "uses": "Generative video creation",
+      "main_link": "https://hailuoai.video"
+    },
+    {
+      "name": "Vidu",
+      "categories": [
+        "AI Video"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=vidu.com&sz=128",
+      "uses": "AI video generation",
+      "main_link": "https://vidu.com"
+    },
+    {
+      "name": "Synthesia",
+      "categories": [
+        "AI Video"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=synthesia.io&sz=128",
+      "uses": "AI avatar and business videos",
+      "main_link": "https://synthesia.io"
+    },
+    {
+      "name": "HeyGen",
+      "categories": [
+        "AI Video"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=heygen.com&sz=128",
+      "uses": "AI avatars, dubbing and localization",
+      "main_link": "https://heygen.com"
+    },
+    {
+      "name": "D-ID",
+      "categories": [
+        "AI Video"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=d-id.com&sz=128",
+      "uses": "Talking avatars and video generation",
+      "main_link": "https://d-id.com"
+    },
+    {
+      "name": "Colossyan",
+      "categories": [
+        "AI Video"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=colossyan.com&sz=128",
+      "uses": "AI presenter and training videos",
+      "main_link": "https://colossyan.com"
+    },
+    {
+      "name": "Elai.io",
+      "categories": [
+        "AI Video"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=elai.io&sz=128",
+      "uses": "AI avatar videos",
+      "main_link": "https://elai.io"
+    },
+    {
+      "name": "DeepBrain AI",
+      "categories": [
+        "AI Video"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=deepbrain.io&sz=128",
+      "uses": "AI human presenters and video",
+      "main_link": "https://deepbrain.io"
+    },
+    {
+      "name": "Hour One",
+      "categories": [
+        "AI Video"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=hourone.ai&sz=128",
+      "uses": "AI avatar business videos",
+      "main_link": "https://hourone.ai"
+    },
+    {
+      "name": "InVideo AI",
+      "categories": [
+        "AI Video"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=invideo.io&sz=128",
+      "uses": "Prompt-to-video and editing",
+      "main_link": "https://invideo.io"
+    },
+    {
+      "name": "VEED AI",
+      "categories": [
+        "AI Video"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=veed.io&sz=128",
+      "uses": "AI video editing and content creation",
+      "main_link": "https://veed.io"
+    },
+    {
+      "name": "CapCut",
+      "categories": [
+        "AI Video"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=capcut.com&sz=128",
+      "uses": "AI video editing and social content",
+      "main_link": "https://capcut.com"
+    },
+    {
+      "name": "Descript",
+      "categories": [
+        "AI Video"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=descript.com&sz=128",
+      "uses": "Transcript-based video and podcast editing",
+      "main_link": "https://descript.com"
+    },
+    {
+      "name": "OpusClip",
+      "categories": [
+        "AI Video"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=opus.pro&sz=128",
+      "uses": "Long-video-to-short clipping",
+      "main_link": "https://opus.pro"
+    },
+    {
+      "name": "Captions",
+      "categories": [
+        "AI Video"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=captions.ai&sz=128",
+      "uses": "AI video editing, captions and avatars",
+      "main_link": "https://captions.ai"
+    },
+    {
+      "name": "Wisecut",
+      "categories": [
+        "AI Video"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=wisecut.video&sz=128",
+      "uses": "Automatic video editing",
+      "main_link": "https://wisecut.video"
+    },
+    {
+      "name": "Filmora",
+      "categories": [
+        "AI Video"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=filmora.wondershare.com&sz=128",
+      "uses": "AI-assisted video editing",
+      "main_link": "https://filmora.wondershare.com"
+    },
+    {
+      "name": "Premiere Pro",
+      "categories": [
+        "AI Video"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=adobe.com&sz=128",
+      "uses": "Professional video editing with AI features",
+      "main_link": "https://adobe.com"
+    },
+    {
+      "name": "DaVinci Resolve",
+      "categories": [
+        "AI Video"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=blackmagicdesign.com&sz=128",
+      "uses": "Professional editing, color and AI tools",
+      "main_link": "https://blackmagicdesign.com"
+    },
+    {
+      "name": "Topaz Video AI",
+      "categories": [
+        "AI Video"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=topazlabs.com&sz=128",
+      "uses": "Video enhancement and upscaling",
+      "main_link": "https://topazlabs.com"
+    },
+    {
+      "name": "Viggle",
+      "categories": [
+        "AI Video"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=viggle.ai&sz=128",
+      "uses": "Character motion and animation",
+      "main_link": "https://viggle.ai"
+    },
+    {
+      "name": "Klap",
+      "categories": [
+        "AI Video"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=klap.app&sz=128",
+      "uses": "Short-form video repurposing",
+      "main_link": "https://klap.app"
+    },
+    {
+      "name": "Vizard",
+      "categories": [
+        "AI Video"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=vizard.ai&sz=128",
+      "uses": "AI clipping and video repurposing",
+      "main_link": "https://vizard.ai"
+    },
+    {
+      "name": "Vidnoz",
+      "categories": [
+        "AI Video"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=vidnoz.com&sz=128",
+      "uses": "AI avatars and video creation",
+      "main_link": "https://vidnoz.com"
+    },
+    {
+      "name": "Steve AI",
+      "categories": [
+        "AI Video"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=steve.ai&sz=128",
+      "uses": "AI animated and live-action video",
+      "main_link": "https://steve.ai"
+    },
+    {
+      "name": "Animaker",
+      "categories": [
+        "AI Video"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=animaker.com&sz=128",
+      "uses": "AI animation and video creation",
+      "main_link": "https://animaker.com"
+    },
+    {
+      "name": "FlexClip",
+      "categories": [
+        "AI Video"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=flexclip.com&sz=128",
+      "uses": "AI video maker and editing",
+      "main_link": "https://flexclip.com"
+    },
+    {
+      "name": "Pictory",
+      "categories": [
+        "AI Video"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=pictory.ai&sz=128",
+      "uses": "Text-to-video and content repurposing",
+      "main_link": "https://pictory.ai"
+    },
+    {
+      "name": "Lumen5",
+      "categories": [
+        "AI Video"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=lumen5.com&sz=128",
+      "uses": "Text/blog-to-video creation",
+      "main_link": "https://lumen5.com"
+    },
+    {
+      "name": "Kaiber",
+      "categories": [
+        "AI Video"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=kaiber.ai&sz=128",
+      "uses": "AI music and video visuals",
+      "main_link": "https://kaiber.ai"
+    },
+    {
+      "name": "Genmo",
+      "categories": [
+        "AI Video"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=genmo.ai&sz=128",
+      "uses": "Generative video and visual creation",
+      "main_link": "https://genmo.ai"
+    },
+    {
+      "name": "Haiper",
+      "categories": [
+        "AI Video"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=haiper.ai&sz=128",
+      "uses": "AI video generation",
+      "main_link": "https://haiper.ai"
+    },
+    {
+      "name": "Pollo AI",
+      "categories": [
+        "AI Video"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=pollo.ai&sz=128",
+      "uses": "Multi-model AI video generation",
+      "main_link": "https://pollo.ai"
+    },
+    {
+      "name": "DomoAI",
+      "categories": [
+        "AI Video"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=domoai.app&sz=128",
+      "uses": "Image-to-video and style transformation",
+      "main_link": "https://domoai.app"
+    },
+    {
+      "name": "Magic Hour",
+      "categories": [
+        "AI Video"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=magichour.ai&sz=128",
+      "uses": "AI video generation and effects",
+      "main_link": "https://magichour.ai"
+    },
+    {
+      "name": "Hedra",
+      "categories": [
+        "AI Video"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=hedra.com&sz=128",
+      "uses": "AI character and video generation",
+      "main_link": "https://hedra.com"
+    },
+    {
+      "name": "ElevenLabs",
+      "categories": [
+        "AI Voice & Audio"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=elevenlabs.io&sz=128",
+      "uses": "AI voice generation, cloning and dubbing",
+      "main_link": "https://elevenlabs.io"
+    },
+    {
+      "name": "Suno",
+      "categories": [
+        "AI Music"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=suno.com&sz=128",
+      "uses": "AI music and song generation",
+      "main_link": "https://suno.com"
+    },
+    {
+      "name": "Udio",
+      "categories": [
+        "AI Music"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=udio.com&sz=128",
+      "uses": "AI music generation",
+      "main_link": "https://udio.com"
+    },
+    {
+      "name": "Adobe Podcast",
+      "categories": [
+        "AI Audio"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=podcast.adobe.com&sz=128",
+      "uses": "Voice cleanup and audio enhancement",
+      "main_link": "https://podcast.adobe.com"
+    },
+    {
+      "name": "Murf AI",
+      "categories": [
+        "AI Voice & Audio"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=murf.ai&sz=128",
+      "uses": "AI voiceovers and narration",
+      "main_link": "https://murf.ai"
+    },
+    {
+      "name": "PlayHT",
+      "categories": [
+        "AI Voice & Audio"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=play.ht&sz=128",
+      "uses": "AI voice generation and voice agents",
+      "main_link": "https://play.ht"
+    },
+    {
+      "name": "Resemble AI",
+      "categories": [
+        "AI Voice & Audio"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=resemble.ai&sz=128",
+      "uses": "Voice cloning and speech generation",
+      "main_link": "https://resemble.ai"
+    },
+    {
+      "name": "LOVO AI",
+      "categories": [
+        "AI Voice & Audio"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=lovo.ai&sz=128",
+      "uses": "AI voices and voiceovers",
+      "main_link": "https://lovo.ai"
+    },
+    {
+      "name": "Speechify",
+      "categories": [
+        "AI Voice & Audio"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=speechify.com&sz=128",
+      "uses": "Text-to-speech and reading",
+      "main_link": "https://speechify.com"
+    },
+    {
+      "name": "WellSaid Labs",
+      "categories": [
+        "AI Voice & Audio"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=wellsaidlabs.com&sz=128",
+      "uses": "Professional AI voiceovers",
+      "main_link": "https://wellsaidlabs.com"
+    },
+    {
+      "name": "Listnr",
+      "categories": [
+        "AI Voice & Audio"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=listnr.ai&sz=128",
+      "uses": "AI voice generation and podcasts",
+      "main_link": "https://listnr.ai"
+    },
+    {
+      "name": "Typecast",
+      "categories": [
+        "AI Voice & Audio"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=typecast.ai&sz=128",
+      "uses": "AI voices and avatars",
+      "main_link": "https://typecast.ai"
+    },
+    {
+      "name": "Voicemod",
+      "categories": [
+        "AI Voice & Audio"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=voicemod.net&sz=128",
+      "uses": "AI voice effects and transformation",
+      "main_link": "https://voicemod.net"
+    },
+    {
+      "name": "Kits AI",
+      "categories": [
+        "AI Music"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=kits.ai&sz=128",
+      "uses": "AI singing voices and music production",
+      "main_link": "https://kits.ai"
+    },
+    {
+      "name": "Voice.ai",
+      "categories": [
+        "AI Voice & Audio"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=voice.ai&sz=128",
+      "uses": "Real-time AI voice changing",
+      "main_link": "https://voice.ai"
+    },
+    {
+      "name": "Altered",
+      "categories": [
+        "AI Voice & Audio"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=altered.ai&sz=128",
+      "uses": "AI voice transformation",
+      "main_link": "https://altered.ai"
+    },
+    {
+      "name": "Cleanvoice",
+      "categories": [
+        "AI Audio"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=cleanvoice.ai&sz=128",
+      "uses": "Podcast filler and noise cleanup",
+      "main_link": "https://cleanvoice.ai"
+    },
+    {
+      "name": "Auphonic",
+      "categories": [
+        "AI Audio"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=auphonic.com&sz=128",
+      "uses": "Automatic audio post-production",
+      "main_link": "https://auphonic.com"
+    },
+    {
+      "name": "Krisp",
+      "categories": [
+        "AI Audio"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=krisp.ai&sz=128",
+      "uses": "Noise cancellation and meeting audio",
+      "main_link": "https://krisp.ai"
+    },
+    {
+      "name": "Moises",
+      "categories": [
+        "AI Music"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=moises.ai&sz=128",
+      "uses": "Stem separation, chords and music practice",
+      "main_link": "https://moises.ai"
+    },
+    {
+      "name": "LALAL.AI",
+      "categories": [
+        "AI Audio"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=lalal.ai&sz=128",
+      "uses": "Audio stem separation",
+      "main_link": "https://lalal.ai"
+    },
+    {
+      "name": "VocalRemover",
+      "categories": [
+        "AI Audio"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=vocalremover.org&sz=128",
+      "uses": "Vocal and instrumental separation",
+      "main_link": "https://vocalremover.org"
+    },
+    {
+      "name": "Boomy",
+      "categories": [
+        "AI Music"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=boomy.com&sz=128",
+      "uses": "AI music generation",
+      "main_link": "https://boomy.com"
+    },
+    {
+      "name": "Soundraw",
+      "categories": [
+        "AI Music"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=soundraw.io&sz=128",
+      "uses": "AI music generation",
+      "main_link": "https://soundraw.io"
+    },
+    {
+      "name": "AIVA",
+      "categories": [
+        "AI Music"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=aiva.ai&sz=128",
+      "uses": "AI composition and soundtrack creation",
+      "main_link": "https://aiva.ai"
+    },
+    {
+      "name": "Beatoven",
+      "categories": [
+        "AI Music"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=beatoven.ai&sz=128",
+      "uses": "AI background music",
+      "main_link": "https://beatoven.ai"
+    },
+    {
+      "name": "Mubert",
+      "categories": [
+        "AI Music"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=mubert.com&sz=128",
+      "uses": "AI music generation and licensing",
+      "main_link": "https://mubert.com"
+    },
+    {
+      "name": "Soundful",
+      "categories": [
+        "AI Music"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=soundful.com&sz=128",
+      "uses": "AI music generation",
+      "main_link": "https://soundful.com"
+    },
+    {
+      "name": "Loudly",
+      "categories": [
+        "AI Music"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=loudly.com&sz=128",
+      "uses": "AI music generation and soundtracks",
+      "main_link": "https://loudly.com"
+    },
+    {
+      "name": "Stable Audio",
+      "categories": [
+        "AI Music"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=stableaudio.com&sz=128",
+      "uses": "AI audio generation",
+      "main_link": "https://stableaudio.com"
+    },
+    {
+      "name": "Musicfy",
+      "categories": [
+        "AI Music"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=musicfy.lol&sz=128",
+      "uses": "AI music and voice transformation",
+      "main_link": "https://musicfy.lol"
+    },
+    {
+      "name": "Wondercraft",
+      "categories": [
+        "AI Audio"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=wondercraft.ai&sz=128",
+      "uses": "AI podcast and audio production",
+      "main_link": "https://wondercraft.ai"
+    },
+    {
+      "name": "Podcastle",
+      "categories": [
+        "AI Audio"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=podcastle.ai&sz=128",
+      "uses": "AI podcast recording and editing",
+      "main_link": "https://podcastle.ai"
+    },
+    {
+      "name": "Riverside",
+      "categories": [
+        "AI Audio"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=riverside.fm&sz=128",
+      "uses": "AI recording, transcription and podcast tools",
+      "main_link": "https://riverside.fm"
+    },
+    {
+      "name": "Audo AI",
+      "categories": [
+        "AI Audio"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=audo.ai&sz=128",
+      "uses": "AI audio enhancement",
+      "main_link": "https://audo.ai"
+    },
+    {
+      "name": "Respeecher",
+      "categories": [
+        "AI Voice & Audio"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=respeecher.com&sz=128",
+      "uses": "Professional voice conversion",
+      "main_link": "https://respeecher.com"
+    },
+    {
+      "name": "LoudMe",
+      "categories": [
+        "AI Music"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=loudme.ai&sz=128",
+      "uses": "AI music generation",
+      "main_link": "https://loudme.ai"
+    },
+    {
+      "name": "CassetteAI",
+      "categories": [
+        "AI Music"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=cassetteai.com&sz=128",
+      "uses": "AI music generation",
+      "main_link": "https://cassetteai.com"
+    },
+    {
+      "name": "GitHub Copilot",
+      "categories": [
+        "AI Coding"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=github.com&sz=128",
+      "uses": "AI coding assistance and code completion",
+      "main_link": "https://github.com"
+    },
+    {
+      "name": "Cursor",
+      "categories": [
+        "AI Coding"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=cursor.com&sz=128",
+      "uses": "AI-native code editor and coding agents",
+      "main_link": "https://cursor.com"
+    },
+    {
+      "name": "Claude Code",
+      "categories": [
+        "AI Coding"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=128",
+      "uses": "Agentic coding in the terminal",
+      "main_link": "https://anthropic.com"
+    },
+    {
+      "name": "OpenAI Codex",
+      "categories": [
+        "AI Coding"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=openai.com&sz=128",
+      "uses": "AI software engineering and coding agents",
+      "main_link": "https://openai.com"
+    },
+    {
+      "name": "Replit",
+      "categories": [
+        "AI Coding"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=replit.com&sz=128",
+      "uses": "AI-assisted app development and deployment",
+      "main_link": "https://replit.com"
+    },
+    {
+      "name": "Windsurf",
+      "categories": [
+        "AI Coding"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=windsurf.com&sz=128",
+      "uses": "AI IDE and coding agents",
+      "main_link": "https://windsurf.com"
+    },
+    {
+      "name": "Gemini Code Assist",
+      "categories": [
+        "AI Coding"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=cloud.google.com&sz=128",
+      "uses": "AI coding assistance",
+      "main_link": "https://cloud.google.com"
+    },
+    {
+      "name": "Amazon Q Developer",
+      "categories": [
+        "AI Coding"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=aws.amazon.com&sz=128",
+      "uses": "AI coding and AWS development",
+      "main_link": "https://aws.amazon.com"
+    },
+    {
+      "name": "Tabnine",
+      "categories": [
+        "AI Coding"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=tabnine.com&sz=128",
+      "uses": "AI code completion",
+      "main_link": "https://tabnine.com"
+    },
+    {
+      "name": "Codeium",
+      "categories": [
+        "AI Coding"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=codeium.com&sz=128",
+      "uses": "AI coding assistance",
+      "main_link": "https://codeium.com"
+    },
+    {
+      "name": "Sourcegraph Cody",
+      "categories": [
+        "AI Coding"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=sourcegraph.com&sz=128",
+      "uses": "Codebase understanding and coding",
+      "main_link": "https://sourcegraph.com"
+    },
+    {
+      "name": "Aider",
+      "categories": [
+        "AI Coding"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=aider.chat&sz=128",
+      "uses": "AI pair programming in terminal",
+      "main_link": "https://aider.chat"
+    },
+    {
+      "name": "Continue",
+      "categories": [
+        "AI Coding"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=continue.dev&sz=128",
+      "uses": "Open-source AI coding assistant",
+      "main_link": "https://continue.dev"
+    },
+    {
+      "name": "Cline",
+      "categories": [
+        "AI Coding"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=cline.bot&sz=128",
+      "uses": "Agentic coding in VS Code",
+      "main_link": "https://cline.bot"
+    },
+    {
+      "name": "Roo Code",
+      "categories": [
+        "AI Coding"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=roocode.com&sz=128",
+      "uses": "AI coding agent",
+      "main_link": "https://roocode.com"
+    },
+    {
+      "name": "Bolt.new",
+      "categories": [
+        "AI App Builder"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=bolt.new&sz=128",
+      "uses": "Prompt-to-full-stack web apps",
+      "main_link": "https://bolt.new"
+    },
+    {
+      "name": "Lovable",
+      "categories": [
+        "AI App Builder"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=lovable.dev&sz=128",
+      "uses": "Prompt-to-app development",
+      "main_link": "https://lovable.dev"
+    },
+    {
+      "name": "v0",
+      "categories": [
+        "AI App Builder"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=v0.dev&sz=128",
+      "uses": "AI-generated UI and web apps",
+      "main_link": "https://v0.dev"
+    },
+    {
+      "name": "Magic Patterns",
+      "categories": [
+        "AI UI Design"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=magicpatterns.com&sz=128",
+      "uses": "AI UI and frontend generation",
+      "main_link": "https://magicpatterns.com"
+    },
+    {
+      "name": "Builder.io",
+      "categories": [
+        "AI App Builder"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=builder.io&sz=128",
+      "uses": "AI-assisted web development",
+      "main_link": "https://builder.io"
+    },
+    {
+      "name": "Firebase Studio",
+      "categories": [
+        "AI App Builder"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=firebase.google.com&sz=128",
+      "uses": "AI app prototyping and development",
+      "main_link": "https://firebase.google.com"
+    },
+    {
+      "name": "Hugging Face",
+      "categories": [
+        "AI Developer Platform"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=huggingface.co&sz=128",
+      "uses": "AI models, datasets and development",
+      "main_link": "https://huggingface.co"
+    },
+    {
+      "name": "Replicate",
+      "categories": [
+        "AI Developer Platform"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=replicate.com&sz=128",
+      "uses": "Run and deploy AI models",
+      "main_link": "https://replicate.com"
+    },
+    {
+      "name": "Together AI",
+      "categories": [
+        "AI Developer Platform"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=together.ai&sz=128",
+      "uses": "AI model inference and development",
+      "main_link": "https://together.ai"
+    },
+    {
+      "name": "Groq",
+      "categories": [
+        "AI Developer Platform"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=groq.com&sz=128",
+      "uses": "Fast AI inference",
+      "main_link": "https://groq.com"
+    },
+    {
+      "name": "Fireworks AI",
+      "categories": [
+        "AI Developer Platform"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=fireworks.ai&sz=128",
+      "uses": "AI model inference platform",
+      "main_link": "https://fireworks.ai"
+    },
+    {
+      "name": "OpenRouter",
+      "categories": [
+        "AI Developer Platform"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=openrouter.ai&sz=128",
+      "uses": "Unified API for AI models",
+      "main_link": "https://openrouter.ai"
+    },
+    {
+      "name": "Ollama",
+      "categories": [
+        "AI Developer Platform"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=ollama.com&sz=128",
+      "uses": "Run local AI models",
+      "main_link": "https://ollama.com"
+    },
+    {
+      "name": "LM Studio",
+      "categories": [
+        "AI Developer Platform"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=lmstudio.ai&sz=128",
+      "uses": "Local LLM desktop environment",
+      "main_link": "https://lmstudio.ai"
+    },
+    {
+      "name": "Jan",
+      "categories": [
+        "AI Developer Platform"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=jan.ai&sz=128",
+      "uses": "Open-source local AI assistant",
+      "main_link": "https://jan.ai"
+    },
+    {
+      "name": "GPT4All",
+      "categories": [
+        "AI Developer Platform"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=nomic.ai&sz=128",
+      "uses": "Local and private AI chat",
+      "main_link": "https://nomic.ai"
+    },
+    {
+      "name": "LangChain",
+      "categories": [
+        "AI Developer Platform"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=langchain.com&sz=128",
+      "uses": "LLM application framework",
+      "main_link": "https://langchain.com"
+    },
+    {
+      "name": "LlamaIndex",
+      "categories": [
+        "AI Developer Platform"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=llamaindex.ai&sz=128",
+      "uses": "Data and RAG framework",
+      "main_link": "https://llamaindex.ai"
+    },
+    {
+      "name": "CrewAI",
+      "categories": [
+        "AI Agents"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=crewai.com&sz=128",
+      "uses": "Multi-agent AI framework",
+      "main_link": "https://crewai.com"
+    },
+    {
+      "name": "AutoGen",
+      "categories": [
+        "AI Agents"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=microsoft.com&sz=128",
+      "uses": "Multi-agent application framework",
+      "main_link": "https://microsoft.com"
+    },
+    {
+      "name": "Semantic Kernel",
+      "categories": [
+        "AI Developer Platform"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=learn.microsoft.com&sz=128",
+      "uses": "AI orchestration SDK",
+      "main_link": "https://learn.microsoft.com"
+    },
+    {
+      "name": "DSPy",
+      "categories": [
+        "AI Developer Platform"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=dspy.ai&sz=128",
+      "uses": "Programming framework for language models",
+      "main_link": "https://dspy.ai"
+    },
+    {
+      "name": "Haystack",
+      "categories": [
+        "AI Developer Platform"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=deepset.ai&sz=128",
+      "uses": "RAG and AI search framework",
+      "main_link": "https://deepset.ai"
+    },
+    {
+      "name": "Flowise",
+      "categories": [
+        "AI Agents"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=flowiseai.com&sz=128",
+      "uses": "Visual LLM workflow builder",
+      "main_link": "https://flowiseai.com"
+    },
+    {
+      "name": "Dify",
+      "categories": [
+        "AI Agents"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=dify.ai&sz=128",
+      "uses": "LLM app and agent platform",
+      "main_link": "https://dify.ai"
+    },
+    {
+      "name": "n8n",
+      "categories": [
+        "AI Automation"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=n8n.io&sz=128",
+      "uses": "AI workflow automation and agents",
+      "main_link": "https://n8n.io"
+    },
+    {
+      "name": "Zapier AI",
+      "categories": [
+        "AI Automation"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=zapier.com&sz=128",
+      "uses": "AI-powered app automation",
+      "main_link": "https://zapier.com"
+    },
+    {
+      "name": "Make",
+      "categories": [
+        "AI Automation"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=make.com&sz=128",
+      "uses": "Visual automation with AI",
+      "main_link": "https://make.com"
+    },
+    {
+      "name": "Pipedream",
+      "categories": [
+        "AI Automation"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=pipedream.com&sz=128",
+      "uses": "Developer workflow automation",
+      "main_link": "https://pipedream.com"
+    },
+    {
+      "name": "Postman AI",
+      "categories": [
+        "AI Developer Platform"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=postman.com&sz=128",
+      "uses": "AI-assisted API development",
+      "main_link": "https://postman.com"
+    },
+    {
+      "name": "Mintlify",
+      "categories": [
+        "AI Developer Platform"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=mintlify.com&sz=128",
+      "uses": "AI-powered developer documentation",
+      "main_link": "https://mintlify.com"
+    },
+    {
+      "name": "Qodo",
+      "categories": [
+        "AI Coding"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=qodo.ai&sz=128",
+      "uses": "AI code review and testing",
+      "main_link": "https://qodo.ai"
+    },
+    {
+      "name": "Snyk",
+      "categories": [
+        "AI Security"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=snyk.io&sz=128",
+      "uses": "AI-assisted developer security",
+      "main_link": "https://snyk.io"
+    },
+    {
+      "name": "SonarQube",
+      "categories": [
+        "AI Coding"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=sonarsource.com&sz=128",
+      "uses": "Code quality and analysis",
+      "main_link": "https://sonarsource.com"
+    },
+    {
+      "name": "Warp",
+      "categories": [
+        "AI Developer Platform"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=warp.dev&sz=128",
+      "uses": "AI-powered terminal",
+      "main_link": "https://warp.dev"
+    },
+    {
+      "name": "Pieces",
+      "categories": [
+        "AI Developer Platform"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=pieces.app&sz=128",
+      "uses": "Developer productivity and AI memory",
+      "main_link": "https://pieces.app"
+    },
+    {
+      "name": "Blackbox AI",
+      "categories": [
+        "AI Coding"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=blackbox.ai&sz=128",
+      "uses": "AI coding and code generation",
+      "main_link": "https://blackbox.ai"
+    },
+    {
+      "name": "AskCodi",
+      "categories": [
+        "AI Coding"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=askcodi.com&sz=128",
+      "uses": "AI coding assistant",
+      "main_link": "https://askcodi.com"
+    },
+    {
+      "name": "Mutable AI",
+      "categories": [
+        "AI Coding"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=mutable.ai&sz=128",
+      "uses": "AI code generation and refactoring",
+      "main_link": "https://mutable.ai"
+    },
+    {
+      "name": "Devin",
+      "categories": [
+        "AI Coding"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=cognition.ai&sz=128",
+      "uses": "Autonomous AI software engineering",
+      "main_link": "https://cognition.ai"
+    },
+    {
+      "name": "Factory",
+      "categories": [
+        "AI Coding"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=factory.ai&sz=128",
+      "uses": "AI software development agents",
+      "main_link": "https://factory.ai"
+    },
+    {
+      "name": "Augment Code",
+      "categories": [
+        "AI Coding"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=augmentcode.com&sz=128",
+      "uses": "AI coding and codebase assistance",
+      "main_link": "https://augmentcode.com"
+    },
+    {
+      "name": "CodeRabbit",
+      "categories": [
+        "AI Coding"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=coderabbit.ai&sz=128",
+      "uses": "AI code review",
+      "main_link": "https://coderabbit.ai"
+    },
+    {
+      "name": "Diffblue",
+      "categories": [
+        "AI Coding"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=diffblue.com&sz=128",
+      "uses": "AI Java test generation",
+      "main_link": "https://diffblue.com"
+    },
+    {
+      "name": "GitLab Duo",
+      "categories": [
+        "AI Coding"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=gitlab.com&sz=128",
+      "uses": "AI-assisted software development",
+      "main_link": "https://gitlab.com"
+    },
+    {
+      "name": "JetBrains AI",
+      "categories": [
+        "AI Coding"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=jetbrains.com&sz=128",
+      "uses": "AI coding inside IDEs",
+      "main_link": "https://jetbrains.com"
+    },
+    {
+      "name": "Trae",
+      "categories": [
+        "AI Coding"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=trae.ai&sz=128",
+      "uses": "AI coding IDE",
+      "main_link": "https://trae.ai"
+    },
+    {
+      "name": "Zed AI",
+      "categories": [
+        "AI Coding"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=zed.dev&sz=128",
+      "uses": "AI-assisted code editor",
+      "main_link": "https://zed.dev"
+    },
+    {
+      "name": "NotebookLM",
+      "categories": [
+        "AI Research"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=notebooklm.google.com&sz=128",
+      "uses": "Source-grounded research and document analysis",
+      "main_link": "https://notebooklm.google.com"
+    },
+    {
+      "name": "Elicit",
+      "categories": [
+        "AI Research"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=elicit.com&sz=128",
+      "uses": "Academic literature research and synthesis",
+      "main_link": "https://elicit.com"
+    },
+    {
+      "name": "Consensus",
+      "categories": [
+        "AI Research"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=consensus.app&sz=128",
+      "uses": "Evidence-based scientific search",
+      "main_link": "https://consensus.app"
+    },
+    {
+      "name": "Scite",
+      "categories": [
+        "AI Research"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=scite.ai&sz=128",
+      "uses": "Citation discovery and research verification",
+      "main_link": "https://scite.ai"
+    },
+    {
+      "name": "Semantic Scholar",
+      "categories": [
+        "AI Research"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=semanticscholar.org&sz=128",
+      "uses": "Academic literature search",
+      "main_link": "https://semanticscholar.org"
+    },
+    {
+      "name": "ResearchRabbit",
+      "categories": [
+        "AI Research"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=researchrabbit.ai&sz=128",
+      "uses": "Literature discovery and mapping",
+      "main_link": "https://researchrabbit.ai"
+    },
+    {
+      "name": "Connected Papers",
+      "categories": [
+        "AI Research"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=connectedpapers.com&sz=128",
+      "uses": "Visual academic paper discovery",
+      "main_link": "https://connectedpapers.com"
+    },
+    {
+      "name": "Litmaps",
+      "categories": [
+        "AI Research"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=litmaps.com&sz=128",
+      "uses": "Literature mapping and alerts",
+      "main_link": "https://litmaps.com"
+    },
+    {
+      "name": "Iris.ai",
+      "categories": [
+        "AI Research"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=iris.ai&sz=128",
+      "uses": "Scientific literature exploration",
+      "main_link": "https://iris.ai"
+    },
+    {
+      "name": "Exa",
+      "categories": [
+        "AI Search & Research"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=exa.ai&sz=128",
+      "uses": "Semantic search API",
+      "main_link": "https://exa.ai"
+    },
+    {
+      "name": "Tavily",
+      "categories": [
+        "AI Search & Research"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=tavily.com&sz=128",
+      "uses": "Search API for AI agents",
+      "main_link": "https://tavily.com"
+    },
+    {
+      "name": "Brave Search",
+      "categories": [
+        "AI Search & Research"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=search.brave.com&sz=128",
+      "uses": "Privacy-focused search with AI",
+      "main_link": "https://search.brave.com"
+    },
+    {
+      "name": "Kagi",
+      "categories": [
+        "AI Search & Research"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=kagi.com&sz=128",
+      "uses": "Premium search with AI features",
+      "main_link": "https://kagi.com"
+    },
+    {
+      "name": "Genspark",
+      "categories": [
+        "AI Search & Research"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=genspark.ai&sz=128",
+      "uses": "AI search and research agents",
+      "main_link": "https://genspark.ai"
+    },
+    {
+      "name": "Felo",
+      "categories": [
+        "AI Search & Research"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=felo.ai&sz=128",
+      "uses": "AI search and presentation research",
+      "main_link": "https://felo.ai"
+    },
+    {
+      "name": "WolframAlpha",
+      "categories": [
+        "AI Education"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=wolframalpha.com&sz=128",
+      "uses": "Computational knowledge and answers",
+      "main_link": "https://wolframalpha.com"
+    },
+    {
+      "name": "Symbolab",
+      "categories": [
+        "AI Education"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=symbolab.com&sz=128",
+      "uses": "Math solving and explanation",
+      "main_link": "https://symbolab.com"
+    },
+    {
+      "name": "Photomath",
+      "categories": [
+        "AI Education"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=photomath.com&sz=128",
+      "uses": "AI-assisted math solving",
+      "main_link": "https://photomath.com"
+    },
+    {
+      "name": "Mathway",
+      "categories": [
+        "AI Education"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=mathway.com&sz=128",
+      "uses": "Math problem solving",
+      "main_link": "https://mathway.com"
+    },
+    {
+      "name": "Scholarcy",
+      "categories": [
+        "AI Research"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=scholarcy.com&sz=128",
+      "uses": "Research paper summarization",
+      "main_link": "https://scholarcy.com"
+    },
+    {
+      "name": "Explainpaper",
+      "categories": [
+        "AI Research"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=explainpaper.com&sz=128",
+      "uses": "Academic paper explanations",
+      "main_link": "https://explainpaper.com"
+    },
+    {
+      "name": "Humata",
+      "categories": [
+        "AI Research"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=humata.ai&sz=128",
+      "uses": "Chat with documents and research",
+      "main_link": "https://humata.ai"
+    },
+    {
+      "name": "ChatPDF",
+      "categories": [
+        "AI Research"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=chatpdf.com&sz=128",
+      "uses": "Question-answering over PDFs",
+      "main_link": "https://chatpdf.com"
+    },
+    {
+      "name": "AskYourPDF",
+      "categories": [
+        "AI Research"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=askyourpdf.com&sz=128",
+      "uses": "Chat with documents",
+      "main_link": "https://askyourpdf.com"
+    },
+    {
+      "name": "PDF.ai",
+      "categories": [
+        "AI Productivity"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=pdf.ai&sz=128",
+      "uses": "AI PDF chat and extraction",
+      "main_link": "https://pdf.ai"
+    },
+    {
+      "name": "AnythingLLM",
+      "categories": [
+        "AI Developer Platform"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=anythingllm.com&sz=128",
+      "uses": "Private document chat and RAG",
+      "main_link": "https://anythingllm.com"
+    },
+    {
+      "name": "Glean",
+      "categories": [
+        "AI Enterprise"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=glean.com&sz=128",
+      "uses": "Enterprise knowledge search",
+      "main_link": "https://glean.com"
+    },
+    {
+      "name": "Guru",
+      "categories": [
+        "AI Enterprise"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=getguru.com&sz=128",
+      "uses": "Enterprise knowledge assistant",
+      "main_link": "https://getguru.com"
+    },
+    {
+      "name": "Notion AI",
+      "categories": [
+        "AI Productivity"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=notion.so&sz=128",
+      "uses": "Knowledge management and AI writing",
+      "main_link": "https://notion.so"
+    },
+    {
+      "name": "Mem",
+      "categories": [
+        "AI Productivity"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=mem.ai&sz=128",
+      "uses": "AI-powered personal knowledge base",
+      "main_link": "https://mem.ai"
+    },
+    {
+      "name": "Reflect",
+      "categories": [
+        "AI Productivity"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=reflect.app&sz=128",
+      "uses": "AI notes and knowledge management",
+      "main_link": "https://reflect.app"
+    },
+    {
+      "name": "Heptabase",
+      "categories": [
+        "AI Productivity"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=heptabase.com&sz=128",
+      "uses": "Visual research and knowledge mapping",
+      "main_link": "https://heptabase.com"
+    },
+    {
+      "name": "Napkin AI",
+      "categories": [
+        "AI Design"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=napkin.ai&sz=128",
+      "uses": "Turn ideas into visual explanations",
+      "main_link": "https://napkin.ai"
+    },
+    {
+      "name": "Miro AI",
+      "categories": [
+        "AI Collaboration"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=miro.com&sz=128",
+      "uses": "AI brainstorming and visual collaboration",
+      "main_link": "https://miro.com"
+    },
+    {
+      "name": "Whimsical AI",
+      "categories": [
+        "AI Design"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=whimsical.com&sz=128",
+      "uses": "AI diagrams and flowcharts",
+      "main_link": "https://whimsical.com"
+    },
+    {
+      "name": "Mapify",
+      "categories": [
+        "AI Productivity"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=mapify.so&sz=128",
+      "uses": "AI mind maps from content",
+      "main_link": "https://mapify.so"
+    },
+    {
+      "name": "Taskade",
+      "categories": [
+        "AI Productivity"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=taskade.com&sz=128",
+      "uses": "AI workspace and agents",
+      "main_link": "https://taskade.com"
+    },
+    {
+      "name": "Recall",
+      "categories": [
+        "AI Productivity"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=getrecall.ai&sz=128",
+      "uses": "AI knowledge and content organization",
+      "main_link": "https://getrecall.ai"
+    },
+    {
+      "name": "Glasp",
+      "categories": [
+        "AI Productivity"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=glasp.co&sz=128",
+      "uses": "Web highlights and AI summaries",
+      "main_link": "https://glasp.co"
+    },
+    {
+      "name": "Readwise Reader",
+      "categories": [
+        "AI Productivity"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=readwise.io&sz=128",
+      "uses": "Reading, highlights and AI summaries",
+      "main_link": "https://readwise.io"
+    },
+    {
+      "name": "Eightify",
+      "categories": [
+        "AI Productivity"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=eightify.app&sz=128",
+      "uses": "YouTube summaries",
+      "main_link": "https://eightify.app"
+    },
+    {
+      "name": "Genei",
+      "categories": [
+        "AI Research"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=genei.io&sz=128",
+      "uses": "Research and summarization",
+      "main_link": "https://genei.io"
+    },
+    {
+      "name": "ClickUp Brain",
+      "categories": [
+        "AI Productivity"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=clickup.com&sz=128",
+      "uses": "AI project management and workplace assistance",
+      "main_link": "https://clickup.com"
+    },
+    {
+      "name": "Asana Intelligence",
+      "categories": [
+        "AI Productivity"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=asana.com&sz=128",
+      "uses": "AI project planning and workflow assistance",
+      "main_link": "https://asana.com"
+    },
+    {
+      "name": "Monday AI",
+      "categories": [
+        "AI Productivity"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=monday.com&sz=128",
+      "uses": "AI work management and automation",
+      "main_link": "https://monday.com"
+    },
+    {
+      "name": "Atlassian Intelligence",
+      "categories": [
+        "AI Productivity"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=atlassian.com&sz=128",
+      "uses": "AI assistance across Jira and Confluence",
+      "main_link": "https://atlassian.com"
+    },
+    {
+      "name": "Slack AI",
+      "categories": [
+        "AI Productivity"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=slack.com&sz=128",
+      "uses": "AI search and conversation summaries",
+      "main_link": "https://slack.com"
+    },
+    {
+      "name": "Microsoft 365 Copilot",
+      "categories": [
+        "AI Productivity"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=microsoft.com&sz=128",
+      "uses": "AI assistance in Word, Excel, Outlook and Teams",
+      "main_link": "https://microsoft.com"
+    },
+    {
+      "name": "Google Workspace Gemini",
+      "categories": [
+        "AI Productivity"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=workspace.google.com&sz=128",
+      "uses": "AI assistance across Workspace",
+      "main_link": "https://workspace.google.com"
+    },
+    {
+      "name": "Zoom AI Companion",
+      "categories": [
+        "AI Productivity"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=zoom.com&sz=128",
+      "uses": "Meeting summaries and workplace assistance",
+      "main_link": "https://zoom.com"
+    },
+    {
+      "name": "Otter.ai",
+      "categories": [
+        "AI Meetings"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=otter.ai&sz=128",
+      "uses": "Meeting transcription and summaries",
+      "main_link": "https://otter.ai"
+    },
+    {
+      "name": "Fireflies.ai",
+      "categories": [
+        "AI Meetings"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=fireflies.ai&sz=128",
+      "uses": "Meeting recording, transcription and insights",
+      "main_link": "https://fireflies.ai"
+    },
+    {
+      "name": "Fathom",
+      "categories": [
+        "AI Meetings"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=fathom.video&sz=128",
+      "uses": "Meeting summaries and action items",
+      "main_link": "https://fathom.video"
+    },
+    {
+      "name": "tl;dv",
+      "categories": [
+        "AI Meetings"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=tldv.io&sz=128",
+      "uses": "Meeting recording and AI summaries",
+      "main_link": "https://tldv.io"
+    },
+    {
+      "name": "Read AI",
+      "categories": [
+        "AI Meetings"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=read.ai&sz=128",
+      "uses": "Meeting analytics and summaries",
+      "main_link": "https://read.ai"
+    },
+    {
+      "name": "Supernormal",
+      "categories": [
+        "AI Meetings"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=supernormal.com&sz=128",
+      "uses": "AI meeting notes",
+      "main_link": "https://supernormal.com"
+    },
+    {
+      "name": "Sembly AI",
+      "categories": [
+        "AI Meetings"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=sembly.ai&sz=128",
+      "uses": "Meeting transcription and insights",
+      "main_link": "https://sembly.ai"
+    },
+    {
+      "name": "MeetGeek",
+      "categories": [
+        "AI Meetings"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=meetgeek.ai&sz=128",
+      "uses": "Meeting recording and summaries",
+      "main_link": "https://meetgeek.ai"
+    },
+    {
+      "name": "Grain",
+      "categories": [
+        "AI Meetings"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=grain.com&sz=128",
+      "uses": "Meeting recording and clips",
+      "main_link": "https://grain.com"
+    },
+    {
+      "name": "Reclaim AI",
+      "categories": [
+        "AI Productivity"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=reclaim.ai&sz=128",
+      "uses": "AI calendar and task planning",
+      "main_link": "https://reclaim.ai"
+    },
+    {
+      "name": "Motion",
+      "categories": [
+        "AI Productivity"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=usemotion.com&sz=128",
+      "uses": "AI calendar and task management",
+      "main_link": "https://usemotion.com"
+    },
+    {
+      "name": "Akiflow",
+      "categories": [
+        "AI Productivity"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=akiflow.com&sz=128",
+      "uses": "Task and calendar management",
+      "main_link": "https://akiflow.com"
+    },
+    {
+      "name": "Superhuman",
+      "categories": [
+        "AI Productivity"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=superhuman.com&sz=128",
+      "uses": "AI email productivity",
+      "main_link": "https://superhuman.com"
+    },
+    {
+      "name": "Shortwave",
+      "categories": [
+        "AI Productivity"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=shortwave.com&sz=128",
+      "uses": "AI email management",
+      "main_link": "https://shortwave.com"
+    },
+    {
+      "name": "Sanebox",
+      "categories": [
+        "AI Productivity"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=sanebox.com&sz=128",
+      "uses": "AI-assisted email filtering",
+      "main_link": "https://sanebox.com"
+    },
+    {
+      "name": "Front",
+      "categories": [
+        "AI Customer Support"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=front.com&sz=128",
+      "uses": "AI customer and team inbox",
+      "main_link": "https://front.com"
+    },
+    {
+      "name": "Calendly AI",
+      "categories": [
+        "AI Productivity"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=calendly.com&sz=128",
+      "uses": "AI scheduling assistance",
+      "main_link": "https://calendly.com"
+    },
+    {
+      "name": "Magical",
+      "categories": [
+        "AI Productivity"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=magical.team&sz=128",
+      "uses": "AI text expansion and scheduling",
+      "main_link": "https://magical.team"
+    },
+    {
+      "name": "Bardeen",
+      "categories": [
+        "AI Automation"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=bardeen.ai&sz=128",
+      "uses": "Browser automation and AI workflows",
+      "main_link": "https://bardeen.ai"
+    },
+    {
+      "name": "Lindy",
+      "categories": [
+        "AI Agents"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=lindy.ai&sz=128",
+      "uses": "AI assistants and workflow automation",
+      "main_link": "https://lindy.ai"
+    },
+    {
+      "name": "Gumloop",
+      "categories": [
+        "AI Automation"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=gumloop.com&sz=128",
+      "uses": "AI workflow automation",
+      "main_link": "https://gumloop.com"
+    },
+    {
+      "name": "Relay.app",
+      "categories": [
+        "AI Automation"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=relay.app&sz=128",
+      "uses": "AI workflow automation",
+      "main_link": "https://relay.app"
+    },
+    {
+      "name": "Relevance AI",
+      "categories": [
+        "AI Agents"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=relevanceai.com&sz=128",
+      "uses": "AI agents and business automation",
+      "main_link": "https://relevanceai.com"
+    },
+    {
+      "name": "Botpress",
+      "categories": [
+        "AI Agents"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=botpress.com&sz=128",
+      "uses": "AI chatbot and agent building",
+      "main_link": "https://botpress.com"
+    },
+    {
+      "name": "Voiceflow",
+      "categories": [
+        "AI Agents"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=voiceflow.com&sz=128",
+      "uses": "Conversational AI agent building",
+      "main_link": "https://voiceflow.com"
+    },
+    {
+      "name": "Stack AI",
+      "categories": [
+        "AI Agents"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=stack-ai.com&sz=128",
+      "uses": "Enterprise AI workflows",
+      "main_link": "https://stack-ai.com"
+    },
+    {
+      "name": "Dust",
+      "categories": [
+        "AI Enterprise"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=dust.tt&sz=128",
+      "uses": "Enterprise AI assistants and agents",
+      "main_link": "https://dust.tt"
+    },
+    {
+      "name": "Workato",
+      "categories": [
+        "AI Automation"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=workato.com&sz=128",
+      "uses": "Enterprise automation with AI",
+      "main_link": "https://workato.com"
+    },
+    {
+      "name": "UiPath",
+      "categories": [
+        "AI Automation"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=uipath.com&sz=128",
+      "uses": "AI robotic process automation",
+      "main_link": "https://uipath.com"
+    },
+    {
+      "name": "Automation Anywhere",
+      "categories": [
+        "AI Automation"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=automationanywhere.com&sz=128",
+      "uses": "AI automation and RPA",
+      "main_link": "https://automationanywhere.com"
+    },
+    {
+      "name": "Robocorp",
+      "categories": [
+        "AI Automation"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=robocorp.com&sz=128",
+      "uses": "Python-based automation",
+      "main_link": "https://robocorp.com"
+    },
+    {
+      "name": "Airtable AI",
+      "categories": [
+        "AI Productivity"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=airtable.com&sz=128",
+      "uses": "AI databases and workflows",
+      "main_link": "https://airtable.com"
+    },
+    {
+      "name": "Coda AI",
+      "categories": [
+        "AI Productivity"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=coda.io&sz=128",
+      "uses": "AI documents and automation",
+      "main_link": "https://coda.io"
+    },
+    {
+      "name": "AgentOps",
+      "categories": [
+        "AI Agents"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=agentops.ai&sz=128",
+      "uses": "AI agent monitoring",
+      "main_link": "https://agentops.ai"
+    },
+    {
+      "name": "LangSmith",
+      "categories": [
+        "AI Developer Platform"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=smith.langchain.com&sz=128",
+      "uses": "LLM observability and evaluation",
+      "main_link": "https://smith.langchain.com"
+    },
+    {
+      "name": "Arize Phoenix",
+      "categories": [
+        "AI Developer Platform"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=arize.com&sz=128",
+      "uses": "LLM observability",
+      "main_link": "https://arize.com"
+    },
+    {
+      "name": "Langfuse",
+      "categories": [
+        "AI Developer Platform"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=langfuse.com&sz=128",
+      "uses": "LLM observability and tracing",
+      "main_link": "https://langfuse.com"
+    },
+    {
+      "name": "Helicone",
+      "categories": [
+        "AI Developer Platform"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=helicone.ai&sz=128",
+      "uses": "LLM observability",
+      "main_link": "https://helicone.ai"
+    },
+    {
+      "name": "Weights & Biases",
+      "categories": [
+        "AI Developer Platform"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=wandb.ai&sz=128",
+      "uses": "ML experiment tracking and AI evaluation",
+      "main_link": "https://wandb.ai"
+    },
+    {
+      "name": "Humanloop",
+      "categories": [
+        "AI Developer Platform"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=humanloop.com&sz=128",
+      "uses": "LLM evaluation and feedback",
+      "main_link": "https://humanloop.com"
+    },
+    {
+      "name": "Braintrust",
+      "categories": [
+        "AI Developer Platform"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=braintrust.dev&sz=128",
+      "uses": "AI evaluation and testing",
+      "main_link": "https://braintrust.dev"
+    },
+    {
+      "name": "PromptLayer",
+      "categories": [
+        "AI Developer Platform"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=promptlayer.com&sz=128",
+      "uses": "LLM prompt management",
+      "main_link": "https://promptlayer.com"
+    },
+    {
+      "name": "Portkey",
+      "categories": [
+        "AI Developer Platform"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=portkey.ai&sz=128",
+      "uses": "AI gateway and observability",
+      "main_link": "https://portkey.ai"
+    },
+    {
+      "name": "Intercom Fin",
+      "categories": [
+        "AI Customer Support"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=intercom.com&sz=128",
+      "uses": "AI customer support agent",
+      "main_link": "https://intercom.com"
+    },
+    {
+      "name": "Zendesk AI",
+      "categories": [
+        "AI Customer Support"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=zendesk.com&sz=128",
+      "uses": "AI customer service and support",
+      "main_link": "https://zendesk.com"
+    },
+    {
+      "name": "Freshworks Freddy AI",
+      "categories": [
+        "AI Customer Support"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=freshworks.com&sz=128",
+      "uses": "AI customer service and automation",
+      "main_link": "https://freshworks.com"
+    },
+    {
+      "name": "Salesforce Agentforce",
+      "categories": [
+        "AI Enterprise"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=salesforce.com&sz=128",
+      "uses": "AI agents for business workflows",
+      "main_link": "https://salesforce.com"
+    },
+    {
+      "name": "Copilot Studio",
+      "categories": [
+        "AI Agents"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=microsoft.com&sz=128",
+      "uses": "Build enterprise AI agents",
+      "main_link": "https://microsoft.com"
+    },
+    {
+      "name": "ServiceNow Now Assist",
+      "categories": [
+        "AI Enterprise"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=servicenow.com&sz=128",
+      "uses": "AI enterprise workflows and support",
+      "main_link": "https://servicenow.com"
+    },
+    {
+      "name": "Moveworks",
+      "categories": [
+        "AI Enterprise"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=moveworks.com&sz=128",
+      "uses": "Enterprise AI assistant and automation",
+      "main_link": "https://moveworks.com"
+    },
+    {
+      "name": "Ada",
+      "categories": [
+        "AI Customer Support"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=ada.cx&sz=128",
+      "uses": "AI customer support automation",
+      "main_link": "https://ada.cx"
+    },
+    {
+      "name": "Forethought",
+      "categories": [
+        "AI Customer Support"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=forethought.ai&sz=128",
+      "uses": "AI customer support automation",
+      "main_link": "https://forethought.ai"
+    },
+    {
+      "name": "Sierra",
+      "categories": [
+        "AI Customer Support"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=sierra.ai&sz=128",
+      "uses": "AI customer service agents",
+      "main_link": "https://sierra.ai"
+    },
+    {
+      "name": "Decagon",
+      "categories": [
+        "AI Customer Support"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=decagon.ai&sz=128",
+      "uses": "AI customer support agents",
+      "main_link": "https://decagon.ai"
+    },
+    {
+      "name": "Dixa",
+      "categories": [
+        "AI Customer Support"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=dixa.com&sz=128",
+      "uses": "AI contact center and support",
+      "main_link": "https://dixa.com"
+    },
+    {
+      "name": "Tidio Lyro",
+      "categories": [
+        "AI Customer Support"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=tidio.com&sz=128",
+      "uses": "AI customer service chatbot",
+      "main_link": "https://tidio.com"
+    },
+    {
+      "name": "Cognigy",
+      "categories": [
+        "AI Customer Support"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=cognigy.com&sz=128",
+      "uses": "Enterprise conversational AI",
+      "main_link": "https://cognigy.com"
+    },
+    {
+      "name": "Kore.ai",
+      "categories": [
+        "AI Customer Support"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=kore.ai&sz=128",
+      "uses": "Enterprise AI agents",
+      "main_link": "https://kore.ai"
+    },
+    {
+      "name": "Yellow.ai",
+      "categories": [
+        "AI Customer Support"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=yellow.ai&sz=128",
+      "uses": "AI customer service and automation",
+      "main_link": "https://yellow.ai"
+    },
+    {
+      "name": "Boost.ai",
+      "categories": [
+        "AI Customer Support"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=boost.ai&sz=128",
+      "uses": "Conversational AI for support",
+      "main_link": "https://boost.ai"
+    },
+    {
+      "name": "Workday AI",
+      "categories": [
+        "AI HR"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=workday.com&sz=128",
+      "uses": "AI HR and finance workflows",
+      "main_link": "https://workday.com"
+    },
+    {
+      "name": "Deel AI",
+      "categories": [
+        "AI HR"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=deel.com&sz=128",
+      "uses": "AI HR and global workforce support",
+      "main_link": "https://deel.com"
+    },
+    {
+      "name": "Rippling",
+      "categories": [
+        "AI HR"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=rippling.com&sz=128",
+      "uses": "AI workforce management",
+      "main_link": "https://rippling.com"
+    },
+    {
+      "name": "Gusto",
+      "categories": [
+        "AI HR"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=gusto.com&sz=128",
+      "uses": "AI-assisted payroll and HR",
+      "main_link": "https://gusto.com"
+    },
+    {
+      "name": "BambooHR",
+      "categories": [
+        "AI HR"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=bamboohr.com&sz=128",
+      "uses": "AI HR assistance",
+      "main_link": "https://bamboohr.com"
+    },
+    {
+      "name": "Eightfold AI",
+      "categories": [
+        "AI HR"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=eightfold.ai&sz=128",
+      "uses": "AI talent intelligence",
+      "main_link": "https://eightfold.ai"
+    },
+    {
+      "name": "HireVue",
+      "categories": [
+        "AI HR"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=hirevue.com&sz=128",
+      "uses": "AI hiring and assessments",
+      "main_link": "https://hirevue.com"
+    },
+    {
+      "name": "Paradox",
+      "categories": [
+        "AI HR"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=paradox.ai&sz=128",
+      "uses": "Conversational recruiting",
+      "main_link": "https://paradox.ai"
+    },
+    {
+      "name": "Workable",
+      "categories": [
+        "AI HR"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=workable.com&sz=128",
+      "uses": "AI recruiting and hiring",
+      "main_link": "https://workable.com"
+    },
+    {
+      "name": "Greenhouse",
+      "categories": [
+        "AI HR"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=greenhouse.com&sz=128",
+      "uses": "AI hiring workflows",
+      "main_link": "https://greenhouse.com"
+    },
+    {
+      "name": "LinkedIn Recruiter",
+      "categories": [
+        "AI HR"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=linkedin.com&sz=128",
+      "uses": "AI talent sourcing",
+      "main_link": "https://linkedin.com"
+    },
+    {
+      "name": "Indeed",
+      "categories": [
+        "AI HR"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=indeed.com&sz=128",
+      "uses": "AI job search and hiring",
+      "main_link": "https://indeed.com"
+    },
+    {
+      "name": "SeekOut",
+      "categories": [
+        "AI HR"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=seekout.com&sz=128",
+      "uses": "AI recruiting search",
+      "main_link": "https://seekout.com"
+    },
+    {
+      "name": "Fetcher",
+      "categories": [
+        "AI HR"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=fetcher.ai&sz=128",
+      "uses": "AI recruiting automation",
+      "main_link": "https://fetcher.ai"
+    },
+    {
+      "name": "Metaview",
+      "categories": [
+        "AI HR"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=metaview.ai&sz=128",
+      "uses": "AI interview notes and recruiting",
+      "main_link": "https://metaview.ai"
+    },
+    {
+      "name": "Lattice AI",
+      "categories": [
+        "AI HR"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=lattice.com&sz=128",
+      "uses": "AI people management",
+      "main_link": "https://lattice.com"
+    },
+    {
+      "name": "Culture Amp",
+      "categories": [
+        "AI HR"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=cultureamp.com&sz=128",
+      "uses": "AI employee insights",
+      "main_link": "https://cultureamp.com"
+    },
+    {
+      "name": "Leapsome",
+      "categories": [
+        "AI HR"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=leapsome.com&sz=128",
+      "uses": "AI performance and learning",
+      "main_link": "https://leapsome.com"
+    },
+    {
+      "name": "Personio",
+      "categories": [
+        "AI HR"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=personio.com&sz=128",
+      "uses": "AI HR management",
+      "main_link": "https://personio.com"
+    },
+    {
+      "name": "Ramp",
+      "categories": [
+        "AI Finance"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=ramp.com&sz=128",
+      "uses": "AI finance and spend management",
+      "main_link": "https://ramp.com"
+    },
+    {
+      "name": "Brex",
+      "categories": [
+        "AI Finance"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=brex.com&sz=128",
+      "uses": "AI finance and expense management",
+      "main_link": "https://brex.com"
+    },
+    {
+      "name": "Stripe",
+      "categories": [
+        "AI Finance"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=stripe.com&sz=128",
+      "uses": "AI-enabled payments and business tools",
+      "main_link": "https://stripe.com"
+    },
+    {
+      "name": "QuickBooks",
+      "categories": [
+        "AI Finance"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=quickbooks.intuit.com&sz=128",
+      "uses": "AI accounting and bookkeeping",
+      "main_link": "https://quickbooks.intuit.com"
+    },
+    {
+      "name": "Xero",
+      "categories": [
+        "AI Finance"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=xero.com&sz=128",
+      "uses": "AI accounting and business insights",
+      "main_link": "https://xero.com"
+    },
+    {
+      "name": "Dext",
+      "categories": [
+        "AI Finance"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=dext.com&sz=128",
+      "uses": "AI bookkeeping document processing",
+      "main_link": "https://dext.com"
+    },
+    {
+      "name": "Julius AI",
+      "categories": [
+        "AI Data Analytics"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=julius.ai&sz=128",
+      "uses": "Conversational data analysis",
+      "main_link": "https://julius.ai"
+    },
+    {
+      "name": "Akkio",
+      "categories": [
+        "AI Data Analytics"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=akkio.com&sz=128",
+      "uses": "No-code predictive analytics",
+      "main_link": "https://akkio.com"
+    },
+    {
+      "name": "DataRobot",
+      "categories": [
+        "AI Data Analytics"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=datarobot.com&sz=128",
+      "uses": "Enterprise AI and machine learning",
+      "main_link": "https://datarobot.com"
+    },
+    {
+      "name": "Dataiku",
+      "categories": [
+        "AI Data Analytics"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=dataiku.com&sz=128",
+      "uses": "AI data science platform",
+      "main_link": "https://dataiku.com"
+    },
+    {
+      "name": "H2O.ai",
+      "categories": [
+        "AI Data Analytics"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=h2o.ai&sz=128",
+      "uses": "Machine learning and AI platform",
+      "main_link": "https://h2o.ai"
+    },
+    {
+      "name": "Alteryx",
+      "categories": [
+        "AI Data Analytics"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=alteryx.com&sz=128",
+      "uses": "AI-assisted data analytics",
+      "main_link": "https://alteryx.com"
+    },
+    {
+      "name": "Tableau",
+      "categories": [
+        "AI Data Analytics"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=tableau.com&sz=128",
+      "uses": "AI analytics and visualization",
+      "main_link": "https://tableau.com"
+    },
+    {
+      "name": "Power BI",
+      "categories": [
+        "AI Data Analytics"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=powerbi.microsoft.com&sz=128",
+      "uses": "AI business intelligence",
+      "main_link": "https://powerbi.microsoft.com"
+    },
+    {
+      "name": "ThoughtSpot",
+      "categories": [
+        "AI Data Analytics"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=thoughtspot.com&sz=128",
+      "uses": "AI analytics and search",
+      "main_link": "https://thoughtspot.com"
+    },
+    {
+      "name": "Hex",
+      "categories": [
+        "AI Data Analytics"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=hex.tech&sz=128",
+      "uses": "AI data notebooks and analytics",
+      "main_link": "https://hex.tech"
+    },
+    {
+      "name": "Deepnote",
+      "categories": [
+        "AI Data Analytics"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=deepnote.com&sz=128",
+      "uses": "Collaborative data science",
+      "main_link": "https://deepnote.com"
+    },
+    {
+      "name": "PandasAI",
+      "categories": [
+        "AI Data Analytics"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=pandas-ai.com&sz=128",
+      "uses": "Natural-language data analysis",
+      "main_link": "https://pandas-ai.com"
+    },
+    {
+      "name": "Chat2DB",
+      "categories": [
+        "AI Data Analytics"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=chat2db.ai&sz=128",
+      "uses": "AI database management and SQL",
+      "main_link": "https://chat2db.ai"
+    },
+    {
+      "name": "SQLAI.ai",
+      "categories": [
+        "AI Data Analytics"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=sqlai.ai&sz=128",
+      "uses": "AI SQL generation",
+      "main_link": "https://sqlai.ai"
+    },
+    {
+      "name": "Outerbase",
+      "categories": [
+        "AI Data Analytics"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=outerbase.com&sz=128",
+      "uses": "AI database analytics",
+      "main_link": "https://outerbase.com"
+    },
+    {
+      "name": "Metabase",
+      "categories": [
+        "AI Data Analytics"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=metabase.com&sz=128",
+      "uses": "AI business intelligence",
+      "main_link": "https://metabase.com"
+    },
+    {
+      "name": "Looker",
+      "categories": [
+        "AI Data Analytics"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=cloud.google.com&sz=128",
+      "uses": "AI analytics and BI",
+      "main_link": "https://cloud.google.com"
+    },
+    {
+      "name": "Qlik",
+      "categories": [
+        "AI Data Analytics"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=qlik.com&sz=128",
+      "uses": "AI analytics and data integration",
+      "main_link": "https://qlik.com"
+    },
+    {
+      "name": "Rows",
+      "categories": [
+        "AI Data Analytics"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=rows.com&sz=128",
+      "uses": "AI spreadsheets and analysis",
+      "main_link": "https://rows.com"
+    },
+    {
+      "name": "SheetAI",
+      "categories": [
+        "AI Productivity"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=sheetai.app&sz=128",
+      "uses": "AI functions for spreadsheets",
+      "main_link": "https://sheetai.app"
+    },
+    {
+      "name": "GPT for Sheets",
+      "categories": [
+        "AI Productivity"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=gptforwork.com&sz=128",
+      "uses": "AI spreadsheet automation",
+      "main_link": "https://gptforwork.com"
+    },
+    {
+      "name": "Numerous AI",
+      "categories": [
+        "AI Productivity"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=numerous.ai&sz=128",
+      "uses": "AI spreadsheet formulas and analysis",
+      "main_link": "https://numerous.ai"
+    },
+    {
+      "name": "Ajelix",
+      "categories": [
+        "AI Productivity"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=ajelix.com&sz=128",
+      "uses": "AI Excel and spreadsheet assistance",
+      "main_link": "https://ajelix.com"
+    },
+    {
+      "name": "Formula Bot",
+      "categories": [
+        "AI Productivity"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=formulabot.com&sz=128",
+      "uses": "AI spreadsheet formulas and analysis",
+      "main_link": "https://formulabot.com"
+    },
+    {
+      "name": "FinChat",
+      "categories": [
+        "AI Finance"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=finchat.io&sz=128",
+      "uses": "AI financial research",
+      "main_link": "https://finchat.io"
+    },
+    {
+      "name": "Fiscal.ai",
+      "categories": [
+        "AI Finance"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=fiscal.ai&sz=128",
+      "uses": "AI financial analysis",
+      "main_link": "https://fiscal.ai"
+    },
+    {
+      "name": "AlphaSense",
+      "categories": [
+        "AI Finance"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=alpha-sense.com&sz=128",
+      "uses": "AI market and financial research",
+      "main_link": "https://alpha-sense.com"
+    },
+    {
+      "name": "Kensho",
+      "categories": [
+        "AI Finance"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=kensho.com&sz=128",
+      "uses": "AI financial analytics",
+      "main_link": "https://kensho.com"
+    },
+    {
+      "name": "Numerai",
+      "categories": [
+        "AI Finance"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=numer.ai&sz=128",
+      "uses": "AI-powered quantitative investing",
+      "main_link": "https://numer.ai"
+    },
+    {
+      "name": "Composer",
+      "categories": [
+        "AI Finance"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=composer.trade&sz=128",
+      "uses": "AI investment automation",
+      "main_link": "https://composer.trade"
+    },
+    {
+      "name": "Danelfin",
+      "categories": [
+        "AI Finance"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=danelfin.com&sz=128",
+      "uses": "AI stock analysis",
+      "main_link": "https://danelfin.com"
+    },
+    {
+      "name": "TrendSpider",
+      "categories": [
+        "AI Finance"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=trendspider.com&sz=128",
+      "uses": "AI technical market analysis",
+      "main_link": "https://trendspider.com"
+    },
+    {
+      "name": "Trade Ideas",
+      "categories": [
+        "AI Finance"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=trade-ideas.com&sz=128",
+      "uses": "AI trading analysis",
+      "main_link": "https://trade-ideas.com"
+    },
+    {
+      "name": "Tickeron",
+      "categories": [
+        "AI Finance"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=tickeron.com&sz=128",
+      "uses": "AI market predictions and patterns",
+      "main_link": "https://tickeron.com"
+    },
+    {
+      "name": "Magnifi",
+      "categories": [
+        "AI Finance"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=magnifi.com&sz=128",
+      "uses": "AI investing assistance",
+      "main_link": "https://magnifi.com"
+    },
+    {
+      "name": "Ziggma",
+      "categories": [
+        "AI Finance"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=ziggma.com&sz=128",
+      "uses": "AI portfolio analysis",
+      "main_link": "https://ziggma.com"
+    },
+    {
+      "name": "Similarweb",
+      "categories": [
+        "AI Marketing"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=similarweb.com&sz=128",
+      "uses": "AI web intelligence",
+      "main_link": "https://similarweb.com"
+    },
+    {
+      "name": "Exploding Topics",
+      "categories": [
+        "AI Marketing"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=explodingtopics.com&sz=128",
+      "uses": "Trend discovery and market research",
+      "main_link": "https://explodingtopics.com"
+    },
+    {
+      "name": "Khanmigo",
+      "categories": [
+        "AI Education"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=khanacademy.org&sz=128",
+      "uses": "AI tutoring and guided learning",
+      "main_link": "https://khanacademy.org"
+    },
+    {
+      "name": "Duolingo Max",
+      "categories": [
+        "AI Education"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=duolingo.com&sz=128",
+      "uses": "AI language learning",
+      "main_link": "https://duolingo.com"
+    },
+    {
+      "name": "Quizlet",
+      "categories": [
+        "AI Education"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=quizlet.com&sz=128",
+      "uses": "AI study sets and tutoring",
+      "main_link": "https://quizlet.com"
+    },
+    {
+      "name": "Socratic",
+      "categories": [
+        "AI Education"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=socratic.org&sz=128",
+      "uses": "AI homework assistance",
+      "main_link": "https://socratic.org"
+    },
+    {
+      "name": "StudyFetch",
+      "categories": [
+        "AI Education"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=studyfetch.com&sz=128",
+      "uses": "AI study materials and tutoring",
+      "main_link": "https://studyfetch.com"
+    },
+    {
+      "name": "Knowt",
+      "categories": [
+        "AI Education"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=knowt.com&sz=128",
+      "uses": "AI notes, flashcards and study tools",
+      "main_link": "https://knowt.com"
+    },
+    {
+      "name": "Brainly",
+      "categories": [
+        "AI Education"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=brainly.com&sz=128",
+      "uses": "AI homework and learning support",
+      "main_link": "https://brainly.com"
+    },
+    {
+      "name": "Gauth",
+      "categories": [
+        "AI Education"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=gauthmath.com&sz=128",
+      "uses": "AI homework solving",
+      "main_link": "https://gauthmath.com"
+    },
+    {
+      "name": "QANDA",
+      "categories": [
+        "AI Education"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=qanda.ai&sz=128",
+      "uses": "AI math and homework assistance",
+      "main_link": "https://qanda.ai"
+    },
+    {
+      "name": "Numerade",
+      "categories": [
+        "AI Education"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=numerade.com&sz=128",
+      "uses": "Video-based AI learning",
+      "main_link": "https://numerade.com"
+    },
+    {
+      "name": "Chegg",
+      "categories": [
+        "AI Education"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=chegg.com&sz=128",
+      "uses": "AI tutoring and study help",
+      "main_link": "https://chegg.com"
+    },
+    {
+      "name": "Mindgrasp",
+      "categories": [
+        "AI Education"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=mindgrasp.ai&sz=128",
+      "uses": "AI notes and study guides",
+      "main_link": "https://mindgrasp.ai"
+    },
+    {
+      "name": "TutorAI",
+      "categories": [
+        "AI Education"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=tutorai.me&sz=128",
+      "uses": "Personalized AI tutoring",
+      "main_link": "https://tutorai.me"
+    },
+    {
+      "name": "MagicSchool",
+      "categories": [
+        "AI Education"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=magicschool.ai&sz=128",
+      "uses": "AI tools for educators",
+      "main_link": "https://magicschool.ai"
+    },
+    {
+      "name": "SchoolAI",
+      "categories": [
+        "AI Education"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=schoolai.com&sz=128",
+      "uses": "AI classroom and tutoring tools",
+      "main_link": "https://schoolai.com"
+    },
+    {
+      "name": "Eduaide",
+      "categories": [
+        "AI Education"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=eduaide.ai&sz=128",
+      "uses": "AI lesson planning",
+      "main_link": "https://eduaide.ai"
+    },
+    {
+      "name": "Diffit",
+      "categories": [
+        "AI Education"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=diffit.me&sz=128",
+      "uses": "AI differentiated learning materials",
+      "main_link": "https://diffit.me"
+    },
+    {
+      "name": "Brisk Teaching",
+      "categories": [
+        "AI Education"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=briskteaching.com&sz=128",
+      "uses": "AI teacher productivity",
+      "main_link": "https://briskteaching.com"
+    },
+    {
+      "name": "Curipod",
+      "categories": [
+        "AI Education"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=curipod.com&sz=128",
+      "uses": "AI interactive lessons",
+      "main_link": "https://curipod.com"
+    },
+    {
+      "name": "QuestionWell",
+      "categories": [
+        "AI Education"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=questionwell.org&sz=128",
+      "uses": "AI question and quiz generation",
+      "main_link": "https://questionwell.org"
+    },
+    {
+      "name": "Conker",
+      "categories": [
+        "AI Education"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=conker.ai&sz=128",
+      "uses": "AI quizzes and assessments",
+      "main_link": "https://conker.ai"
+    },
+    {
+      "name": "ClassPoint AI",
+      "categories": [
+        "AI Education"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=classpoint.io&sz=128",
+      "uses": "AI presentation and quiz tools",
+      "main_link": "https://classpoint.io"
+    },
+    {
+      "name": "Gradescope",
+      "categories": [
+        "AI Education"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=gradescope.com&sz=128",
+      "uses": "AI-assisted grading",
+      "main_link": "https://gradescope.com"
+    },
+    {
+      "name": "Turnitin",
+      "categories": [
+        "AI Education"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=turnitin.com&sz=128",
+      "uses": "AI writing and integrity checking",
+      "main_link": "https://turnitin.com"
+    },
+    {
+      "name": "Scribbr",
+      "categories": [
+        "AI Education"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=scribbr.com&sz=128",
+      "uses": "AI academic writing and citation help",
+      "main_link": "https://scribbr.com"
+    },
+    {
+      "name": "Zotero",
+      "categories": [
+        "AI Research"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=zotero.org&sz=128",
+      "uses": "Research reference management",
+      "main_link": "https://zotero.org"
+    },
+    {
+      "name": "Mendeley",
+      "categories": [
+        "AI Research"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=mendeley.com&sz=128",
+      "uses": "Reference management and research",
+      "main_link": "https://mendeley.com"
+    },
+    {
+      "name": "ReadCube",
+      "categories": [
+        "AI Research"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=readcube.com&sz=128",
+      "uses": "Research reading and references",
+      "main_link": "https://readcube.com"
+    },
+    {
+      "name": "Otio",
+      "categories": [
+        "AI Research"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=otio.ai&sz=128",
+      "uses": "AI research and knowledge workspace",
+      "main_link": "https://otio.ai"
+    },
+    {
+      "name": "Nabla Copilot",
+      "categories": [
+        "AI Healthcare"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=nabla.com&sz=128",
+      "uses": "AI clinical documentation",
+      "main_link": "https://nabla.com"
+    },
+    {
+      "name": "Abridge",
+      "categories": [
+        "AI Healthcare"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=abridge.com&sz=128",
+      "uses": "AI clinical conversation and documentation",
+      "main_link": "https://abridge.com"
+    },
+    {
+      "name": "Suki AI",
+      "categories": [
+        "AI Healthcare"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=suki.ai&sz=128",
+      "uses": "AI medical assistant",
+      "main_link": "https://suki.ai"
+    },
+    {
+      "name": "Ambience Healthcare",
+      "categories": [
+        "AI Healthcare"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=ambiencehealthcare.com&sz=128",
+      "uses": "AI clinical documentation",
+      "main_link": "https://ambiencehealthcare.com"
+    },
+    {
+      "name": "Hippocratic AI",
+      "categories": [
+        "AI Healthcare"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=hippocraticai.com&sz=128",
+      "uses": "Healthcare AI agents",
+      "main_link": "https://hippocraticai.com"
+    },
+    {
+      "name": "PathAI",
+      "categories": [
+        "AI Healthcare"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=pathai.com&sz=128",
+      "uses": "AI pathology",
+      "main_link": "https://pathai.com"
+    },
+    {
+      "name": "Tempus",
+      "categories": [
+        "AI Healthcare"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=tempus.com&sz=128",
+      "uses": "AI precision medicine",
+      "main_link": "https://tempus.com"
+    },
+    {
+      "name": "Insilico Medicine",
+      "categories": [
+        "AI Healthcare"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=insilico.com&sz=128",
+      "uses": "AI drug discovery",
+      "main_link": "https://insilico.com"
+    },
+    {
+      "name": "Recursion",
+      "categories": [
+        "AI Healthcare"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=recursion.com&sz=128",
+      "uses": "AI drug discovery",
+      "main_link": "https://recursion.com"
+    },
+    {
+      "name": "Isomorphic Labs",
+      "categories": [
+        "AI Healthcare"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=isomorphiclabs.com&sz=128",
+      "uses": "AI drug discovery",
+      "main_link": "https://isomorphiclabs.com"
+    },
+    {
+      "name": "AlphaFold",
+      "categories": [
+        "AI Science"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=deepmind.google&sz=128",
+      "uses": "AI protein structure prediction",
+      "main_link": "https://deepmind.google"
+    },
+    {
+      "name": "DeepMind",
+      "categories": [
+        "AI Science"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=deepmind.google&sz=128",
+      "uses": "AI scientific research",
+      "main_link": "https://deepmind.google"
+    },
+    {
+      "name": "BenchSci",
+      "categories": [
+        "AI Science"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=benchsci.com&sz=128",
+      "uses": "AI scientific experiment planning",
+      "main_link": "https://benchsci.com"
+    },
+    {
+      "name": "BioRender",
+      "categories": [
+        "AI Science"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=biorender.com&sz=128",
+      "uses": "Scientific illustration and research",
+      "main_link": "https://biorender.com"
+    },
+    {
+      "name": "Zebra Medical",
+      "categories": [
+        "AI Healthcare"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=zebra-med.com&sz=128",
+      "uses": "AI medical imaging",
+      "main_link": "https://zebra-med.com"
+    },
+    {
+      "name": "Aidoc",
+      "categories": [
+        "AI Healthcare"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=aidoc.com&sz=128",
+      "uses": "AI medical imaging",
+      "main_link": "https://aidoc.com"
+    },
+    {
+      "name": "Viz.ai",
+      "categories": [
+        "AI Healthcare"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=viz.ai&sz=128",
+      "uses": "AI clinical care coordination",
+      "main_link": "https://viz.ai"
+    },
+    {
+      "name": "Paige AI",
+      "categories": [
+        "AI Healthcare"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=paige.ai&sz=128",
+      "uses": "AI pathology",
+      "main_link": "https://paige.ai"
+    },
+    {
+      "name": "Owkin",
+      "categories": [
+        "AI Healthcare"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=owkin.com&sz=128",
+      "uses": "AI biomedical research",
+      "main_link": "https://owkin.com"
+    },
+    {
+      "name": "Exscientia",
+      "categories": [
+        "AI Healthcare"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=exscientia.ai&sz=128",
+      "uses": "AI drug discovery",
+      "main_link": "https://exscientia.ai"
+    },
+    {
+      "name": "BenevolentAI",
+      "categories": [
+        "AI Healthcare"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=benevolent.ai&sz=128",
+      "uses": "AI drug discovery",
+      "main_link": "https://benevolent.ai"
+    },
+    {
+      "name": "Atomwise",
+      "categories": [
+        "AI Healthcare"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=atomwise.com&sz=128",
+      "uses": "AI drug discovery",
+      "main_link": "https://atomwise.com"
+    },
+    {
+      "name": "EvolutionaryScale",
+      "categories": [
+        "AI Science"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=evolutionaryscale.ai&sz=128",
+      "uses": "AI biology models",
+      "main_link": "https://evolutionaryscale.ai"
+    },
+    {
+      "name": "NVIDIA BioNeMo",
+      "categories": [
+        "AI Science"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=nvidia.com&sz=128",
+      "uses": "Generative AI for drug discovery",
+      "main_link": "https://nvidia.com"
+    },
+    {
+      "name": "Papers with Code",
+      "categories": [
+        "AI Science"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=paperswithcode.com&sz=128",
+      "uses": "ML papers and benchmarks",
+      "main_link": "https://paperswithcode.com"
+    },
+    {
+      "name": "arXiv",
+      "categories": [
+        "AI Science"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=arxiv.org&sz=128",
+      "uses": "AI research publishing and discovery",
+      "main_link": "https://arxiv.org"
+    },
+    {
+      "name": "Meshy",
+      "categories": [
+        "AI 3D"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=meshy.ai&sz=128",
+      "uses": "AI 3D model and texture generation",
+      "main_link": "https://meshy.ai"
+    },
+    {
+      "name": "Tripo AI",
+      "categories": [
+        "AI 3D"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=tripo3d.ai&sz=128",
+      "uses": "Text/image-to-3D generation",
+      "main_link": "https://tripo3d.ai"
+    },
+    {
+      "name": "Spline",
+      "categories": [
+        "AI 3D"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=spline.design&sz=128",
+      "uses": "AI 3D design",
+      "main_link": "https://spline.design"
+    },
+    {
+      "name": "Masterpiece X",
+      "categories": [
+        "AI 3D"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=masterpiecex.com&sz=128",
+      "uses": "AI 3D creation",
+      "main_link": "https://masterpiecex.com"
+    },
+    {
+      "name": "Rodin",
+      "categories": [
+        "AI 3D"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=hyper3d.ai&sz=128",
+      "uses": "AI 3D model generation",
+      "main_link": "https://hyper3d.ai"
+    },
+    {
+      "name": "Kaedim",
+      "categories": [
+        "AI 3D"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=kaedim3d.com&sz=128",
+      "uses": "AI 3D asset creation",
+      "main_link": "https://kaedim3d.com"
+    },
+    {
+      "name": "CSM AI",
+      "categories": [
+        "AI 3D"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=csm.ai&sz=128",
+      "uses": "AI 3D and spatial creation",
+      "main_link": "https://csm.ai"
+    },
+    {
+      "name": "Ponzu",
+      "categories": [
+        "AI 3D"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=ponzu.ai&sz=128",
+      "uses": "AI texture generation",
+      "main_link": "https://ponzu.ai"
+    },
+    {
+      "name": "3DFY.ai",
+      "categories": [
+        "AI 3D"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=3dfy.ai&sz=128",
+      "uses": "Text-to-3D assets",
+      "main_link": "https://3dfy.ai"
+    },
+    {
+      "name": "Alpha3D",
+      "categories": [
+        "AI 3D"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=alpha3d.io&sz=128",
+      "uses": "Image-to-3D conversion",
+      "main_link": "https://alpha3d.io"
+    },
+    {
+      "name": "Polycam",
+      "categories": [
+        "AI 3D"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=poly.cam&sz=128",
+      "uses": "3D capture and AI tools",
+      "main_link": "https://poly.cam"
+    },
+    {
+      "name": "KIRI Engine",
+      "categories": [
+        "AI 3D"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=kiri.engineering&sz=128",
+      "uses": "3D scanning and reconstruction",
+      "main_link": "https://kiri.engineering"
+    },
+    {
+      "name": "Rokoko",
+      "categories": [
+        "AI 3D"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=rokoko.com&sz=128",
+      "uses": "AI motion capture",
+      "main_link": "https://rokoko.com"
+    },
+    {
+      "name": "Move AI",
+      "categories": [
+        "AI 3D"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=move.ai&sz=128",
+      "uses": "AI motion capture",
+      "main_link": "https://move.ai"
+    },
+    {
+      "name": "DeepMotion",
+      "categories": [
+        "AI 3D"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=deepmotion.com&sz=128",
+      "uses": "AI animation and motion capture",
+      "main_link": "https://deepmotion.com"
+    },
+    {
+      "name": "Plask",
+      "categories": [
+        "AI 3D"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=plask.ai&sz=128",
+      "uses": "AI motion capture",
+      "main_link": "https://plask.ai"
+    },
+    {
+      "name": "Wonder Studio",
+      "categories": [
+        "AI 3D"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=wonderdynamics.com&sz=128",
+      "uses": "AI character insertion",
+      "main_link": "https://wonderdynamics.com"
+    },
+    {
+      "name": "Cascadeur",
+      "categories": [
+        "AI 3D"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=cascadeur.com&sz=128",
+      "uses": "AI-assisted animation",
+      "main_link": "https://cascadeur.com"
+    },
+    {
+      "name": "Ready Player Me",
+      "categories": [
+        "AI 3D"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=readyplayer.me&sz=128",
+      "uses": "3D avatar creation",
+      "main_link": "https://readyplayer.me"
+    },
+    {
+      "name": "Avaturn",
+      "categories": [
+        "AI 3D"
+      ],
+      "official_logo": "https://www.google.com/s2/favicons?domain=avaturn.me&sz=128",
+      "uses": "AI avatar generation",
+      "main_link": "https://avaturn.me"
+    }
+  ]
+}
