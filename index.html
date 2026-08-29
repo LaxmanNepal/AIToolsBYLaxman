@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <meta name="theme-color" content="#0a84ff">
-<meta name="description" content="Explore AI tools with pricing, categories and dedicated pages.">
+<meta name="description" content="Explore the AI tools catalog with search, categories, pricing and sorting.">
 <link rel="canonical" href="https://ai.laxmannepal.com.np/">
 <link rel="icon" href="icon.svg">
 <link rel="stylesheet" href="assets/css/home.css">
@@ -15,20 +15,20 @@
 <main class="wrap">
 <section class="hero">
 <div class="eyebrow">Laxman Nepal · independent AI directory</div>
-<h1>Find the right AI tool faster.</h1>
-<p>The homepage uses <strong>data/tools.json</strong> as its canonical catalog source.</p>
-<form class="search" id="search-form"><input id="catalog-search" autocomplete="off" placeholder="Search AI tools…" aria-label="Search AI tools"><button class="btn dark" type="submit">Search</button></form>
-<div class="stats"><div class="stat"><b id="total-count">—</b><span>AI tools</span></div><div class="stat"><b id="category-count">—</b><span>categories</span></div><div class="stat"><b id="saved-count">0</b><span>favorites</span></div></div>
+<h1>Discover the right AI tool.</h1>
+<p>Browse the live catalog from <strong>data/tools.json</strong> with fast search, category filters, pricing and sorting.</p>
+<form class="search" id="search-form"><input id="catalog-search" autocomplete="off" placeholder="Search by tool, category, tag or use case…" aria-label="Search AI tools"><button class="btn dark" type="submit">Search</button></form>
+<div class="stats"><div class="stat"><b id="total-count">—</b><span>AI tools</span></div><div class="stat"><b id="category-count">—</b><span>categories</span></div><div class="stat"><b id="saved-count">0</b><span>saved</span></div></div>
 </section>
 <section class="section" id="all-tools">
-<div class="sectionhead"><div><h2>Explore AI tools</h2><p>Filter, sort and save tools.</p></div><span class="count" id="result-count">Loading catalog…</span></div>
-<div class="toolbar" id="filters"></div>
-<div class="toolbar"><select id="pricing" aria-label="Pricing"><option value="all">All pricing</option><option>Free</option><option>Freemium</option><option>Paid</option></select><select id="sort" aria-label="Sort"><option value="rank">Trending</option><option value="name">Name A–Z</option><option value="new">Newest</option><option value="free">Free first</option></select><button class="chip" id="favorites-only" type="button">♡ Favorites</button></div>
+<div class="sectionhead"><div><h2>AI Tools Showcase</h2><p>Every card is generated from the canonical JSON catalog.</p></div><span class="count" id="result-count">Loading catalog…</span></div>
+<div class="toolbar showcase-toolbar"><div class="toolbar-scroll" id="filters"></div></div>
+<div class="toolbar controls"><label>Pricing <select id="pricing" aria-label="Filter by pricing"><option value="all">All</option><option>Free</option><option>Freemium</option><option>Paid</option></select></label><label>Sort <select id="sort" aria-label="Sort tools"><option value="rank">Trending</option><option value="name">Name A–Z</option><option value="new">Newest</option><option value="free">Free first</option></select></label><button class="chip" id="favorites-only" type="button">♡ Saved only</button></div>
 <div class="grid" id="tools"><div class="empty">Loading data/tools.json…</div></div>
 <div class="pager"><button class="btn" id="prev" type="button">← Previous</button><span class="count" id="page-info"></span><button class="btn" id="next" type="button">Next →</button></div>
 </section>
 </main>
-<nav class="bottom"><a href="/">⌂ Home</a><a href="categories/">▦ Categories</a><a href="#all-tools">⌕ Search</a><a href="#all-tools" onclick="document.getElementById('favorites-only').click()">♡ Favorites</a></nav>
+<nav class="bottom"><a href="/">⌂ Home</a><a href="categories/">▦ Categories</a><a href="#all-tools">⌕ Search</a><a href="#all-tools" onclick="document.getElementById('favorites-only').click()">♡ Saved</a></nav>
 <script src="assets/js/home.js" defer></script>
 </body>
 </html>
