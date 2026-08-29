@@ -1,21 +1,33 @@
-name: Refresh AI Tools Catalog
+name: Build and Deploy AI Tools
 
 on:
   workflow_dispatch:
   schedule:
     - cron: '17 3 * * 1'
   push:
+    branches: [main]
     paths:
-      - 'scripts/generate_tools.py'
-      - 'scripts/build_aitools.py'
-      - 'scripts/tool_page.html'
+      - 'index.html'
+      - 'icon.svg'
+      - 'manifest.json'
+      - 'sw.js'
+      - 'github/**'
+      - 'trending/**'
+      - 'data/tools.json'
+      - 'scripts/**'
       - '.github/workflows/refresh-ai-tools.yml'
 
 permissions:
-  contents: write
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
 
 jobs:
-  build-catalog:
+  build:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -26,37 +38,23 @@ jobs:
           python-version: '3.12'
       - name: Install parser
         run: python -m pip install --disable-pip-version-check beautifulsoup4
-      - name: Research and generate 500+ AI tools
-        run: python scripts/build_aitools.py
-      - name: Validate catalog
-        run: |
-          python - <<'PY'
-          import json
-          from pathlib import Path
-          p = Path('data/tools.json')
-          tools = json.loads(p.read_text(encoding='utf-8'))
-          assert len(tools) >= 500, f'Expected 500+ tools, found {len(tools)}'
-          urls = [str(x.get('url','')).rstrip('/').lower() for x in tools]
-          assert all(urls), 'Every tool must have a URL'
-          assert len(urls) == len(set(urls)), 'Duplicate tool URLs detected'
-          names = [str(x.get('title','')).strip().lower() for x in tools]
-          assert all(names), 'Every tool must have a title'
-          assert len(names) == len(set(names)), 'Duplicate tool titles detected'
-          catalog = Path('AItools/index.json')
-          assert catalog.exists(), 'AItools/index.json was not generated'
-          built = json.loads(catalog.read_text(encoding='utf-8'))
-          assert len(built) == len(tools), f'AItools catalog mismatch: {len(built)} vs {len(tools)}'
-          assert all((Path('AItools')/str(x.get('slug',''))/'index.html').exists() for x in built), 'Missing AItools detail page'
-          print(f'Validated {len(tools)} unique AI tools and {len(built)} detail pages')
-          PY
-      - name: Commit catalog, pages and local logos
-        run: |
-          git config user.name 'github-actions[bot]'
-          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add data/tools.json tools aitools AItools
-          if git diff --cached --quiet; then
-            echo 'No catalog changes.'
-          else
-            git commit -m 'chore: refresh researched AI tools catalog and branded pages'
-            git push
-          fi
+      - name: Build canonical catalog
+        run: python scripts/build.py
+      - name: Validate generated site
+        run: python scripts/validate.py
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+      - name: Upload static site
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: .
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
