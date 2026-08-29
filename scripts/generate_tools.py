@@ -1,78 +1,101 @@
 #!/usr/bin/env python3
-"""Build a 500+ AI-tool catalog and static detail pages."""
+"""Build the static AI-tools site from the single canonical data/tools.json file."""
 from __future__ import annotations
-import datetime as dt, html, json, re, shutil, urllib.parse, urllib.request
+import datetime as dt
+import html
+import json
+import re
+import shutil
 from pathlib import Path
-ROOT=Path(__file__).resolve().parents[1]; DATA=ROOT/'data/tools.json'; TOOLS_DIR=ROOT/'tools'; GO_DIR=ROOT/'go'
-SOURCE_URL='https://www.indiaseva.com/500-plus-AI-tools-and-tutorials/'; TODAY=dt.date.today().isoformat()
-# Keep the curated seed list and categorisation logic unchanged; the builder enriches every record below.
-CURRENT=[
-('ChatGPT','https://chatgpt.com/','AI Assistants','Freemium',"OpenAI's general-purpose AI assistant for writing, reasoning, coding, images, research and everyday tasks."),('Claude','https://claude.ai/','AI Assistants','Freemium',"Anthropic's AI assistant for reasoning, writing, analysis, coding and long-context work."),('Gemini','https://gemini.google.com/','AI Assistants','Freemium',"Google's multimodal AI assistant for writing, research, coding, images and productivity."),('Perplexity','https://www.perplexity.ai/','AI Search & Research','Freemium','AI search and research assistant that answers questions with web sources and citations.'),('Grok','https://grok.com/','AI Assistants','Freemium',"xAI's conversational assistant for reasoning, research, coding and current-information tasks."),('Microsoft Copilot','https://copilot.microsoft.com/','AI Assistants','Freemium',"Microsoft's AI assistant for conversation, web research, writing and productivity."),('DeepSeek','https://chat.deepseek.com/','AI Assistants','Free','AI assistant known for strong reasoning and coding capabilities with free access options.'),('Cursor','https://www.cursor.com/','AI Coding','Freemium','AI-first code editor that understands a project codebase and helps write, refactor and debug code.'),('Windsurf','https://windsurf.com/','AI Coding','Freemium','AI-powered coding environment with agentic assistance for building and modifying software.'),('GitHub Copilot','https://github.com/features/copilot','AI Coding','Paid','AI coding assistant that provides code completion, chat and agentic development features.'),('Replit','https://replit.com/','AI Coding','Freemium','Browser-based development platform with AI-assisted coding, app generation and deployment.'),('v0','https://v0.dev/','AI Coding','Freemium','AI interface and application generator from Vercel for creating web UI and code from prompts.'),('Lovable','https://lovable.dev/','AI App Builders','Freemium','Prompt-driven app builder for creating full-stack web applications.'),('Bolt.new','https://bolt.new/','AI App Builders','Freemium','Browser-based AI development environment for generating and shipping web applications.'),('Midjourney','https://www.midjourney.com/','AI Image Generation','Paid','AI image creation platform focused on high-quality artistic and photorealistic visuals.'),('Adobe Firefly','https://firefly.adobe.com/','AI Image Generation','Freemium',"Adobe's generative AI suite for images, text effects, design and creative workflows."),('Ideogram','https://ideogram.ai/','AI Image Generation','Freemium','Image generation platform particularly strong at readable text inside generated images.'),('Leonardo AI','https://leonardo.ai/','AI Image Generation','Freemium','Creative AI platform for image generation, editing, design and visual asset creation.'),('FLUX','https://blackforestlabs.ai/','AI Image Generation','Paid',"Black Forest Labs' family of image-generation models and services."),('Canva','https://www.canva.com/','AI Design','Freemium','Visual design platform with AI tools for presentations, graphics, images, copy and layouts.'),('Runway','https://runwayml.com/','AI Video','Freemium','Generative video platform for creating, transforming and editing video with AI.'),('Sora','https://sora.com/','AI Video','Paid','OpenAI video generation system for creating videos from text and visual prompts.'),('Kling AI','https://klingai.com/','AI Video','Freemium','Generative video platform for text-to-video, image-to-video and creative video effects.'),('Pika','https://pika.art/','AI Video','Freemium','AI video creation platform for generating and transforming short-form videos.'),('Luma','https://lumalabs.ai/','AI Video','Freemium','Generative media platform for video and visual creation, including Dream Machine.'),('HeyGen','https://www.heygen.com/','AI Avatars','Freemium','AI avatar and video platform for presenter videos, localization and voice-driven content.'),('Synthesia','https://www.synthesia.io/','AI Avatars','Paid','Business video platform for creating presenter-led videos with AI avatars and voices.'),('ElevenLabs','https://elevenlabs.io/','AI Voice & Audio','Freemium','AI voice platform for realistic speech synthesis, voice design, dubbing and audio workflows.'),('Suno','https://suno.com/','AI Music','Freemium','Generative music platform that creates songs from natural-language prompts.'),('Udio','https://www.udio.com/','AI Music','Freemium','AI music generation service for creating songs and musical ideas from prompts.'),('Descript','https://www.descript.com/','AI Audio & Video','Freemium','AI-powered audio and video editor that lets creators edit media through text and automated tools.'),('Notion AI','https://www.notion.com/product/ai','AI Productivity','Paid','AI features inside Notion for writing, summarizing, searching and working with workspace knowledge.'),('Gamma','https://gamma.app/','AI Presentations','Freemium','AI workspace for generating presentations, documents and visual web pages.'),('NotebookLM','https://notebooklm.google.com/','AI Research & Knowledge','Free',"Google's source-grounded research notebook for asking questions and generating summaries from provided sources."),('Genspark','https://www.genspark.ai/','AI Agents','Freemium','AI workspace that combines search, research and agentic task execution.'),('Manus','https://manus.im/','AI Agents','Paid','General-purpose AI agent designed to plan and execute multi-step tasks.'),('Zapier','https://zapier.com/','AI Automation','Freemium','Automation platform connecting apps and AI steps into repeatable workflows.'),('Make','https://www.make.com/','AI Automation','Freemium','Visual automation platform for connecting services, APIs and AI-powered workflows.'),('n8n','https://n8n.io/','AI Automation','Freemium','Workflow automation platform with flexible integrations and AI agent capabilities.'),('HubSpot','https://www.hubspot.com/','AI Marketing & Sales','Freemium','CRM and marketing platform with AI-assisted sales, marketing, content and customer-service workflows.'),('Jasper','https://www.jasper.ai/','AI Writing & Marketing','Paid','AI marketing platform for creating on-brand campaigns, content and marketing workflows.'),('Grammarly','https://www.grammarly.com/','AI Writing','Freemium','Writing assistant for grammar, clarity, tone and generative writing support.'),('QuillBot','https://quillbot.com/','AI Writing','Freemium','Writing toolkit for paraphrasing, summarization, grammar and citation-related tasks.'),('Copy.ai','https://www.copy.ai/','AI Writing & Marketing','Freemium','AI platform for marketing copy, sales workflows and content generation.'),('Writesonic','https://writesonic.com/','AI Writing & SEO','Freemium','AI content and search-optimization platform for articles, marketing copy and research.')]
-KEYWORDS={'AI Image Generation':['image','art','photo','logo','portrait','background'],'AI Video':['video','avatar','animation','clip','film','visual'],'AI Voice & Audio':['voice','audio','speech','podcast','sound','transcri'],'AI Writing':['write','writing','copy','text','content','essay','grammar','paraphr'],'AI Coding':['code','coding','developer','program','software','github','excel','sheet'],'AI Research':['research','paper','summar','search','knowledge','academic'],'AI Education':['education','student','tutor','quiz','learn','teacher','school'],'AI Marketing':['marketing','seo','sales','social','lead','advert','brand'],'AI Productivity':['meeting','email','note','calendar','productivity','task','workflow'],'AI Business':['business','finance','data','crm','analytics','career','resume'],'AI Automation':['automation','agent','assistant','bot','workflow']}
-def slugify(v): return re.sub(r'^-|-$', '', re.sub(r'[^a-z0-9]+','-',v.lower().strip())) or 'tool'
-def favicon(url):
-    host=urllib.parse.urlparse(url).hostname or ''; return f'https://www.google.com/s2/favicons?domain={urllib.parse.quote(host)}&sz=128'
-def category_for(name,desc):
-    text=f'{name} {desc}'.lower(); best='AI Tools'; score=0
-    for cat,words in KEYWORDS.items():
-        s=sum(w in text for w in words)
-        if s>score: best,score=cat,s
-    return best
-def pricing_for(name): return dict((x[0],x[3]) for x in CURRENT).get(name,'Check provider')
-def enrich(cat):
-    c=cat.lower()
-    if 'image' in c or 'design' in c: return ['Create images, graphics and visual concepts','Explore styles quickly before final production','Useful for thumbnails, social posts and visual ideation'], ['Output quality varies by prompt and model','Commercial-use rules differ by provider and plan','Hands-on editing may still be needed'], ['Create a professional social media visual for [topic] in a clean modern style','Generate 3 visual concepts for [project], each with a different composition','Improve this image prompt for a realistic, high-quality result']
-    if 'video' in c or 'avatar' in c: return ['Generate or edit video faster','Useful for short-form content and presentations','Reduces repetitive production work'], ['Generation can be slow or credit-limited','Motion and consistency can vary','Review generated media before publishing'], ['Create a 10-second cinematic video about [topic], realistic lighting and smooth camera movement','Turn this script into a concise engaging video storyboard','Create a presenter video for [audience] with a confident professional tone']
-    if 'coding' in c or 'app' in c: return ['Speed up coding and prototyping','Useful for debugging, refactoring and scaffolding','Can reduce repetitive development tasks'], ['AI-generated code can contain bugs','Large projects still require human architecture decisions','Usage limits may apply'], ['Build [feature] using [language/framework] with clean production-ready code','Review this code for bugs, security issues and performance problems','Refactor this function for readability without changing its behavior']
-    if 'research' in c or 'knowledge' in c or 'search' in c: return ['Find and synthesize information faster','Useful for research, comparison and learning','Can help organize large amounts of information'], ['Sources and answers still need verification','Coverage depends on the underlying sources','Some advanced features may be paid'], ['Research [topic] and summarize the strongest evidence with source links','Compare [A] vs [B] using reliable current information','Explain [topic] for a beginner, separating facts from uncertainty']
-    if 'writing' in c or 'marketing' in c: return ['Draft and improve content quickly','Useful for ideas, rewriting and marketing workflows','Helps maintain consistent output'], ['AI text can sound generic without editing','Important facts should be verified','Premium limits may apply'], ['Write a clear [type of content] for [audience] with a concise, professional tone','Rewrite this text to be more persuasive while preserving the facts','Create 5 SEO-friendly angles for [topic] without clickbait']
-    return ['Automate or accelerate common digital tasks','Useful for productivity and experimentation','Can reduce repetitive manual work'], ['Capabilities and limits vary by plan','AI output should be reviewed before important use','Provider pricing and features can change'], ['Help me accomplish [task] step by step with clear assumptions','Give me the fastest reliable workflow for [goal]','Analyze this input and return the result in a structured format']
-def entry(name,url,cat,price,desc,rank):
-    gh='github.com' in (urllib.parse.urlparse(url).hostname or '').lower(); benefits,limitations,prompts=enrich(cat); s=slugify(name)
-    return {'title':name,'slug':s,'url':url,'shortUrl':f'https://ai.laxmannepal.com.np/go/{s}/','logo':favicon(url),'category':cat,'pricing':price,'description':desc[:500],'benefits':benefits,'limitations':limitations,'useCases':benefits,'prompts':prompts,'source':'github' if gh else 'web','trendingRank':rank,'lastVerified':TODAY}
-def parse_seed(raw):
-    from bs4 import BeautifulSoup
-    lines=[re.sub(r'\s+',' ',x).strip() for x in BeautifulSoup(raw,'html.parser').get_text('\n').splitlines()]; lines=[x for x in lines if x]; records=[]; i=0
-    while i<len(lines):
-        if re.fullmatch(r'\d{1,3}',lines[i]):
-            n=int(lines[i])
-            if 1<=n<=510 and i+3<len(lines):
-                title,desc=lines[i+1],lines[i+2]; url=None; j=i+3
-                while j<min(i+8,len(lines)):
-                    m=re.search(r'https?://[^\s]+',lines[j])
-                    if m: url=m.group(0).rstrip(').,;"'); break
-                    j+=1
-                if url and title and not title.startswith('http'):
-                    low=f'{title} {url}'.lower()
-                    if not any(x in low for x in ('youtube.com','youtu.be','twitter.com','x.com','tiktok.com')) and 'tutorial' not in title.lower(): records.append({'title':title,'url':url,'description':desc}); i=j
-        i+=1
-    out=[]; seen=set()
-    for r in records:
-        key=(slugify(r['title']),urllib.parse.urlparse(r['url']).netloc.lower())
-        if key not in seen: seen.add(key); out.append(r)
+from urllib.parse import urlparse
+
+ROOT = Path(__file__).resolve().parents[1]
+DATA = ROOT / "data" / "tools.json"
+TOOLS = ROOT / "tools"
+GO = ROOT / "go"
+TODAY = dt.date.today().isoformat()
+BASE = "https://ai.laxmannepal.com.np"
+
+
+def slugify(value: str) -> str:
+    value = value.lower().strip()
+    return re.sub(r"^-|-$", "", re.sub(r"[^a-z0-9]+", "-", value)) or "tool"
+
+
+def normalize(raw: list[dict]) -> list[dict]:
+    out, used = [], set()
+    for item in raw:
+        title = str(item.get("title") or "").strip()
+        url = str(item.get("url") or "").strip()
+        if not title or not url or urlparse(url).scheme not in {"http", "https"}:
+            continue
+        base = slugify(str(item.get("slug") or title))
+        slug = base
+        n = 2
+        while slug in used:
+            slug = f"{base}-{n}"
+            n += 1
+        used.add(slug)
+        category = str(item.get("category") or "AI Tools").strip()
+        price = str(item.get("pricing") or "Check provider").strip()
+        record = dict(item)
+        record.update({
+            "title": title,
+            "slug": slug,
+            "url": url,
+            "shortUrl": f"{BASE}/go/{slug}/",
+            "category": category,
+            "pricing": price,
+            "description": str(item.get("description") or f"{title} — AI tool.")[:500],
+            "lastVerified": str(item.get("lastVerified") or TODAY),
+        })
+        record.setdefault("source", "web")
+        record.setdefault("useCases", record.get("benefits", []))
+        record.setdefault("benefits", [])
+        record.setdefault("limitations", [])
+        record.setdefault("prompts", [])
+        out.append(record)
     return out
-def build():
-    DATA.parent.mkdir(parents=True,exist_ok=True)
-    try:
-        req=urllib.request.Request(SOURCE_URL,headers={'User-Agent':'LaxmanNepal-AITools/1.0'})
-        with urllib.request.urlopen(req,timeout=30) as r: seed=parse_seed(r.read().decode('utf-8','ignore'))
-    except Exception as exc: print(f'Seed fetch failed: {exc}'); seed=[]
-    entries=[]; seen=set(); rank=1
-    for name,url,cat,price,desc in CURRENT:
-        k=slugify(name)
-        if k not in seen: entries.append(entry(name,url,cat,price,desc,rank)); seen.add(k); rank+=1
-    for r in seed:
-        k=slugify(r['title'])
-        if k in seen or len(entries)>=550: continue
-        entries.append(entry(r['title'],r['url'],category_for(r['title'],r['description']),pricing_for(r['title']),r['description'],rank)); seen.add(k); rank+=1
-    if len(entries)<500: raise RuntimeError(f'Only {len(entries)} tools collected; refusing to publish an undersized catalog')
-    DATA.write_text(json.dumps(entries,ensure_ascii=False,indent=2)+'\n',encoding='utf-8'); TOOLS_DIR.mkdir(exist_ok=True); GO_DIR.mkdir(exist_ok=True)
-    for child in TOOLS_DIR.iterdir():
-        if child.is_dir(): shutil.rmtree(child)
-    template=(ROOT/'scripts/tool_page.html').read_text(encoding='utf-8')
-    for tool in entries:
-        d=TOOLS_DIR/tool['slug']; d.mkdir(parents=True,exist_ok=True); page=template.replace('__TOOL_JSON__',json.dumps(tool,ensure_ascii=False).replace('</','<\\/')); (d/'index.html').write_text(page,encoding='utf-8')
-        g=GO_DIR/tool['slug']; g.mkdir(parents=True,exist_ok=True); target=html.escape(tool['url'],quote=True); go=f'''<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow"><meta http-equiv="refresh" content="0;url={target}"><title>Opening {html.escape(tool['title'])}…</title><script>location.replace({json.dumps(tool['url'])})</script></head><body><p>Opening <a href="{target}">{html.escape(tool['title'])}</a>…</p></body></html>'''; (g/'index.html').write_text(go,encoding='utf-8')
-    (TOOLS_DIR/'index.json').write_text(json.dumps(entries,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
-    print(f'Generated {len(entries)} AI tools, detail pages and branded /go/ redirects')
-if __name__=='__main__': build()
+
+
+def write_json(path: Path, value) -> None:
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(json.dumps(value, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+
+
+def build() -> None:
+    raw = json.loads(DATA.read_text(encoding="utf-8"))
+    if not isinstance(raw, list):
+        raise RuntimeError("data/tools.json must contain an array")
+    tools = normalize(raw)
+    if len(tools) < 500:
+        raise RuntimeError(f"Only {len(tools)} valid tools in canonical catalog; refusing to publish")
+    # Persist normalized records back to the single source of truth.
+    write_json(DATA, tools)
+    TOOLS.mkdir(exist_ok=True)
+    GO.mkdir(exist_ok=True)
+    for folder in (TOOLS, GO):
+        for child in folder.iterdir():
+            if child.is_dir():
+                shutil.rmtree(child)
+    template = (ROOT / "scripts" / "tool_page.html").read_text(encoding="utf-8")
+    for i, tool in enumerate(tools):
+        related = [x for x in tools if x["category"] == tool["category"] and x["slug"] != tool["slug"]][:6]
+        payload = json.dumps(tool, ensure_ascii=False).replace("</", "<\\/")
+        page = template.replace("__TOOL_JSON__", payload).replace("__RELATED_JSON__", json.dumps(related, ensure_ascii=False))
+        d = TOOLS / tool["slug"]
+        d.mkdir(parents=True, exist_ok=True)
+        (d / "index.html").write_text(page, encoding="utf-8")
+        target = html.escape(tool["url"], quote=True)
+        redirect = f'''<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow"><meta http-equiv="refresh" content="0;url={target}"><link rel="canonical" href="{target}"><title>Opening {html.escape(tool["title"])}…</title><script>location.replace({json.dumps(tool["url"])})</script></head><body><p>Opening <a href="{target}">{html.escape(tool["title"])} </a>…</p></body></html>'''
+        g = GO / tool["slug"]
+        g.mkdir(parents=True, exist_ok=True)
+        (g / "index.html").write_text(redirect, encoding="utf-8")
+    # Homepage/search payload intentionally contains only fields required for discovery.
+    compact = [{k: t.get(k) for k in ("title", "slug", "category", "pricing", "logo", "url", "trendingRank")} for t in tools]
+    write_json(TOOLS / "index.json", compact)
+    print(f"Generated {len(tools)} tools")
+
+
+if __name__ == "__main__":
+    build()
