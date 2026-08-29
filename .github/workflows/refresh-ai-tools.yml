@@ -42,16 +42,21 @@ jobs:
           names = [str(x.get('title','')).strip().lower() for x in tools]
           assert all(names), 'Every tool must have a title'
           assert len(names) == len(set(names)), 'Duplicate tool titles detected'
-          print(f'Validated {len(tools)} unique AI tools')
+          catalog = Path('AItools/index.json')
+          assert catalog.exists(), 'AItools/index.json was not generated'
+          built = json.loads(catalog.read_text(encoding='utf-8'))
+          assert len(built) == len(tools), f'AItools catalog mismatch: {len(built)} vs {len(tools)}'
+          assert all((Path('AItools')/str(x.get('slug',''))/'index.html').exists() for x in built), 'Missing AItools detail page'
+          print(f'Validated {len(tools)} unique AI tools and {len(built)} detail pages')
           PY
       - name: Commit catalog, pages and local logos
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add data/tools.json tools aitools
+          git add data/tools.json tools aitools AItools
           if git diff --cached --quiet; then
             echo 'No catalog changes.'
           else
-            git commit -m 'chore: refresh researched AI tools catalog and logos'
+            git commit -m 'chore: refresh researched AI tools catalog and branded pages'
             git push
           fi
