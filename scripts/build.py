@@ -5,8 +5,14 @@ from pathlib import Path
 from urllib.parse import quote
 ROOT=Path(__file__).resolve().parents[1]; DATA=ROOT/'data/tools.json'; TOOLS=ROOT/'tools'; CATEGORIES=ROOT/'categories'; BASE_URL='https://ai.laxmannepal.com.np'
 def slugify(v): return re.sub(r'^-|-$','',re.sub(r'[^a-z0-9]+','-',v.lower().strip())) or 'tools'
+def load_tools():
+    payload=json.loads(DATA.read_text(encoding='utf-8'))
+    tools=payload.get('tools',[]) if isinstance(payload,dict) else payload
+    if not isinstance(tools,list): raise RuntimeError('data/tools.json must contain a tools array')
+    return tools
 def compact_index(tools):
-    fields=('title','slug','category','pricing','logo','url','trendingRank','source'); (TOOLS/'index.json').write_text(json.dumps([{k:t.get(k) for k in fields} for t in tools],ensure_ascii=False,separators=(',',':'))+'\n',encoding='utf-8')
+    fields=('title','slug','category','pricing','logo','url','trendingRank','source')
+    (TOOLS/'index.json').write_text(json.dumps([{k:t.get(k) for k in fields} for t in tools],ensure_ascii=False,separators=(',',':'))+'\n',encoding='utf-8')
 def build_categories(tools):
     groups={}
     for t in tools: groups.setdefault(str(t.get('category') or 'AI Tools').strip(),[]).append(t)
@@ -26,5 +32,5 @@ def build_seo(tools,cats):
     urls=[BASE_URL+'/',BASE_URL+'/trending/',BASE_URL+'/categories/',BASE_URL+'/compare/',BASE_URL+'/search/']+[f'{BASE_URL}/categories/{quote(str(c["slug"]))}/' for c in cats]+[f'{BASE_URL}/tools/{quote(str(t["slug"]))}/' for t in tools if t.get('slug')]
     xml=['<?xml version="1.0" encoding="UTF-8"?>','<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']+[f'  <url><loc>{html.escape(u)}</loc></url>' for u in urls]+['</urlset>']; (ROOT/'sitemap.xml').write_text('\n'.join(xml)+'\n',encoding='utf-8')
 def main():
-    import sys; sys.path.insert(0,str(ROOT/'scripts')); import generate_tools; generate_tools.build(); tools=json.loads(DATA.read_text(encoding='utf-8')); assert len(tools)>=500,f'Build produced only {len(tools)} tools'; compact_index(tools); cats=build_categories(tools); build_seo(tools,cats); print(f'Production build complete: {len(tools)} tools, {len(cats)} categories')
+    import sys; sys.path.insert(0,str(ROOT/'scripts')); import generate_tools; generate_tools.build(); tools=load_tools(); assert len(tools)>=500,f'Build produced only {len(tools)} tools'; compact_index(tools); cats=build_categories(tools); build_seo(tools,cats); print(f'Production build complete: {len(tools)} tools, {len(cats)} categories')
 if __name__=='__main__': main()
