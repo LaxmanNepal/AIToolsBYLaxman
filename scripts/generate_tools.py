@@ -22,9 +22,10 @@ def build():
     for folder in (TOOLS,GO):
         for child in folder.iterdir():
             if child.is_dir(): shutil.rmtree(child)
-    template=(ROOT/'scripts/tool_page.html').read_text(encoding='utf-8')
+    template=(ROOT/'scripts/tool_page.html').read_text(encoding='utf-8'); groups={}
+    for t in tools: groups.setdefault(t['category'],[]).append(t)
     for tool in tools:
-        related=[x for x in tools if x['category']==tool['category'] and x['slug']!=tool['slug']][:6]
+        related=[x for x in groups[tool['category']] if x['slug']!=tool['slug']][:6]
         page=template.replace('__TOOL_JSON__',json.dumps(tool,ensure_ascii=False).replace('</','<\\/')).replace('__RELATED_JSON__',json.dumps(related,ensure_ascii=False).replace('</','<\\/'))
         d=TOOLS/tool['slug']; d.mkdir(parents=True,exist_ok=True); (d/'index.html').write_text(page,encoding='utf-8')
         target=html.escape(tool['url'],quote=True); g=GO/tool['slug']; g.mkdir(parents=True,exist_ok=True); redirect=f'''<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow"><meta http-equiv="refresh" content="0;url={target}"><link rel="canonical" href="{target}"><title>Opening {html.escape(tool['title'])}…</title></head><body><p>Opening <a href="{target}">{html.escape(tool['title'])}</a>…</p></body></html>'''; (g/'index.html').write_text(redirect,encoding='utf-8')
