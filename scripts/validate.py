@@ -6,12 +6,21 @@ from urllib.parse import urlparse
 ROOT=Path(__file__).resolve().parents[1]
 REQUIRED=('title','slug','url','category','pricing','description','lastVerified','verificationStatus','verificationConfidence','lifecycleStatus','platforms','languages')
 
+def load_catalog(path):
+    payload=json.loads(path.read_text(encoding='utf-8'))
+    if isinstance(payload,list):
+        return payload
+    if isinstance(payload,dict) and isinstance(payload.get('tools'),list):
+        return payload['tools']
+    raise AssertionError('data/tools.json must contain a tools array')
+
 def main():
     data=ROOT/'data/tools.json'; index=ROOT/'tools/index.json'
     assert data.is_file() and data.stat().st_size>0,'data/tools.json missing'
     assert index.is_file() and index.stat().st_size>0,'tools/index.json missing'
-    tools=json.loads(data.read_text(encoding='utf-8')); compact=json.loads(index.read_text(encoding='utf-8'))
-    assert isinstance(tools,list) and len(tools)>=500,f'Expected 500+ tools, found {len(tools)}'
+    tools=load_catalog(data); compact=json.loads(index.read_text(encoding='utf-8'))
+    assert isinstance(compact,list), 'tools/index.json must be an array'
+    assert len(tools)>=500,f'Expected 500+ tools, found {len(tools)}'
     assert len(compact)==len(tools),'Discovery index count mismatch'
     assert len(index.read_bytes())<len(data.read_bytes()),'Discovery index is not smaller than canonical data'
     slugs=set(); urls=set(); cats=set()
