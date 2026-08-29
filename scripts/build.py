@@ -23,7 +23,7 @@ def build_categories(tools):
     (CATEGORIES/'index.html').write_text(hub,encoding='utf-8'); (ROOT/'data/categories.json').write_text(json.dumps(cats,ensure_ascii=False,indent=2)+'\n',encoding='utf-8'); return cats
 def build_seo(tools,cats):
     (ROOT/'robots.txt').write_text(f'User-agent: *\nAllow: /\nDisallow: /go/\n\nSitemap: {BASE_URL}/sitemap.xml\n',encoding='utf-8')
-    urls=[BASE_URL+'/',BASE_URL+'/github/',BASE_URL+'/trending/',BASE_URL+'/categories/',BASE_URL+'/compare/',BASE_URL+'/search/']+[f'{BASE_URL}/categories/{quote(str(c["slug"]))}/' for c in cats]+[f'{BASE_URL}/tools/{quote(str(t["slug"]))}/' for t in tools if t.get('slug')]
+    urls=[BASE_URL+'/',BASE_URL+'/trending/',BASE_URL+'/categories/',BASE_URL+'/compare/',BASE_URL+'/search/']+[f'{BASE_URL}/categories/{quote(str(c["slug"]))}/' for c in cats]+[f'{BASE_URL}/tools/{quote(str(t["slug"]))}/' for t in tools if t.get('slug')]
     xml=['<?xml version="1.0" encoding="UTF-8"?>','<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']+[f'  <url><loc>{html.escape(u)}</loc></url>' for u in urls]+['</urlset>']; (ROOT/'sitemap.xml').write_text('\n'.join(xml)+'\n',encoding='utf-8')
 def main():
     import sys; sys.path.insert(0,str(ROOT/'scripts')); import generate_tools; generate_tools.build(); tools=json.loads(DATA.read_text(encoding='utf-8')); assert len(tools)>=500,f'Build produced only {len(tools)} tools'; compact_index(tools); cats=build_categories(tools); build_seo(tools,cats); print(f'Production build complete: {len(tools)} tools, {len(cats)} categories')
