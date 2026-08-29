@@ -1,4 +1,4 @@
-const CACHE='ai-tools-v5';
+const CACHE='ai-tools-runtime';
 const CORE=['/','/index.html','/manifest.json','/icon.svg','/tools/index.json'];
 const STATIC=/\.(?:css|js|svg|png|jpg|jpeg|webp|ico)$/i;
 
@@ -21,7 +21,11 @@ self.addEventListener('fetch',event=>{
     event.respondWith((async()=>{try{const response=await fetch(event.request,{cache:'no-store'});if(response.ok)await caches.open(CACHE).then(c=>c.put(event.request,response.clone()));return response}catch(_){return caches.match(event.request)}})());
     return;
   }
-  if(STATIC.test(url.pathname)||url.pathname==='/'||url.pathname==='/index.html'){
+  if(event.request.mode==='navigate'){
+    event.respondWith((async()=>{try{const response=await fetch(event.request);if(response.ok)await caches.open(CACHE).then(c=>c.put(event.request,response.clone()));return response}catch(_){return caches.match('/index.html')}})());
+    return;
+  }
+  if(STATIC.test(url.pathname)){
     event.respondWith((async()=>{const cached=await caches.match(event.request);if(cached)return cached;try{const response=await fetch(event.request);if(response.ok)await caches.open(CACHE).then(c=>c.put(event.request,response.clone()));return response}catch(_){return cached}})());
   }
 });
